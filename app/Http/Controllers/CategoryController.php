@@ -12,6 +12,7 @@ class CategoryController extends Controller
     {
         try {
             $categories = Category::with('roomType')
+                ->withCount('products')
                 ->get();
 
             return response()->json([

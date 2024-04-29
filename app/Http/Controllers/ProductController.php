@@ -70,7 +70,7 @@ class ProductController extends Controller
     public function show($id)
     {
         try {
-            $product = Product::with(['images', 'category', 'variation.variationCollection'])
+            $product = Product::with(['images', 'category', 'variations.variationCollection'])
                 ->find($id);
 
             if (!isset($product))
