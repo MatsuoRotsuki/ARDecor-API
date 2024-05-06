@@ -16,10 +16,6 @@ class Product extends Model
 
     protected $table = 'products';
 
-    protected $appends = [
-        'variation_products',
-    ];
-
     protected $fillable = [
         'name',
         'price',
@@ -51,13 +47,13 @@ class Product extends Model
         return $this->hasMany(Variation::class, 'product_id', 'id');
     }
 
-    public function getVariationProductsAttribute()
+    public function getProductVariationsAttribute()
     {
         if ($this->variations->count() > 0)
         {
             $variationCollectionId = $this->variations->first()->variation_collection_id;
             $variationCollection = VariationCollection::find($variationCollectionId);
-            return $variationCollection->products->makeHidden(['variation_products']);
+            return $variationCollection->products->makeHidden(['product_variations']);
         }
         else return [];
     }

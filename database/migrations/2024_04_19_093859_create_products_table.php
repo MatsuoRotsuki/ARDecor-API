@@ -25,6 +25,8 @@ return new class extends Migration
             $table->string('specification_id');
             $table->foreignId('category_id')->references('id')->on('categories')->onDelete('cascade');
             $table->timestamps();
+
+            $table->index(['name', 'price']);
         });
     }
 

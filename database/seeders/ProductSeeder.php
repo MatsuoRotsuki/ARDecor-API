@@ -290,7 +290,7 @@ class ProductSeeder extends Seeder
             'model_path' => '/models/00104291_PS01_S01_NV01_RQP3_3.0_160e5ac521ea47e5b44a9a80a78f9bee.glb',
             'is_stackable' => 1,
             'description' => 'LACK table in black-brown is easy to match with other furnishings. The honeycomb structured paper filling construction adds strength to the table while keeping it lightweight so it´s easy to move around.',
-            'source' => '',
+            'source' => 'https://www.ikea.com/us/en/p/lack-coffee-table-black-brown-00104291/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/lack-coffee-table-black-brown__57537_pe163119_s5.jpg',
             'specification_id' => '2',
             'category_id' => 2,
@@ -327,39 +327,34 @@ class ProductSeeder extends Seeder
             'model_path' => '/models/80449901_PS01_S01_NV01_RQP3_3.0_0d7cf1ae2b6a4c7fb3cff503aab54cf6.glb',
             'is_stackable' => 1,
             'description' => 'This LACK table in white is easy to match with other furnishings. Thanks to the unique construction, it’s easy to assemble, lift and move around - and we can keep the prices down, so your spirits go up.',
-            'source' => '',
+            'source' => 'https://www.ikea.com/us/en/p/lack-coffee-table-white-80449901/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/lack-coffee-table-white__0750651_pe746801_s5.jpg',
             'specification_id' => '2',
             'category_id' => 2,
         ]);
 
         $p7->images()->create([
-            'image_url' => 'https://www.ikea.com/us/en/images/products/lack-coffee-table-white-stained-oak-effect__0708822_pe726753_s5.jpg',
-            'type' => ''
+            'image_url' => 'https://www.ikea.com/us/en/images/products/lack-coffee-table-white__0750651_pe746801_s5.jpg',
+            'type' => 'LIFESTYLE IMAGE'
         ]);
 
         $p7->images()->create([
-            'image_url' => 'https://www.ikea.com/us/en/images/products/lack-coffee-table-white-stained-oak-effect__0837100_pe709586_s5.jpg',
-            'type' => ''
+            'image_url' => 'https://www.ikea.com/us/en/images/products/lack-coffee-table-white__0702214_pe724347_s5.jpg',
+            'type' => 'LIFESTYLE IMAGE'
         ]);
 
         $p7->images()->create([
-            'image_url' => 'https://www.ikea.com/us/en/images/products/lack-coffee-table-white-stained-oak-effect__0918237_ph163104_s5.jpg',
-            'type' => ''
+            'image_url' => 'https://www.ikea.com/us/en/images/products/lack-coffee-table-white__0702213_pe724351_s5.jpg',
+            'type' => 'CLOSEUP'
         ]);
 
         $p7->images()->create([
-            'image_url' => 'https://www.ikea.com/us/en/images/products/lack-coffee-table-white-stained-oak-effect__0411540_pe570465_s5.jpg',
-            'type' => ''
+            'image_url' => 'https://www.ikea.com/us/en/images/products/lack-coffee-table-white__0664928_pe712923_s5.jpg',
+            'type' => 'SPECIFICATIONS'
         ]);
 
         $p7->images()->create([
-            'image_url' => 'https://www.ikea.com/us/en/images/products/lack-coffee-table-white-stained-oak-effect__0664928_pe712923_s5.jpg',
-            'type' => ''
-        ]);
-
-        $p7->images()->create([
-            'image_url' => 'https://www.ikea.com/us/en/images/products/lack-coffee-table-white-stained-oak-effect__1083778_pe859098_s5.jpg',
+            'image_url' => 'https://www.ikea.com/us/en/images/products/lack-coffee-table-white__1083778_pe859098_s5.jpg',
             'type' => ''
         ]);
 
@@ -381,22 +376,27 @@ class ProductSeeder extends Seeder
         ]);
 
         $p8->images()->create([
-            'image_url' => 'https://www.ikea.com/us/en/images/products/lack-coffee-table-white__0702214_pe724347_s5.jpg',
-            'type' => 'LIFESTYLE IMAGE'
+            'image_url' => 'https://www.ikea.com/us/en/images/products/lack-coffee-table-white-stained-oak-effect__0837100_pe709586_s5.jpg',
+            'type' => ''
         ]);
 
         $p8->images()->create([
-            'image_url' => 'https://www.ikea.com/us/en/images/products/lack-coffee-table-white__0702213_pe724351_s5.jpg',
-            'type' => 'CLOSEUP'
+            'image_url' => 'https://www.ikea.com/us/en/images/products/lack-coffee-table-white-stained-oak-effect__0918237_ph163104_s5.jpg',
+            'type' => ''
         ]);
 
         $p8->images()->create([
-            'image_url' => 'https://www.ikea.com/us/en/images/products/lack-coffee-table-white__0664928_pe712923_s5.jpg',
-            'type' => 'SPECIFICATIONS'
+            'image_url' => 'https://www.ikea.com/us/en/images/products/lack-coffee-table-white-stained-oak-effect__0411540_pe570465_s5.jpg',
+            'type' => ''
         ]);
 
         $p8->images()->create([
-            'image_url' => 'https://www.ikea.com/us/en/images/products/lack-coffee-table-white__1083778_pe859098_s5.jpg',
+            'image_url' => 'https://www.ikea.com/us/en/images/products/lack-coffee-table-white-stained-oak-effect__0664928_pe712923_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p8->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/lack-coffee-table-white-stained-oak-effect__1083778_pe859098_s5.jpg',
             'type' => ''
         ]);
 
@@ -1105,11 +1105,6 @@ class ProductSeeder extends Seeder
         ]);
 
         $p24->images()->create([
-            'image_url' => 'https://www.ikea.com/us/en/images/products/muren-recliner-remmarn-dark-gray__0908540_pe783273_s5.jpg',
-            'type' => ''
-        ]);
-
-        $p24->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/muren-recliner-remmarn-dark-gray__0908539_pe783272_s5.jpg',
             'type' => ''
         ]);
@@ -1757,7 +1752,7 @@ class ProductSeeder extends Seeder
         ]);
 
         $p40->images()->create([
-            'image_url' => 'https://www.ikea.com/us/en/images/products/idanaes-tv-unit-white__0985314_pe816591_s5.jpg?f=xl',
+            'image_url' => 'https://www.ikea.com/us/en/images/products/idanaes-tv-unit-white__0985314_pe816591_s5.jpg',
             'type' => ''
         ]);
 
