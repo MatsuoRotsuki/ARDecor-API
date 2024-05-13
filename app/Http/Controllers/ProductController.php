@@ -10,6 +10,42 @@ class ProductController extends Controller
 {
     public function index(Request $request)
     {
+        $limit = $request->input('limit', 24);
+
+        try {
+            $firstInCollectionQ = Product::join('variations', 'products.id', '=', 'variations.product_id')
+                ->selectRaw('MIN(products.id) as id')
+                ->groupBy('variation_collection_id');
+
+            $representatives = Product::leftJoin('variations', 'products.id', '=', 'variations.product_id')
+                ->whereNull('variation_collection_id')
+                ->select('products.id as id')
+                ->union($firstInCollectionQ)
+                ->orderBy('id');
+
+            $products = Product::with(['images', 'category', 'variations'])
+                ->whereIn('id', function($innerQuery) use ($representatives) {
+                    $innerQuery->select('id')->fromSub($representatives, 'representatives');
+                })
+                ->limit($limit)
+                ->get();
+
+            return response()->json([
+                'data' => $products,
+                'message' => 'Get all products successfully',
+                'success' => true,
+            ], 200);
+        } catch (Exception $e)
+        {
+            return response()->json([
+                'message' => $e->getMessage(),
+                'success' => false,
+            ], 500);
+        }
+    }
+
+    public function search(Request $request)
+    {
         $regExp = [
             '/[aáảàạãăắẳằặẵâấẩầậẫ]/iu' => '[aáảàạãăắẳằặẵâấẩầậẫ]',
             '/[eéẻèẹẽêếểềệễ]/iu' => '[eéẻèẹẽêếểềệễ]',
@@ -19,8 +55,6 @@ class ProductController extends Controller
             '/[yýỷỳỵỹ]/iu' => '[yýỷỳỵỹ]',
             '/[dđ]/iu' => '[dđ]',
         ];
-
-        $limit = $request->input('limit', 12);
 
         try {
             $result = $request->keyword;
@@ -40,6 +74,7 @@ class ProductController extends Controller
 
             $products = Product::with(['images', 'category', 'variations'])
                 ->when(!$request->hasAny([
+                    'category',
                     'keyword',
                     'maxPrice',
                     'minPrice',
@@ -68,7 +103,6 @@ class ProductController extends Controller
                 ->when($request->minPrice, function ($query) use ($request) {
                     $query->where('price', '>=', $request->minPrice);
                 })
-                ->limit($limit)
                 ->get();
 
             return response()->json([
@@ -103,8 +137,6 @@ class ProductController extends Controller
                     'success' => false,
                 ], 404);
             }
-
-            $product['product_variations'] = $product->product_variations;
 
             return response()->json([
                 'data' => $product,

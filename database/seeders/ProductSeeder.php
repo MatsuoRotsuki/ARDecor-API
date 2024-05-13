@@ -1991,19 +1991,903 @@ class ProductSeeder extends Seeder
         $vc11->products()->attach($p45->id);
         $vc11->products()->attach($p46->id);
 
-        // $p10 = Product::create([
+        $vc12 = VariationCollection::create();
+
+        $p47 = Product::create([
+            'name' => 'NOLMYRA Chair, birch veneer/gray',
+            'price' => 49.99,
+            'model_path' => '/models/G-10233532-2504f052eeebbc00d785b48285523a7e7d388a34_481e132b8365481bb63c4cd796bed7f8.glb',
+            'is_stackable' => 0,
+            'description' => 'NOLMYRA easy chair re-imagines comfort with mesh fabric stretched over the frame, making the need for foam unnecessary. The result is an elegantly engineered lounge chair at a low price.',
+            'source' => 'https://www.ikea.com/us/en/p/nolmyra-chair-birch-veneer-gray-10233532/',
+            'image_url' => 'https://www.ikea.com/us/en/images/products/nolmyra-chair-birch-veneer-gray__0152020_pe310348_s5.jpg',
+            'specification_id' => '22',
+            'category_id' => 3,
+        ]);
+
+        $p47->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/nolmyra-chair-birch-veneer-gray__0152020_pe310348_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p47->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/nolmyra-chair-birch-veneer-gray__1096307_ph161211_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p47->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/nolmyra-chair-birch-veneer-gray__1096308_ph178808_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p47->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/nolmyra-chair-birch-veneer-gray__1247730_ph183453_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p47->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/nolmyra-chair-birch-veneer-gray__0836779_pe585625_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p47->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/nolmyra-chair-birch-veneer-gray__1249048_pe923327_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p48 = Product::create([
+            'name' => 'NOLMYRA Chair, black/black',
+            'price' => 49.99,
+            'model_path' => '/models/G-40233535-8aad4db61eeb1d916fb61d39cab5b441e35a12e7_ae8ea63dbd18429eae1111a583106232.glb',
+            'is_stackable' => 0,
+            'description' => 'NOLMYRA easy chair re-imagines comfort with mesh fabric stretched over the frame, making the need for foam unnecessary. The result is an elegantly engineered lounge chair at a low price.',
+            'source' => 'https://www.ikea.com/us/en/p/nolmyra-chair-black-black-40233535/',
+            'image_url' => 'https://www.ikea.com/us/en/images/products/nolmyra-chair-black-black__0169629_pe323574_s5.jpg',
+            'specification_id' => '22',
+            'category_id' => 3,
+        ]);
+
+        $p48->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/nolmyra-chair-black-black__0169629_pe323574_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p48->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/nolmyra-chair-black-black__1096309_ph168814_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p48->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/nolmyra-chair-black-black__1061716_ph177951_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p48->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/nolmyra-chair-black-black__0256705_pe400728_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p48->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/nolmyra-chair-black-black__0840386_pe585812_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p48->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/nolmyra-chair-black-black__1249048_pe923327_s5.jpg',
+            'type' => ''
+        ]);
+
+        $vc12->products()->attach($p47->id);
+        $vc12->products()->attach($p48->id);
+
+        $vc13 = VariationCollection::create();
+
+        $p49 = Product::create([
+            'name' => 'OSKARSHAMN Wing chair, Gunnared black-gray',
+            'price' => 449,
+            'model_path' => '/models/00503671_PS01_S01_NV01_RQP3_3.0_162b3655e7d445ff91e551d173daa264.glb',
+            'is_stackable' => 0,
+            'description' => 'Who doesn\'t dream of having their own nook to relax in? The comfy OSKARSHAMN wing chair feels wonderfully embracing while the timeless design makes it the given eye-catcher in any room.',
+            'source' => 'https://www.ikea.com/us/en/p/oskarshamn-wing-chair-gunnared-black-gray-70521662/',
+            'image_url' => 'https://www.ikea.com/us/en/images/products/oskarshamn-wing-chair-gunnared-black-gray__1118159_pe872953_s5.jpg',
+            'specification_id' => '23',
+            'category_id' => 3,
+        ]);
+
+        $p49->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/oskarshamn-wing-chair-gunnared-black-gray__1118159_pe872953_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p49->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/oskarshamn-wing-chair-gunnared-black-gray__1214227_pe911514_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p49->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/oskarshamn-wing-chair-gunnared-black-gray__1173989_ph184779_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p49->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/oskarshamn-wing-chair-gunnared-black-gray__1123982_pe874952_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p49->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/oskarshamn-wing-chair-gunnared-black-gray__1161244_pe889316_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p50 = Product::create([
+            'name' => 'OSKARSHAMN Wing chair, Tibbleby beige/gray',
+            'price' => 449,
+            'model_path' => '/models/20523611_PS01_S01_NV01_RQP3_3.0_0a90bf130f0046968b169d3ec4d6eff9.glb',
+            'is_stackable' => 0,
+            'description' => 'Who doesn\'t dream of having their own nook to relax in? The comfy OSKARSHAMN wing chair feels wonderfully embracing while the timeless design makes it the given eye-catcher in any room.',
+            'source' => 'https://www.ikea.com/us/en/p/oskarshamn-wing-chair-tibbleby-beige-gray-30523615/',
+            'image_url' => 'https://www.ikea.com/us/en/images/products/oskarshamn-wing-chair-tibbleby-beige-gray__1118157_pe872954_s5.jpg',
+            'specification_id' => '23',
+            'category_id' => 3,
+        ]);
+
+        $p50->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/oskarshamn-wing-chair-tibbleby-beige-gray__1118157_pe872954_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p50->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/oskarshamn-wing-chair-tibbleby-beige-gray__1173932_ph190301_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p50->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/oskarshamn-wing-chair-tibbleby-beige-gray__1123975_pe874945_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p50->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/oskarshamn-wing-chair-tibbleby-beige-gray__1123973_pe874943_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p50->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/oskarshamn-wing-chair-tibbleby-beige-gray__1123974_pe874944_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p50->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/oskarshamn-wing-chair-tibbleby-beige-gray__1161244_pe889316_s5.jpg',
+            'type' => ''
+        ]);
+
+        $vc13->products()->attach($p49->id);
+        $vc13->products()->attach($p50->id);
+
+        $vc14 = VariationCollection::create();
+
+        $p51 = Product::create([
+            'name' => 'VEDBO Armchair, Gunnared blue',
+            'price' => 319,
+            'model_path' => '/models/G-50423573-a641e0d62f93b477282f55f890ecbf8241cb2be5_0be16c494d7f44099740119d61633f2c.glb',
+            'is_stackable' => 0,
+            'description' => 'Soft but distinct lines create an elegant profile. Perfect when you want your own space in an open environment, yet still socialize with others. The cover in blue adds tranquillity and beauty.',
+            'source' => 'https://www.ikea.com/us/en/p/vedbo-armchair-gunnared-blue-80423576/',
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-blue__0634896_pe696809_s5.jpg',
+            'specification_id' => '24',
+            'category_id' => 3,
+        ]);
+
+        $p51->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-blue__0634896_pe696809_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p51->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-blue__0708566_ph154665_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p51->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-blue__0837370_pe649528_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p51->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-blue__0837375_pe649530_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p51->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-blue__0837372_pe649529_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p51->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-blue__0632856_pe695638_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p52 = Product::create([
+            'name' => 'VEDBO Armchair, Gunnared dark gray',
+            'price' => 319,
+            'model_path' => '/models/G-10424126-de47d5cf8d0f22be393b067facd34c143e5139dc_87074941d33a4047a98f773098653bcc.glb',
+            'is_stackable' => 0,
+            'description' => 'Soft but distinct lines create an elegant profile. Perfect when you want your own space in an open environment, yet still socialize with others. The cover in dark gray adds elegance and style.',
+            'source' => 'https://www.ikea.com/us/en/p/vedbo-armchair-gunnared-dark-gray-50424129/',
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-dark-gray__0512767_pe638683_s5.jpg',
+            'specification_id' => '24',
+            'category_id' => 3,
+        ]);
+
+        $p52->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-dark-gray__0512767_pe638683_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p52->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-dark-gray__0708567_ph153038_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p52->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-dark-gray__0707625_ph147021_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p52->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-dark-gray__0837084_pe638857_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p52->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-dark-gray__0837089_pe638860_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p52->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-dark-gray__0837082_pe638415_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p52->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-dark-gray__0837092_pe704434_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p52->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-dark-gray__0632856_pe695638_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p53 = Product::create([
+            'name' => 'VEDBO Armchair, Gunnared light brown-pink',
+            'price' => 319,
+            'model_path' => '/models/G-40423578-48726b97d1834c5cfb8ba62c727e4acf7fcc5e6f_2ce02ffd3fc34cc9abd886f37081e285.glb',
+            'is_stackable' => 0,
+            'description' => 'Soft but distinct lines create an elegant profile. Perfect when you want your own space in an open environment, yet still socialize with others. The cover in brown-pink adds warmth and energy.',
+            'source' => 'https://www.ikea.com/us/en/p/vedbo-armchair-gunnared-light-brown-pink-80423581/',
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-light-brown-pink__0634903_pe696815_s5.jpg',
+            'specification_id' => '24',
+            'category_id' => 3,
+        ]);
+
+        $p53->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-light-brown-pink__0634903_pe696815_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p53->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-light-brown-pink__0837412_pe696814_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p53->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-light-brown-pink__0837396_pe649535_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p53->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-light-brown-pink__0837394_pe649534_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p53->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-light-brown-pink__0837392_pe649533_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p53->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-light-brown-pink__0632856_pe695638_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p54 = Product::create([
+            'name' => 'VEDBO Armchair, Gunnared light green',
+            'price' => 319,
+            'model_path' => '/models/G-40494250-0ab61c403037bab1c0ef70d732022d9e24519f0b_8489dde0970542a2a5f8d27455dc7d25.glb',
+            'is_stackable' => 0,
+            'description' => 'Soft but distinct lines create an elegant profile. The armchair\'s nicely curved back gives your lumbar region support. And covers in earthy colors provide natural warmth and beauty to the room.',
+            'source' => 'https://www.ikea.com/us/en/p/vedbo-armchair-gunnared-light-green-60494249/',
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-light-green__0949818_pe800035_s5.jpg',
+            'specification_id' => '24',
+            'category_id' => 3,
+        ]);
+
+        $p54->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-light-green__0949818_pe800035_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p54->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-light-green__0971804_ph175234_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p54->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-light-green__0949819_pe800036_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p54->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-light-green__0949820_pe800037_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p54->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-light-green__0949821_pe800042_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p54->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-light-green__0949827_pe800043_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p54->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-light-green__0949826_pe800044_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p54->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-light-green__0632856_pe695638_s5.jpg',
+            'type' => ''
+        ]);
+
+        $vc14->products()->attach($p51->id);
+        $vc14->products()->attach($p52->id);
+        $vc14->products()->attach($p53->id);
+        $vc14->products()->attach($p54->id);
+
+        $vc15 = VariationCollection::create();
+
+        $p55 = Product::create([
+            'name' => 'VEDBO High back armchair, Gunnared blue',
+            'price' => 449,
+            'model_path' => '/models/G-40423583-48f6b4c6de531efbc53c78de97eaa8ffab1bc667_0885d7067662430fbe5db63633fd764e.glb',
+            'is_stackable' => 0,
+            'description' => 'Soft but distinct lines create an elegant profile. The armchair’s nicely curved back provides your lumbar region with good support. And the cover in blue adds tranquillity and beauty.',
+            'source' => 'https://www.ikea.com/us/en/p/vedbo-high-back-armchair-gunnared-blue-50423587/',
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-blue__0635321_pe697114_s5.jpg',
+            'specification_id' => '24',
+            'category_id' => 3,
+        ]);
+
+        $p55->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-blue__0635321_pe697114_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p55->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-blue__1247740_ph193153_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p55->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-blue__0840517_pe697113_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p55->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-blue__0840505_pe649538_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p55->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-blue__0840507_pe649539_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p55->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-blue__0840782_pe687335_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p55->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-blue__0840778_pe687334_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p55->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-blue__0632855_pe695637_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p56 = Product::create([
+            'name' => 'VEDBO High back armchair, Gunnared dark',
+            'price' => 449,
+            'model_path' => '/models/G-10424131-93e5d87abaec864c0bba562296a024c6349db31d_3f625b7b06974ee8b89a80b34907d6c0.glb',
+            'is_stackable' => 0,
+            'description' => 'Soft but distinct lines create an elegant profile. The armchair’s nicely curved back provides your lumbar region with good support. And the cover in dark gray adds elegance and style.',
+            'source' => 'https://www.ikea.com/us/en/p/vedbo-high-back-armchair-gunnared-dark-gray-50424134/',
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-dark-gray__0512775_pe638684_s5.jpg',
+            'specification_id' => '24',
+            'category_id' => 3,
+        ]);
+
+        $p56->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-dark-gray__0512775_pe638684_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p56->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-dark-gray__0837110_pe704423_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p56->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-dark-gray__0837112_pe704426_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p56->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-dark-gray__0837082_pe638415_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p56->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-dark-gray__0837107_pe638865_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p56->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-dark-gray__0837104_pe638864_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p56->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-dark-gray__0632855_pe695637_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p57 = Product::create([
+            'name' => 'VEDBO High back armchair, Gunnared light brown-pink',
+            'price' => 449,
+            'model_path' => '/models/G-10423589-dc0268e94ed2e6fcf03e2d62636b646484597304_528901297dc64e688f6f64aa9066b528.glb',
+            'is_stackable' => 0,
+            'description' => 'Soft but distinct lines create an elegant profile. The armchair’s nicely curved back provides your lumbar region with good support. And the cover in brown-pink adds warmth and energy.',
+            'source' => 'https://www.ikea.com/us/en/p/vedbo-high-back-armchair-gunnared-light-brown-pink-50423592/',
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-light-brown-pink__0643605_pe701951_s5.jpg',
+            'specification_id' => '24',
+            'category_id' => 3,
+        ]);
+
+        $p57->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-light-brown-pink__0643605_pe701951_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p57->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-light-brown-pink__0945783_ph171545_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p57->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-light-brown-pink__0707623_ph152599_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p57->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-light-brown-pink__0836884_pe649543_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p57->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-light-brown-pink__0837073_pe687337_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p57->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-light-brown-pink__0836895_pe687336_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p57->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-light-brown-pink__0632855_pe695637_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p58 = Product::create([
+            'name' => 'VEDBO High back armchair, Gunnared light green',
+            'price' => 449,
+            'model_path' => '/models/G-50494259-4891fb5e51ef239eb46d8250a6a804ea1201439b_5402b49e8bf442d3a367d47eac51c8b7.glb',
+            'is_stackable' => 0,
+            'description' => 'Soft but distinct lines creates an elegant profile. Perfect when you want your own space in an open environment, and still socialize with others. Covers in earthy colors provide natural warmth and beauty.',
+            'source' => 'https://www.ikea.com/us/en/p/vedbo-high-back-armchair-gunnared-light-green-90494262/',
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-light-green__0949822_pe800039_s5.jpg',
+            'specification_id' => '24',
+            'category_id' => 3,
+        ]);
+
+        $p58->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-light-green__0949822_pe800039_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p58->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-light-green__0991388_ph175235_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p58->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-light-green__0949827_pe800043_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p58->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-light-green__0949826_pe800044_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p58->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-light-green__0632855_pe695637_s5.jpg',
+            'type' => ''
+        ]);
+
+        $vc15->products()->attach($p55->id);
+        $vc15->products()->attach($p56->id);
+        $vc15->products()->attach($p57->id);
+        $vc15->products()->attach($p58->id);
+
+        $p59 = Product::create([
+            'name' => 'SPIKSMED TV unit, light gray, 38 1/4x12 5/8 "',
+            'price' => 59.99,
+            'model_path' => '/models/50520871_PS01_S01_NV01_RQP3_4.0_318078d596094c58aac3e54cf5f1e506.glb',
+            'is_stackable' => 1,
+            'description' => 'Simple design but rich in functions, as it offers many possibilities to fit into your home interior. SPIKSMED has both open and closed storage with sliding doors – perfect for small spaces.',
+            'source' => 'https://www.ikea.com/us/en/p/spiksmed-tv-unit-light-gray-10542064/',
+            'image_url' => 'https://www.ikea.com/us/en/images/products/spiksmed-tv-unit-light-gray__1152577_pe885417_s5.jpg',
+            'specification_id' => '25',
+            'category_id' => 4,
+        ]);
+
+        $vc16 = VariationCollection::create();
+
+        $p59->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/spiksmed-tv-unit-light-gray__1152577_pe885417_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p59->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/spiksmed-tv-unit-light-gray__1248718_pe923204_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p59->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/spiksmed-tv-unit-light-gray__1152582_pe885423_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p59->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/spiksmed-tv-unit-light-gray__1184082_pe897710_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p59->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/spiksmed-tv-unit-light-gray__1152583_pe885424_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p59->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/spiksmed-tv-unit-light-gray__1152578_pe885418_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p59->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/spiksmed-tv-unit-light-gray__1170103_pe892660_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p60 = Product::create([
+            'name' => 'VITTSJÖ TV unit, black-brown/glass, 39 3/8x14 1/8x20 7/8 "',
+            'price' => 59.99,
+            'model_path' => '/models/70303428_PS01_S01_NV01_RQP3_3.0_069abc742c584289964c15ac4b2c1792.glb',
+            'is_stackable' => 1,
+            'description' => 'A TV bench without frills that can hold both your TV and all those accessories. The middle shelf in tempered glass gives the bench a light and airy expression.',
+            'source' => 'https://www.ikea.com/us/en/p/vittsjoe-tv-unit-black-brown-glass-70303428/',
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vittsjoe-tv-unit-black-brown-glass__0644745_pe702933_s5.jpg',
+            'specification_id' => '26',
+            'category_id' => 4,
+        ]);
+
+        $p60->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vittsjoe-tv-unit-black-brown-glass__0644745_pe702933_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p60->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vittsjoe-tv-unit-black-brown-glass__1287830_pe933979_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p60->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vittsjoe-tv-unit-black-brown-glass__0850771_pe527558_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p60->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vittsjoe-tv-unit-black-brown-glass__0778401_pe758943_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p61 = Product::create([
+            'name' => 'VITTSJÖ TV unit, black-brown/glass, 39 3/8x14 1/8x20 7/8 "',
+            'price' => 59.99,
+            'model_path' => '/models/50303434_PS01_S01_NV01_RQP3_3.0_0bc73d4b157f470c8682af41235873f5.glb',
+            'is_stackable' => 1,
+            'description' => 'A TV bench without frills that can hold both your TV and all those accessories. The middle shelf in tempered glass gives the bench a light and airy expression.',
+            'source' => 'https://www.ikea.com/us/en/p/vittsjoe-tv-unit-white-glass-50303434/',
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vittsjoe-tv-unit-white-glass__0644743_pe702931_s5.jpg',
+            'specification_id' => '26',
+            'category_id' => 4,
+        ]);
+
+        $p61->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vittsjoe-tv-unit-white-glass__0644743_pe702931_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p61->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vittsjoe-tv-unit-white-glass__0850103_pe561998_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p61->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vittsjoe-tv-unit-white-glass__0850099_pe527557_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p61->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vittsjoe-tv-unit-white-glass__0778401_pe758943_s5.jpg',
+            'type' => ''
+        ]);
+
+        $vc16->products()->attach($p60->id);
+        $vc16->products()->attach($p61->id);
+
+        $vc17 = VariationCollection::create();
+
+        $p62 = Product::create([
+            'name' => 'VIHALS TV unit, dark gray, 69 3/8x14 5/8x19 5/8 "',
+            'price' => 129.99,
+            'model_path' => '/models/50542868_PS01_S01_NV01_RQP3_3.0_71e14376a6744d69aea8c6d39b22a69c.glb',
+            'is_stackable' => 1,
+            'description' => 'VIHALS storage series has a cohesive look that connects the rooms throughout your home. Set your TV on this clever bench – or set yourself on it – all depending on your needs and where you place it.',
+            'source' => 'https://www.ikea.com/us/en/p/vihals-tv-unit-dark-gray-10542870/',
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vihals-tv-unit-dark-gray__1203689_pe906381_s5.jpg',
+            'specification_id' => '27',
+            'category_id' => 4,
+        ]);
+
+        $p62->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vihals-tv-unit-dark-gray__1203689_pe906381_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p62->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vihals-tv-unit-dark-gray__1212502_pe910664_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p62->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vihals-tv-unit-dark-gray__1257835_pe926053_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p63 = Product::create([
+            'name' => 'VIHALS TV unit, white, 69 3/8x14 5/8x19 5/8 "',
+            'price' => 129.99,
+            'model_path' => '/models/80542857_PS01_S01_NV01_RQP3_4.0_dbf90f35049f464fb042ddfe1221b092.glb',
+            'is_stackable' => 1,
+            'description' => 'VIHALS storage series has a cohesive look that connects the rooms throughout your home. This TV bench with 2 drawers has storage for your different needs and cable management in the back.',
+            'source' => 'https://www.ikea.com/us/en/p/vihals-tv-unit-white-70542867/',
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vihals-tv-unit-white__1203696_pe906389_s5.jpg',
+            'specification_id' => '27',
+            'category_id' => 4,
+        ]);
+
+        $p63->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vihals-tv-unit-white__1203696_pe906389_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p63->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vihals-tv-unit-white__1239669_pe918999_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p63->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vihals-tv-unit-white__1051511_pe845563_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p63->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vihals-tv-unit-white__1051513_pe845565_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p63->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vihals-tv-unit-white__1051539_pe845591_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p63->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vihals-tv-unit-white__1212502_pe910664_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p63->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/vihals-tv-unit-white__1257835_pe926053_s5.jpg',
+            'type' => ''
+        ]);
+
+        $vc17->products()->attach($p62->id);
+        $vc17->products()->attach($p63->id);
+
+        $vc18 = VariationCollection::create();
+
+        $p64 = Product::create([
+            'name' => 'KALLAX TV unit, black-brown, 57 3/4x23 1/2 "',
+            'price' => 79.99,
+            'model_path' => '/models/10562090_PS01_S01_NV01_RQP3_4.0_5071b9806fb44044a3581c235562553e.glb',
+            'is_stackable' => 1,
+            'description' => 'A perfect TV bench with plenty of space for equipment and accessories. If you want closed storage, place boxes or inserts in the lower compartments. The open back makes cable management easy!',
+            'source' => 'https://www.ikea.com/us/en/p/kallax-tv-unit-black-brown-90574881/',
+            'image_url' => 'https://www.ikea.com/us/en/images/products/kallax-tv-unit-black-brown__1238897_pe918669_s5.jpg',
+            'specification_id' => '28',
+            'category_id' => 4,
+        ]);
+
+        $p64->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/kallax-tv-unit-black-brown__1238897_pe918669_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p64->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/kallax-tv-unit-black-brown__1248782_pe923214_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p64->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/kallax-tv-unit-black-brown__1274277_pe930228_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p64->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/kallax-tv-unit-black-brown__1106845_pe868820_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p64->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/kallax-tv-unit-black-brown__1212006_pe910456_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p64->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/kallax-tv-unit-black-brown__1219453_pe913403_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p65 = Product::create([
+            'name' => 'KALLAX TV unit, white, 57 3/4x23 1/2 "',
+            'price' => 74.99,
+            'model_path' => '/models/70562087_PS01_S01_NV01_RQP3_4.0_417f9bd7ed1c42ec8e7952483bc62ddc.glb',
+            'is_stackable' => 1,
+            'description' => 'A perfect TV bench with plenty of space for equipment and accessories. If you want closed storage, place boxes or inserts in the lower compartments. The open back makes cable management easy!',
+            'source' => 'https://www.ikea.com/us/en/p/kallax-tv-unit-white-00574885/',
+            'image_url' => 'https://www.ikea.com/us/en/images/products/kallax-tv-unit-white__1238898_pe918671_s5.jpg',
+            'specification_id' => '28',
+            'category_id' => 4,
+        ]);
+
+        $p65->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/kallax-tv-unit-white__1238898_pe918671_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p65->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/kallax-tv-unit-white__1248783_pe923213_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p65->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/kallax-tv-unit-white__1274278_pe930229_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p65->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/kallax-tv-unit-white__1106846_pe868822_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p65->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/kallax-tv-unit-white__1212006_pe910456_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p65->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/kallax-tv-unit-white__1219453_pe913403_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p66 = Product::create([
+            'name' => 'KALLAX TV unit, white stained oak effect, 57 3/4x23 1/2 "',
+            'price' => 79.99,
+            'model_path' => '/models/80562096_PS01_S01_NV01_RQP3_4.0_3888e6aa1f174d25a5184dcfa1622299.glb',
+            'is_stackable' => 1,
+            'description' => 'A perfect TV bench with plenty of space for equipment and accessories. If you want closed storage, place boxes or inserts in the lower compartments. The open back makes cable management easy!',
+            'source' => 'https://www.ikea.com/us/en/p/kallax-tv-unit-white-stained-oak-effect-50574883/',
+            'image_url' => 'https://www.ikea.com/us/en/images/products/kallax-tv-unit-white-stained-oak-effect__1238899_pe918670_s5.jpg',
+            'specification_id' => '28',
+            'category_id' => 4,
+        ]);
+
+        $p66->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/kallax-tv-unit-white-stained-oak-effect__1238899_pe918670_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p66->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/kallax-tv-unit-white-stained-oak-effect__1248784_pe923212_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p66->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/kallax-tv-unit-white-stained-oak-effect__1274279_pe930230_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p66->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/kallax-tv-unit-white-stained-oak-effect__1106847_pe868821_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p66->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/kallax-tv-unit-white-stained-oak-effect__1212006_pe910456_s5.jpg',
+            'type' => ''
+        ]);
+
+        $p66->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/kallax-tv-unit-white-stained-oak-effect__1219453_pe913403_s5.jpg',
+            'type' => ''
+        ]);
+
+        $vc18->products()->attach($p64->id);
+        $vc18->products()->attach($p65->id);
+        $vc18->products()->attach($p66->id);
+
+        // $p63 = Product::create([
         //     'name' => '',
-        //     'price' => 229,
+        //     'price' => 129.99,
         //     'model_path' => '',
-        //     'is_stackable' => 0,
+        //     'is_stackable' => 1,
         //     'description' => '',
         //     'source' => '',
-        //     'image_url' => '',
-        //     'specification_id' => '3',
-        //     'category_id' => 1,
+        //     'specification_id' => '27',
+        //     'category_id' => 4,
         // ]);
 
-        // $p10->images()->create([
+        // $p60->images()->create([
         //     'image_url' => '',
         //     'type' => ''
         // ]);

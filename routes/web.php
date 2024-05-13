@@ -12,6 +12,7 @@ Route::get('/', function () {
 Route::prefix('/api')->group(function(){
     Route::prefix('/products')->group(function() {
         Route::get('/', [ProductController::class, 'index'])->name('product.index');
+        Route::get('/search', [ProductController::class, 'search'])->name('product.search');
         Route::get('/{id}', [ProductController::class, 'show'])->name('product.show');
         Route::delete('/{id}', [ProductController::class, 'destroy'])->name('product.destroy');
     });

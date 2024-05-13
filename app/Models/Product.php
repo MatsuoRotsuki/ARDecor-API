@@ -28,6 +28,8 @@ class Product extends Model
         'category_id',
     ];
 
+    protected $appends = ['product_variations'];
+
     public function category()
     {
         return $this->belongsTo(Category::class, 'category_id', 'id');
