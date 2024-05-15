@@ -151,4 +151,34 @@ class PlacementController extends Controller
             ], 500);
         }
     }
+
+    public function destroy($id)
+    {
+        try {
+            $placement = SavedPlacement::find($id);
+
+            if (!isset($placement)) {
+                return response()->json([
+                    'data' => null,
+                    'message' => 'Placement not found',
+                    'success' => false,
+                ], 404);
+            }
+
+            $placement->delete();
+
+            return response()->json([
+                'data' => $placement,
+                'message' => 'Placement deleted successfully',
+                'success' => true,
+            ], 200);
+
+        } catch (Exception $e)
+        {
+            return response()->json([
+                'message' => $e->getMessage(),
+                'success' => false,
+            ], 500);
+        }
+    }
 }

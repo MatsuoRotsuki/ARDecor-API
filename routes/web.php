@@ -32,5 +32,6 @@ Route::prefix('/api')->group(function(){
         Route::get('/{id}', [PlacementController::class, 'show'])->name('placement.show');
         Route::post('/', [PlacementController::class, 'store'])->name('placement.store');
         Route::put('/', [PlacementController::class, 'update'])->name('placement.update');
+        Route::delete('/{id}', [PlacementController::class, 'destroy'])->name('placement.destroy');
     });
 });
