@@ -11,8 +11,7 @@ class CategoryController extends Controller
     public function index()
     {
         try {
-            $categories = Category::with('roomType')
-                ->withCount('products')
+            $categories = Category::withCount('products')
                 ->get();
 
             return response()->json([
@@ -33,9 +32,9 @@ class CategoryController extends Controller
     public function show($id)
     {
         try {
-            $category = Category::with('products', 'roomType')
-                ->where('id', $id)
-                ->get();
+            $category = Category::with('products')
+                ->withCount('products')
+                ->find($id);
             if (!isset($category))
             {
                 return response()->json([

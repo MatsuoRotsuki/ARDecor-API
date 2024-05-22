@@ -24,7 +24,6 @@ class Product extends Model
         'description',
         'source',
         'image_url',
-        'specification_id',
         'category_id',
     ];
 

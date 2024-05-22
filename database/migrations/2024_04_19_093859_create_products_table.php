@@ -22,7 +22,6 @@ return new class extends Migration
             $table->string('source')->nullable();
             $table->text('description')->nullable();
             $table->string('image_url');
-            $table->string('specification_id');
             $table->foreignId('category_id')->references('id')->on('categories')->onDelete('cascade');
             $table->timestamps();
 

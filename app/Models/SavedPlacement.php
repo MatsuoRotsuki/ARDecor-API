@@ -17,9 +17,4 @@ class SavedPlacement extends Model
         'placements',
         'user_id',
     ];
-
-    public function idea()
-    {
-        return $this->hasOne(Idea::class, 'placement_id', 'id');
-    }
 }
