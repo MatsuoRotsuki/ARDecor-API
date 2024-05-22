@@ -53,91 +53,76 @@ class DatabaseSeeder extends Seeder
         $sofaCat = Category::create([
             'name' => 'Ghế Sofa',
             'image_url' => 'https://www.ikea.com/global/assets/range-categorisation/images/sofas-fu003.jpeg',
-            'room_type_id' => $livingRoomType->id,
         ]);
 
         $tableCat = Category::create([
             'name' => 'Bàn',
             'image_url' => 'https://www.ikea.com/global/assets/range-categorisation/images/tables-desks-fu004.jpeg',
-            'room_type_id' => $livingRoomType->id,
         ]);
 
         $chairCat = Category::create([
             'name' => 'Ghế',
             'image_url' => 'https://www.ikea.com/global/assets/range-categorisation/images/chairs-fu002.jpeg',
-            'room_type_id' => $livingRoomType->id,
         ]);
 
         $tvStandCat = Category::create([
             'name' => 'Tủ kệ TV',
             'image_url' => 'https://www.ikea.com/global/assets/range-categorisation/images/tv-benches-10810.jpeg',
-            'room_type_id' => $livingRoomType->id,
         ]);
 
         $accentChestCat = Category::create([
             'name' => 'Tủ trang trí',
-            'image_url' => 'https://www.ikea.com/global/assets/range-categorisation/images/tv-benches-10810.jpeg',
-            'room_type_id' => $livingRoomType->id,
+            'image_url' => 'https://www.ikea.com/global/assets/range-categorisation/images/cabinets-cupboards-st003.jpeg',
         ]);
 
         $tuQuanAoCat = Category::create([
             'name' => 'Tủ quần áo',
             'image_url' => 'https://www.ikea.com/global/assets/range-categorisation/images/walk-in-wardrobes-43633.jpeg',
-            'room_type_id' => $bedroomType->id,
         ]);
 
         $bedCat = Category::create([
             'name' => 'Giường',
             'image_url' => 'https://www.ikea.com/global/assets/range-categorisation/images/beds-with-storage-25205.jpeg',
-            'room_type_id' => $bedroomType->id,
         ]);
 
         $nightStandCat = Category::create([
             'name' => 'Tủ đầu giường',
             'image_url' => 'https://www.ikea.com/us/en/range-categorisation/images/nightstands-20656.jpeg',
-            'room_type_id' => $bedroomType->id,
         ]);
 
         $makeUpVanityCat = Category::create([
             'name' => 'Bàn trang điểm',
             'image_url' => 'https://www.ikea.com/global/assets/range-categorisation/images/dressing-tables-20657.jpeg',
-            'room_type_id' => $bedroomType->id,
         ]);
 
         $diningSetCat = Category::create([
             'name' => 'Bộ bàn ăn',
             'image_url' => 'https://www.ikea.com/global/assets/range-categorisation/images/dining-sets-19145.jpeg',
-            'room_type_id' => $diningRoomType->id,
         ]);
 
         $diningChairCat = Category::create([
             'name' => 'Ghế ăn',
             'image_url' => 'https://www.ikea.com/global/assets/range-categorisation/images/dining-chairs-25220.jpeg',
-            'room_type_id' => $diningRoomType->id,
         ]);
 
         $diningTableCat = Category::create([
             'name' => 'Bàn ăn',
             'image_url' => 'https://www.ikea.com/global/assets/range-categorisation/images/up-to-4-seats-21826.jpeg',
-            'room_type_id' => $diningRoomType->id,
         ]);
 
         $deskCat = Category::create([
             'name' => 'Bàn làm việc',
             'image_url' => 'https://www.ikea.com/global/assets/range-categorisation/images/desks-computer-desks-20649.jpeg',
-            'room_type_id' => $homeOffice->id,
         ]);
 
         $officeChairCat = Category::create([
             'name' => 'Ghế văn phòng',
             'image_url' => 'https://www.ikea.com/global/assets/range-categorisation/images/office-chairs-20654.jpeg',
-            'room_type_id' => $homeOffice->id,
         ]);
 
         $bookcaseCat = Category::create([
             'name' => 'Giá sách',
             'image_url' => 'https://www.ikea.com/global/assets/range-categorisation/images/bookcases-10382.jpeg',
-            'room_type_id' => $homeOffice->id,
         ]);
 
         $this->call(ProductSeeder::class);

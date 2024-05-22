@@ -10,8 +10,7 @@ class RoomTypeController extends Controller
     public function index()
     {
         try {
-            $roomTypes = RoomType::with(['categories'])
-                ->get();
+            $roomTypes = RoomType::all();
 
             return response()->json([
                 'data' => $roomTypes,

@@ -15,10 +15,10 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('image_url');
+            $table->json('placements');
             $table->text('description');
-            $table->foreignId('room_type_id');
+            $table->foreignId('room_type_id')->references('id')->on('room_types')->onDelete('cascade');
             $table->string('user_id');
-            $table->foreignId('placement_id')->references('id')->on('saved_placements')->onDelete('cascade');
             $table->timestamps();
         });
     }

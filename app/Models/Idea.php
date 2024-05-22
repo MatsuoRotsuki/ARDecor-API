@@ -19,16 +19,11 @@ class Idea extends Model
         'description',
         'room_type_id',
         'user_id',
-        'placement_id',
+        'placements',
     ];
 
     public function images()
     {
         return $this->hasMany(IdeaImage::class, 'idea_id', 'id');
-    }
-
-    public function saved_placement()
-    {
-        return $this->belongsTo(SavedPlacement::class, 'placement_id', 'id');
     }
 }

@@ -14,8 +14,7 @@ class PlacementController extends Controller
     public function index(Request $request)
     {
         try {
-            $placements = SavedPlacement::with('idea')
-                ->when($request->user_id, function ($query) use ($request) {
+            $placements = SavedPlacement::when($request->user_id, function ($query) use ($request) {
                     $query->where('user_id', $request->user_id);
                 })
                 ->get();

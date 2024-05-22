@@ -17,7 +17,6 @@ class Category extends Model
         'name',
         'description',
         'image_url',
-        'room_type_id',
     ];
 
     public $timestamps = false;
@@ -25,10 +24,5 @@ class Category extends Model
     public function products()
     {
         return $this->hasMany(Product::class, 'category_id', 'id');
-    }
-
-    public function roomType()
-    {
-        return $this->belongsTo(RoomType::class, 'room_type_id', 'id');
     }
 }

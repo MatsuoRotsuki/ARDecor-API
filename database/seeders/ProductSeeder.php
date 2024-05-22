@@ -24,43 +24,35 @@ class ProductSeeder extends Seeder
             'description' => 'Bringing new life to an old favourite. We first introduced this chair in the 1950’s. Some 60 years later we brought it back into the range with the same craftsmanship, comfort and appearance. Enjoy!',
             'source' => 'https://www.ikea.com/gb/en/p/strandmon-wing-chair-nordvalla-dark-grey-70359830/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/strandmon-wing-chair-nordvalla-dark-gray__0325432_pe517964_s5.jpg',
-            'specification_id' => '1',
             'category_id' => 1,
         ]);
 
         $p1->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/strandmon-wing-chair-nordvalla-dark-gray__0325432_pe517964_s5.jpg',
-            'type' => 'MAIN IMAGE',
         ]);
 
         $p1->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/strandmon-wing-chair-nordvalla-dark-gray__1116445_pe872501_s5.jpg',
-            'type' => 'LIFESTYLE IMAGE',
         ]);
 
         $p1->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/strandmon-wing-chair-nordvalla-dark-gray__0750991_ph159256_s5.jpg',
-            'type' => 'LIFESTYLE IMAGE',
         ]);
 
         $p1->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/strandmon-wing-chair-nordvalla-dark-gray__0813424_ph166295_s5.jpg',
-            'type' => 'LIFESTYLE IMAGE',
         ]);
 
         $p1->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/strandmon-wing-chair-nordvalla-dark-gray__0836847_pe596292_s5.jpg',
-            'type' => 'LIFESTYLE IMAGELIFESTYLE IMAGE',
         ]);
 
         $p1->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/strandmon-wing-chair-nordvalla-dark-gray__0836845_pe583755_s5.jpg',
-            'type' => 'LIFESTYLE IMAGE',
         ]);
 
         $p1->images()->create([
             'image_url' => 'https://www.ikea.com/gb/en/images/products/strandmon-wing-chair-kelinge-beige__0963366_pe808498_s5.jpg',
-            'type' => 'SPECIFICATIONS'
         ]);
 
         $p2 = Product::create([
@@ -71,43 +63,35 @@ class ProductSeeder extends Seeder
             'description' => 'Need a hug? STRANDMON wing chair has an embracing feel with a high back, round armrests, soft lines and inviting upholstery. A traditional look with modern comfort for many cosy moments.',
             'source' => 'https://www.ikea.com/gb/en/p/strandmon-wing-chair-kelinge-beige-40492816/',
             'image_url' => 'https://www.ikea.com/gb/en/images/products/strandmon-wing-chair-kelinge-beige__0950941_pe800821_s5.jpg',
-            'specification_id' => '1',
             'category_id' => 1,
         ]);
 
         $p2->images()->create([
             'image_url' => 'https://www.ikea.com/gb/en/images/products/strandmon-wing-chair-kelinge-beige__0950941_pe800821_s5.jpg',
-            'type' => 'MAIN IMAGE'
         ]);
 
         $p2->images()->create([
             'image_url' => 'https://www.ikea.com/gb/en/images/products/strandmon-wing-chair-kelinge-beige__1059566_ph179098_s5.jpg',
-            'type' => 'LIFESTYLE',
         ]);
 
         $p2->images()->create([
             'image_url' => 'https://www.ikea.com/gb/en/images/products/strandmon-wing-chair-kelinge-beige__0950946_pe800823_s5.jpg',
-            'type' => 'cLOSEUP',
         ]);
 
         $p2->images()->create([
             'image_url' => 'https://www.ikea.com/gb/en/images/products/strandmon-wing-chair-kelinge-beige__0950944_pe800824_s5.jpg',
-            'type' => 'CLOSEUP'
         ]);
 
         $p2->images()->create([
             'image_url' => 'https://www.ikea.com/gb/en/images/products/strandmon-wing-chair-kelinge-beige__0950945_pe800825_s5.jpg',
-            'type' => 'CLOSEUP'
         ]);
 
         $p2->images()->create([
             'image_url' => 'https://www.ikea.com/gb/en/images/products/strandmon-wing-chair-kelinge-beige__0950943_pe800826_s5.jpg',
-            'type' => 'CLOSEUP',
         ]);
 
         $p2->images()->create([
             'image_url' => 'https://www.ikea.com/gb/en/images/products/strandmon-wing-chair-kelinge-beige__0963366_pe808498_s5.jpg',
-            'type' => 'SPECIFICATIONS'
         ]);
 
         $p3 = Product::create([
@@ -118,53 +102,43 @@ class ProductSeeder extends Seeder
             'description' => 'Bringing new life to an old favourite. We first introduced this chair in the 1950’s. Some 60 years later we brought it back into the range with the same craftsmanship, comfort and appearance. Enjoy!',
             'source' => 'https://www.ikea.com/gb/en/p/strandmon-wing-chair-skiftebo-yellow-40361896/',
             'image_url' => 'https://www.ikea.com/gb/en/images/products/strandmon-wing-chair-skiftebo-yellow__0325450_pe517970_s5.jpg',
-            'specification_id' => '1',
             'category_id' => 1,
         ]);
 
         $p3->images()->create([
             'image_url' => 'https://www.ikea.com/gb/en/images/products/strandmon-wing-chair-skiftebo-yellow__0325450_pe517970_s5.jpg',
-            'type' => 'MAIN IMAGE',
         ]);
 
         $p3->images()->create([
             'image_url' => 'https://www.ikea.com/gb/en/images/products/strandmon-wing-chair-skiftebo-yellow__0913860_ph145337_s5.jpg',
-            'type' => 'LIFESTYLE IMAGE',
         ]);
 
         $p3->images()->create([
             'image_url' => 'https://www.ikea.com/gb/en/images/products/strandmon-wing-chair-skiftebo-yellow__1184561_ph179968_s5.jpg',
-            'type' => 'LIFESTYLE IMAGE',
         ]);
 
         $p3->images()->create([
             'image_url' => 'https://www.ikea.com/gb/en/images/products/strandmon-wing-chair-skiftebo-yellow__0813426_ph166290_s5.jpg',
-            'type' => 'LIFESTYLE IMAGE',
         ]);
 
         $p3->images()->create([
             'image_url' => 'https://www.ikea.com/gb/en/images/products/strandmon-wing-chair-skiftebo-yellow__0837286_pe596513_s5.jpg',
-            'type' => 'CLOSEUP',
         ]);
 
         $p3->images()->create([
             'image_url' => 'https://www.ikea.com/gb/en/images/products/strandmon-wing-chair-skiftebo-yellow__0325452_pe517969_s5.jpg',
-            'type' => 'CLOSEUP'
         ]);
 
         $p3->images()->create([
             'image_url' =>  'https://www.ikea.com/gb/en/images/products/strandmon-wing-chair-skiftebo-yellow__0837284_pe583756_s5.jpg',
-            'type' => 'CLOSEUP',
         ]);
 
         $p3->images()->create([
             'image_url' => 'https://www.ikea.com/gb/en/images/products/strandmon-wing-chair-skiftebo-yellow__0837282_pe583706_s5.jpg',
-            'type' => 'CLOSEUP',
         ]);
 
         $p3->images()->create([
             'image_url' => 'https://www.ikea.com/gb/en/images/products/strandmon-wing-chair-skiftebo-yellow__0963366_pe808498_s5.jpg',
-            'type' => 'SPECIFICATION',
         ]);
 
         $p4 = Product::create([
@@ -175,53 +149,43 @@ class ProductSeeder extends Seeder
             'description' => 'You can really loosen up and relax in comfort because the high back on this chair provides extra support for your neck.',
             'source' => 'https://www.ikea.com/gb/en/p/strandmon-wing-chair-tallmyra-dark-green-30359846/',
             'image_url' => 'https://www.ikea.com/gb/en/images/products/strandmon-wing-chair-tallmyra-dark-green__0531319_pe647267_s5.jpg',
-            'specification_id' => '1',
             'category_id' => 1,
         ]);
 
         $p4->images()->create([
             'image_url' => 'https://www.ikea.com/gb/en/images/products/strandmon-wing-chair-tallmyra-dark-green__0531319_pe647267_s5.jpg',
-            'type' => 'MAIN IMAGE',
         ]);
 
         $p4->images()->create([
             'image_url' => 'https://www.ikea.com/gb/en/images/products/strandmon-wing-chair-tallmyra-dark-green__0840456_pe647272_s5.jpg',
-            'type' => 'LIFESTYLE IMAGE',
         ]);
 
         $p4->images()->create([
             'image_url' => 'https://www.ikea.com/gb/en/images/products/strandmon-wing-chair-tallmyra-dark-green__0739101_ph155488_s5.jpg',
-            'type' => 'LIFESTYLE IMAGE',
         ]);
 
         $p4->images()->create([
             'image_url' => 'https://www.ikea.com/gb/en/images/products/strandmon-wing-chair-tallmyra-dark-green__0739102_ph152847_s5.jpg',
-            'type' => 'LIFESTYLE IMAGE',
         ]);
 
         $p4->images()->create([
             'image_url' => 'https://www.ikea.com/gb/en/images/products/strandmon-wing-chair-tallmyra-dark-green__0840447_pe647271_s5.jpg',
-            'type' => 'CLOSEUP',
         ]);
 
         $p4->images()->create([
             'image_url' => 'https://www.ikea.com/gb/en/images/products/strandmon-wing-chair-tallmyra-dark-green__0840434_pe647268_s5.jpg',
-            'type' => 'CLOSEUP',
         ]);
 
         $p4->images()->create([
             'image_url' => 'https://www.ikea.com/gb/en/images/products/strandmon-wing-chair-tallmyra-dark-green__0840444_pe647270_s5.jpg',
-            'type' => 'CLOSEUP',
         ]);
 
         $p4->images()->create([
             'image_url' => 'https://www.ikea.com/gb/en/images/products/strandmon-wing-chair-tallmyra-dark-green__0840440_pe647269_s5.jpg',
-            'type' => 'CLOSEUP',
         ]);
 
         $p4->images()->create([
             'image_url' => 'https://www.ikea.com/gb/en/images/products/strandmon-wing-chair-tallmyra-dark-green__0963366_pe808498_s5.jpg',
-            'type' => 'SPECIFICATIONS',
         ]);
 
         $p5 = Product::create([
@@ -232,48 +196,39 @@ class ProductSeeder extends Seeder
             'description' => 'One of our old icons is now wearing a classy outfit. The cover with a classic houndstooth pattern enhance your personal sense of style at home. Comfort and quality since the 1950s.',
             'source' => 'https://www.ikea.com/gb/en/p/strandmon-wing-chair-vibberbo-black-beige-80456958/',
             'image_url' => 'https://www.ikea.com/gb/en/images/products/strandmon-wing-chair-vibberbo-black-beige__0761768_pe751434_s5.jpg',
-            'specification_id' => '1',
             'category_id' => 1,
         ]);
 
         $p5->images()->create([
             'image_url' => 'https://www.ikea.com/gb/en/images/products/strandmon-wing-chair-vibberbo-black-beige__0761768_pe751434_s5.jpg',
-            'type' => 'MAIN IMAGE',
         ]);
 
         $p5->images()->create([
             'image_url' => 'https://www.ikea.com/gb/en/images/products/strandmon-wing-chair-vibberbo-black-beige__0930013_ph168645_s5.jpg',
-            'type' => 'LIFESTYLE IMAGE',
         ]);
 
         $p5->images()->create([
             'image_url' => 'https://www.ikea.com/gb/en/images/products/strandmon-wing-chair-vibberbo-black-beige__1184555_ph186827_s5.jpg',
-            'type' => 'LIFESTYLE IMAGE',
         ]);
 
         $p5->images()->create([
             'image_url' => 'https://www.ikea.com/gb/en/images/products/strandmon-wing-chair-vibberbo-black-beige__0761769_pe751435_s5.jpg',
-            'type' => 'LIFESTYLE IMAGE',
         ]);
 
         $p5->images()->create([
             'image_url' => 'https://www.ikea.com/gb/en/images/products/strandmon-wing-chair-vibberbo-black-beige__0813433_ph166294_s5.jpg',
-            'type' => 'LIFESTYLE IMAGE',
         ]);
 
         $p5->images()->create([
             'image_url' => 'https://www.ikea.com/gb/en/images/products/strandmon-wing-chair-vibberbo-black-beige__1184562_ph167261_s5.jpg',
-            'type' => 'LIFESTYLE IMAGE',
         ]);
 
         $p5->images()->create([
             'image_url' => 'https://www.ikea.com/gb/en/images/products/strandmon-wing-chair-vibberbo-black-beige__1184563_ph167300_s5.jpg',
-            'type' => 'LIFESTYLE IMAGE',
         ]);
 
         $p5->images()->create([
             'image_url' => 'https://www.ikea.com/gb/en/images/products/strandmon-wing-chair-vibberbo-black-beige__0963366_pe808498_s5.jpg',
-            'type' => 'SPECIFICATIONS',
         ]);
 
         $vc1->products()->attach($p1->id);
@@ -292,33 +247,27 @@ class ProductSeeder extends Seeder
             'description' => 'LACK table in black-brown is easy to match with other furnishings. The honeycomb structured paper filling construction adds strength to the table while keeping it lightweight so it´s easy to move around.',
             'source' => 'https://www.ikea.com/us/en/p/lack-coffee-table-black-brown-00104291/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/lack-coffee-table-black-brown__57537_pe163119_s5.jpg',
-            'specification_id' => '2',
             'category_id' => 2,
         ]);
 
         $p6->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/lack-coffee-table-black-brown__57537_pe163119_s5.jpg',
-            'type' => ''
         ]);
 
         $p6->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/lack-coffee-table-black-brown__0836233_pe601379_s5.jpg',
-            'type' => ''
         ]);
 
         $p6->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/lack-coffee-table-black-brown__0258008_pe401976_s5.jpg',
-            'type' => ''
         ]);
 
         $p6->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/lack-coffee-table-black-brown__0664928_pe712923_s5.jpg',
-            'type' => ''
         ]);
 
         $p6->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/lack-coffee-table-black-brown__1083778_pe859098_s5.jpg',
-            'type' => ''
         ]);
 
         $p7 = Product::create([
@@ -329,33 +278,27 @@ class ProductSeeder extends Seeder
             'description' => 'This LACK table in white is easy to match with other furnishings. Thanks to the unique construction, it’s easy to assemble, lift and move around - and we can keep the prices down, so your spirits go up.',
             'source' => 'https://www.ikea.com/us/en/p/lack-coffee-table-white-80449901/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/lack-coffee-table-white__0750651_pe746801_s5.jpg',
-            'specification_id' => '2',
             'category_id' => 2,
         ]);
 
         $p7->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/lack-coffee-table-white__0750651_pe746801_s5.jpg',
-            'type' => 'LIFESTYLE IMAGE'
         ]);
 
         $p7->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/lack-coffee-table-white__0702214_pe724347_s5.jpg',
-            'type' => 'LIFESTYLE IMAGE'
         ]);
 
         $p7->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/lack-coffee-table-white__0702213_pe724351_s5.jpg',
-            'type' => 'CLOSEUP'
         ]);
 
         $p7->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/lack-coffee-table-white__0664928_pe712923_s5.jpg',
-            'type' => 'SPECIFICATIONS'
         ]);
 
         $p7->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/lack-coffee-table-white__1083778_pe859098_s5.jpg',
-            'type' => ''
         ]);
 
         $p8 = Product::create([
@@ -366,38 +309,31 @@ class ProductSeeder extends Seeder
             'description' => 'LACK tables have a unique construction in paper that makes them light, easy to move and stable at the same time. To enhance your mood even more, we also keep the price down.',
             'source' => '',
             'image_url' => 'https://www.ikea.com/us/en/images/products/lack-coffee-table-white-stained-oak-effect__0708822_pe726753_s5.jpg',
-            'specification_id' => '2',
             'category_id' => 2,
         ]);
 
         $p8->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/lack-coffee-table-white-stained-oak-effect__0708822_pe726753_s5.jpg',
-            'type' => 'MAIN IMAGE'
         ]);
 
         $p8->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/lack-coffee-table-white-stained-oak-effect__0837100_pe709586_s5.jpg',
-            'type' => ''
         ]);
 
         $p8->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/lack-coffee-table-white-stained-oak-effect__0918237_ph163104_s5.jpg',
-            'type' => ''
         ]);
 
         $p8->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/lack-coffee-table-white-stained-oak-effect__0411540_pe570465_s5.jpg',
-            'type' => ''
         ]);
 
         $p8->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/lack-coffee-table-white-stained-oak-effect__0664928_pe712923_s5.jpg',
-            'type' => ''
         ]);
 
         $p8->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/lack-coffee-table-white-stained-oak-effect__1083778_pe859098_s5.jpg',
-            'type' => ''
         ]);
 
         $vc2->products()->attach($p6->id);
@@ -412,33 +348,27 @@ class ProductSeeder extends Seeder
             'description' => 'Comfy seating throughout the home gives a relaxed feel – and with airy PELLO armchair you can easily create your comfort zones everywhere. The secrets are good back support and a slightly resilient frame!',
             'source' => '',
             'image_url' => 'https://www.ikea.com/us/en/images/products/pello-armchair-holmby-natural__38296_pe130209_s5.jpg',
-            'specification_id' => '3',
             'category_id' => 1,
         ]);
 
         $p9->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/pello-armchair-holmby-natural__38296_pe130209_s5.jpg',
-            'type' => 'MAIN IMAGE'
         ]);
 
         $p9->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/pello-armchair-holmby-natural__0841137_pe600889_s5.jpg',
-            'type' => ''
         ]);
 
         $p9->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/pello-armchair-holmby-natural__0446408_pe596512_s5.jpg',
-            'type' => ''
         ]);
 
         $p9->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/pello-armchair-holmby-natural__0841133_pe585630_s5.jpg',
-            'type' => ''
         ]);
 
         $p9->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/pello-armchair-holmby-natural__0939999_pe794756_s5.jpg',
-            'type' => 'SPECIFICATIONS'
         ]);
 
         $vc3 = VariationCollection::create();
@@ -451,38 +381,31 @@ class ProductSeeder extends Seeder
             'description' => 'Go for stylish dark tones or brighten up your home with colorful covers. EKERÖ armchair has a sleek, modern look with two side pieces that meet in the back – and lumbar support for added comfort!',
             'source' => 'https://www.ikea.com/us/en/p/ekeroe-armchair-skiftebo-dark-blue-40262877/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/ekeroe-armchair-skiftebo-dark-blue__0204749_pe359788_s5.jpg',
-            'specification_id' => '3',
             'category_id' => 1,
         ]);
 
         $p10->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/ekeroe-armchair-skiftebo-dark-blue__0204749_pe359788_s5.jpg',
-            'type' => ''
         ]);
 
         $p10->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/ekeroe-armchair-skiftebo-dark-blue__0815338_pe772866_s5.jpg',
-            'type' => ''
         ]);
 
         $p10->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/ekeroe-armchair-skiftebo-dark-blue__0837671_pe601048_s5.jpg',
-            'type' => ''
         ]);
 
         $p10->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/ekeroe-armchair-skiftebo-dark-blue__0837670_pe596451_s5.jpg',
-            'type' => ''
         ]);
 
         $p10->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/ekeroe-armchair-skiftebo-dark-blue__0837666_pe585573_s5.jpg',
-            'type' => ''
         ]);
 
         $p10->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/ekeroe-armchair-skiftebo-dark-blue__0629853_pe694518_s5.jpg',
-            'type' => ''
         ]);
 
         $p11 = Product::create([
@@ -493,33 +416,27 @@ class ProductSeeder extends Seeder
             'description' => 'Go for stylish dark tones or brighten up your home with colorful covers. EKERÖ armchair has a sleek, modern look with two side pieces that meet in the back – and lumbar support for added comfort!',
             'source' => 'https://www.ikea.com/us/en/p/ekeroe-armchair-skiftebo-dark-gray-90494587/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/ekeroe-armchair-skiftebo-dark-gray__0983033_pe815899_s5.jpg',
-            'specification_id' => '3',
             'category_id' => 1,
         ]);
 
         $p11->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/ekeroe-armchair-skiftebo-dark-gray__0983033_pe815899_s5.jpg',
-            'type' => ''
         ]);
 
         $p11->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/ekeroe-armchair-skiftebo-dark-gray__0951659_pe801307_s5.jpg',
-            'type' => ''
         ]);
 
         $p11->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/ekeroe-armchair-skiftebo-dark-gray__0951660_pe801308_s5.jpg',
-            'type' => ''
         ]);
 
         $p11->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/ekeroe-armchair-skiftebo-dark-gray__0951661_pe801305_s5.jpg',
-            'type' => ''
         ]);
 
         $p11->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/ekeroe-armchair-skiftebo-dark-gray__0629853_pe694518_s5.jpg',
-            'type' => ''
         ]);
 
         $p12 = Product::create([
@@ -530,33 +447,27 @@ class ProductSeeder extends Seeder
             'description' => 'Go for stylish dark tones or brighten up your home with colorful covers. EKERÖ armchair has a sleek, modern look with two side pieces that meet in the back – and lumbar support for added comfort!',
             'source' => 'https://www.ikea.com/us/en/p/ekeroe-armchair-skiftebo-orange-90262889/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/ekeroe-armchair-skiftebo-orange__0204751_pe359789_s5.jpg',
-            'specification_id' => '3',
             'category_id' => 1,
         ]);
 
         $p12->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/ekeroe-armchair-skiftebo-orange__0204751_pe359789_s5.jpg',
-            'type' => ''
         ]);
 
         $p12->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/ekeroe-armchair-skiftebo-orange__0836451_pe600874_s5.jpg',
-            'type' => ''
         ]);
 
         $p12->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/ekeroe-armchair-skiftebo-orange__0836450_pe596458_s5.jpg',
-            'type' => ''
         ]);
 
         $p12->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/ekeroe-armchair-skiftebo-orange__0836447_pe585553_s5.jpg',
-            'type' => ''
         ]);
 
         $p12->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/ekeroe-armchair-skiftebo-orange__0629853_pe694518_s5.jpg',
-            'type' => ''
         ]);
 
         $p13 = Product::create([
@@ -567,33 +478,27 @@ class ProductSeeder extends Seeder
             'description' => 'Go for stylish dark tones or brighten up your home with colorful covers. EKERÖ armchair has a sleek, modern look with two side pieces that meet in the back – and lumbar support for added comfort!',
             'source' => 'https://www.ikea.com/us/en/p/ekeroe-armchair-skiftebo-yellow-70262890/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/ekeroe-armchair-skiftebo-yellow__0204753_pe359787_s5.jpg',
-            'specification_id' => '3',
             'category_id' => 1,
         ]);
 
         $p13->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/ekeroe-armchair-skiftebo-yellow__0204753_pe359787_s5.jpg',
-            'type' => ''
         ]);
 
         $p13->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/ekeroe-armchair-skiftebo-yellow__1116442_pe872500_s5.jpg',
-            'type' => ''
         ]);
 
         $p13->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/ekeroe-armchair-skiftebo-yellow__0836444_pe596409_s5.jpg',
-            'type' => ''
         ]);
 
         $p13->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/ekeroe-armchair-skiftebo-yellow__0836443_pe585554_s5.jpg',
-            'type' => ''
         ]);
 
         $p13->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/ekeroe-armchair-skiftebo-yellow__0629853_pe694518_s5.jpg',
-            'type' => ''
         ]);
 
         $p14 = Product::create([
@@ -604,33 +509,27 @@ class ProductSeeder extends Seeder
             'description' => 'Go for stylish dark tones or brighten up your home with colorful covers. EKERÖ armchair has a sleek, modern look with two side pieces that meet in the back – and lumbar support for added comfort!',
             'source' => 'https://www.ikea.com/us/en/p/ekeroe-armchair-bomstad-black-30494590/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/ekeroe-armchair-bomstad-black__0951654_pe801302_s5.jpg',
-            'specification_id' => '3',
             'category_id' => 1,
         ]);
 
         $p14->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/ekeroe-armchair-bomstad-black__0951654_pe801302_s5.jpg',
-            'type' => ''
         ]);
 
         $p14->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/ekeroe-armchair-bomstad-black__1019350_ph144345_s5.jpg',
-            'type' => ''
         ]);
 
         $p14->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/ekeroe-armchair-bomstad-black__0951656_pe801304_s5.jpg',
-            'type' => ''
         ]);
 
         $p14->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/ekeroe-armchair-bomstad-black__0951657_pe801309_s5.jpg',
-            'type' => ''
         ]);
 
         $p14->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/ekeroe-armchair-bomstad-black__0629853_pe694518_s5.jpg',
-            'type' => ''
         ]);
 
         $vc3->products()->attach($p10->id);
@@ -649,43 +548,35 @@ class ProductSeeder extends Seeder
             'description' => 'This easy chair makes us believe in love at first sight, with its clean Scandinavian lines and airy expression. Smart production minimizes environmental impact and price – and maximizes acessibility!',
             'source' => 'https://www.ikea.com/us/en/p/froeset-chair-black-stained-oak-veneer-40423559/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/froeset-chair-white-stained-oak-veneer__0824154_pe776005_s5.jpg',
-            'specification_id' => '4',
             'category_id' => 3,
         ]);
 
         $p15->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/froeset-chair-white-stained-oak-veneer__0824154_pe776005_s5.jpg',
-            'type' => ''
         ]);
 
         $p15->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/froeset-chair-white-stained-oak-veneer__0932440_ph170243_s5.jpg',
-            'type' => ''
         ]);
 
         $p15->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/froeset-chair-white-stained-oak-veneer__0937802_pe793856_s5.jpg',
-            'type' => ''
         ]);
 
         $p15->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/froeset-chair-white-stained-oak-veneer__0985867_pe816848_s5.jpg',
-            'type' => ''
         ]);
 
         $p15->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/froeset-chair-white-stained-oak-veneer__0932441_ph170242_s5.jpg',
-            'type' => ''
         ]);
 
         $p15->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/froeset-chair-white-stained-oak-veneer__0832032_pe777564_s5.jpg',
-            'type' => ''
         ]);
 
         $p15->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/froeset-chair-white-stained-oak-veneer__0832958_pe777903_s5.jpg',
-            'type' => ''
         ]);
 
         $p16 = Product::create([
@@ -696,38 +587,31 @@ class ProductSeeder extends Seeder
             'description' => 'This easy chair makes us believe in love at first sight, with its clean Scandinavian lines and airy expression. Smart production minimizes environmental impact and price – and maximizes acessibility!',
             'source' => 'https://www.ikea.com/us/en/p/froeset-chair-black-stained-oak-veneer-40423559/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/froeset-chair-black-stained-oak-veneer__0824150_pe776003_s5.jpg',
-            'specification_id' => '4',
             'category_id' => 3,
         ]);
 
         $p16->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/froeset-chair-black-stained-oak-veneer__0824150_pe776003_s5.jpg',
-            'type' => ''
         ]);
 
         $p16->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/froeset-chair-black-stained-oak-veneer__0932440_ph170243_s5.jpg',
-            'type' => ''
         ]);
 
         $p16->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/froeset-chair-black-stained-oak-veneer__0937800_pe793855_s5.jpg',
-            'type' => ''
         ]);
 
         $p16->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/froeset-chair-black-stained-oak-veneer__0985892_pe816864_s5.jpg',
-            'type' => ''
         ]);
 
         $p16->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/froeset-chair-black-stained-oak-veneer__0832028_pe777560_s5.jpg',
-            'type' => ''
         ]);
 
         $p16->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/froeset-chair-black-stained-oak-veneer__0832958_pe777903_s5.jpg',
-            'type' => ''
         ]);
 
         $p17 = Product::create([
@@ -738,38 +622,31 @@ class ProductSeeder extends Seeder
             'description' => 'This easy chair makes us believe in love at first sight, with its clean Scandinavian lines and airy expression. Smart production minimizes environmental impact and price – and maximizes acessibility!',
             'source' => 'https://www.ikea.com/us/en/p/froeset-chair-red-stained-oak-veneer-20429604/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/froeset-chair-red-stained-oak-veneer__0832018_pe777555_s5.jpg',
-            'specification_id' => '4',
             'category_id' => 3,
         ]);
 
         $p17->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/froeset-chair-red-stained-oak-veneer__0832018_pe777555_s5.jpg',
-            'type' => ''
         ]);
 
         $p17->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/froeset-chair-red-stained-oak-veneer__0932440_ph170243_s5.jpg',
-            'type' => ''
         ]);
 
         $p17->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/froeset-chair-red-stained-oak-veneer__0937801_pe793857_s5.jpg',
-            'type' => ''
         ]);
 
         $p17->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/froeset-chair-red-stained-oak-veneer__0987428_pe817525_s5.jpg',
-            'type' => ''
         ]);
 
         $p17->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/froeset-chair-red-stained-oak-veneer__0832029_pe777563_s5.jpg',
-            'type' => ''
         ]);
 
         $p17->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/froeset-chair-red-stained-oak-veneer__0832958_pe777903_s5.jpg',
-            'type' => ''
         ]);
 
         $vc4->products()->attach($p15->id);
@@ -786,48 +663,39 @@ class ProductSeeder extends Seeder
             'description' => 'Pamper yourself with a moment of comfy me-time. With this neat recliner you can choose if you want to sit upright, lean back or lie down for a quick nap – and put two together for some we-time!',
             'source' => 'https://www.ikea.com/us/en/p/gistad-recliner-bomstad-black-20450426/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/gistad-recliner-bomstad-black__0789918_pe764203_s5.jpg',
-            'specification_id' => '5',
             'category_id' => 1,
         ]);
 
         $p18->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/gistad-recliner-bomstad-black__0789918_pe764203_s5.jpg',
-            'type' => ''
         ]);
 
         $p18->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/gistad-recliner-bomstad-black__0792176_pe764673_s5.jpg',
-            'type' => ''
         ]);
 
         $p18->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/gistad-recliner-bomstad-black__0789917_pe764202_s5.jpg',
-            'type' => ''
         ]);
 
         $p18->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/gistad-recliner-bomstad-black__0805112_pe769444_s5.jpg',
-            'type' => ''
         ]);
 
         $p18->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/gistad-recliner-bomstad-black__0789916_pe764204_s5.jpg',
-            'type' => ''
         ]);
 
         $p18->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/gistad-recliner-bomstad-black__0789915_pe764201_s5.jpg',
-            'type' => ''
         ]);
 
         $p18->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/gistad-recliner-bomstad-black__0789914_pe764200_s5.jpg',
-            'type' => ''
         ]);
 
         $p18->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/gistad-recliner-bomstad-black__0796277_pe766322_s5.jpg',
-            'type' => ''
         ]);
 
         $p19 = Product::create([
@@ -838,48 +706,39 @@ class ProductSeeder extends Seeder
             'description' => 'Pamper yourself with a moment of comfy me-time. With this neat recliner you can choose if you want to sit upright, lean back or lie down for a quick nap – and put two together for some we-time!',
             'source' => 'https://www.ikea.com/us/en/p/gistad-recliner-idekulla-dark-red-60466388/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/gistad-recliner-idekulla-dark-red__0789931_pe764213_s5.jpg',
-            'specification_id' => '5',
             'category_id' => 1,
         ]);
 
         $p19->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/gistad-recliner-idekulla-dark-red__0789931_pe764213_s5.jpg',
-            'type' => ''
         ]);
 
         $p19->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/gistad-recliner-idekulla-dark-red__0792177_pe764674_s5.jpg',
-            'type' => ''
         ]);
 
         $p19->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/gistad-recliner-idekulla-dark-red__0789929_pe764214_s5.jpg',
-            'type' => ''
         ]);
 
         $p19->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/gistad-recliner-idekulla-dark-red__0945233_ph170069_s5.jpg',
-            'type' => ''
         ]);
 
         $p19->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/gistad-recliner-idekulla-dark-red__0834169_ph168535_s5.jpg',
-            'type' => ''
         ]);
 
         $p19->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/gistad-recliner-idekulla-dark-red__0833201_ph168539_s5.jpg',
-            'type' => ''
         ]);
 
         $p19->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/gistad-recliner-idekulla-dark-red__0833202_ph168491_s5.jpg',
-            'type' => ''
         ]);
 
         $p19->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/gistad-recliner-idekulla-dark-red__0796277_pe766322_s5.jpg',
-            'type' => ''
         ]);
 
         $vc5->products()->attach($p18->id);
@@ -893,38 +752,31 @@ class ProductSeeder extends Seeder
             'description' => 'Made of hand-woven rattan, a living material that makes each AGEN armchair unique. It\'s airy, comfortable to sit in and easy to move around thanks to its low weight. A great way to invite nature into your home.',
             'source' => 'https://www.ikea.com/us/en/p/agen-armchair-rattan-bamboo-50058376/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/agen-armchair-rattan-bamboo__31428_pe120743_s5.jpg',
-            'specification_id' => '6',
             'category_id' => 3,
         ]);
 
         $p20->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/agen-armchair-rattan-bamboo__31428_pe120743_s5.jpg',
-            'type' => ''
         ]);
 
         $p20->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/agen-armchair-rattan-bamboo__1139258_ph173578_s5.jpg',
-            'type' => ''
         ]);
 
         $p20->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/agen-armchair-rattan-bamboo__1059381_ph174044_s5.jpg',
-            'type' => ''
         ]);
 
         $p20->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/agen-armchair-rattan-bamboo__0257247_pe401562_s5.jpg',
-            'type' => ''
         ]);
 
         $p20->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/agen-armchair-rattan-bamboo__0841129_pe585560_s5.jpg',
-            'type' => ''
         ]);
 
         $p20->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/agen-armchair-rattan-bamboo__1059350_pe849593_s5.jpg',
-            'type' => ''
         ]);
 
         $vc6 = VariationCollection::create();
@@ -937,33 +789,27 @@ class ProductSeeder extends Seeder
             'description' => 'Beautiful simplicity and a casual style. This flexible, versatile easy chair with an airy design adds a visual calmness to the room, while supporting both an active and a relaxed life at home.',
             'source' => 'https://www.ikea.com/us/en/p/linnebaeck-chair-orrsta-light-gray-70487234/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/linnebaeck-chair-orrsta-light-gray__0933452_pe791908_s5.jpg',
-            'specification_id' => '7',
             'category_id' => 3,
         ]);
 
         $p21->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/linnebaeck-chair-orrsta-light-gray__0933452_pe791908_s5.jpg',
-            'type' => ''
         ]);
 
         $p21->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/linnebaeck-chair-orrsta-light-gray__0940713_pe795126_s5.jpg',
-            'type' => ''
         ]);
 
         $p21->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/linnebaeck-chair-orrsta-light-gray__0936412_pe793245_s5.jpg',
-            'type' => ''
         ]);
 
         $p21->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/linnebaeck-chair-orrsta-light-gray__0936413_pe793244_s5.jpg',
-            'type' => ''
         ]);
 
         $p21->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/linnebaeck-chair-orrsta-light-gray__0971937_pe811480_s5.jpg',
-            'type' => ''
         ]);
 
 
@@ -975,43 +821,35 @@ class ProductSeeder extends Seeder
             'description' => 'Beautiful simplicity and a casual style. This flexible, versatile easy chair with an airy design adds a visual calmness to the room, while supporting both an active and a relaxed life at home.',
             'source' => 'https://www.ikea.com/us/en/p/linnebaeck-chair-orrsta-olive-green-10487232/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/linnebaeck-chair-orrsta-olive-green__0933454_pe791910_s5.jpg',
-            'specification_id' => '7',
             'category_id' => 3,
         ]);
 
         $p22->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/linnebaeck-chair-orrsta-olive-green__0933454_pe791910_s5.jpg',
-            'type' => ''
         ]);
 
         $p22->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/linnebaeck-chair-orrsta-olive-green__0940727_pe795130_s5.jpg',
-            'type' => ''
         ]);
 
         $p22->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/linnebaeck-chair-orrsta-olive-green__1113921_ph180590_s5.jpg',
-            'type' => ''
         ]);
 
         $p22->images()->create([
             'image_url' => 'https://ikea.com/us/en/images/products/linnebaeck-chair-orrsta-olive-green__0936414_pe793247_s5.jpg',
-            'type' => ''
         ]);
 
         $p22->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/linnebaeck-chair-orrsta-olive-green__0936415_pe793246_s5.jpg',
-            'type' => ''
         ]);
 
         $p22->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/linnebaeck-chair-orrsta-olive-green__1113919_ph180591_s5.jpg',
-            'type' => ''
         ]);
 
         $p22->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/linnebaeck-chair-orrsta-olive-green__0971937_pe811480_s5.jpg',
-            'type' => ''
         ]);
 
         $p23 = Product::create([
@@ -1022,43 +860,35 @@ class ProductSeeder extends Seeder
             'description' => 'Beautiful simplicity and a casual style. This flexible, versatile easy chair with an airy design adds a visual calmness to the room, while supporting both an active and a relaxed life at home.',
             'source' => 'https://www.ikea.com/us/en/p/linnebaeck-chair-vissle-dark-gray-50487225/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/linnebaeck-chair-vissle-dark-gray__0933456_pe791909_s5.jpg',
-            'specification_id' => '7',
             'category_id' => 3,
         ]);
 
         $p23->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/linnebaeck-chair-vissle-dark-gray__0933456_pe791909_s5.jpg',
-            'type' => ''
         ]);
 
         $p23->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/linnebaeck-chair-vissle-dark-gray__0940732_pe795133_s5.jpg',
-            'type' => ''
         ]);
 
         $p23->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/linnebaeck-chair-vissle-dark-gray__0936417_pe793249_s5.jpg',
-            'type' => ''
         ]);
 
         $p23->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/linnebaeck-chair-vissle-dark-gray__1043301_ph176051_s5.jpg',
-            'type' => ''
         ]);
 
         $p23->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/linnebaeck-chair-vissle-dark-gray__1043300_ph176052_s5.jpg',
-            'type' => ''
         ]);
 
         $p23->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/linnebaeck-chair-vissle-dark-gray__0936418_pe793248_s5.jpg',
-            'type' => ''
         ]);
 
         $p23->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/linnebaeck-chair-vissle-dark-gray__0971937_pe811480_s5.jpg',
-            'type' => ''
         ]);
 
         $vc6->products()->attach($p21->id);
@@ -1075,43 +905,35 @@ class ProductSeeder extends Seeder
             'description' => 'Take a seat in MUREN recliner and get a pleasant surprise. It is adjustable to three positions and comes with an inbuilt footstool. While sitting, use your back to press against the backrest - it lowers and the footstool lifts up. Now relax and enjoy!',
             'source' => 'https://www.ikea.com/us/en/p/muren-recliner-remmarn-dark-gray-80438554/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/muren-recliner-remmarn-dark-gray__0908536_pe783303_s5.jpg',
-            'specification_id' => '8',
             'category_id' => 1,
         ]);
 
         $p24->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/muren-recliner-remmarn-dark-gray__0908536_pe783303_s5.jpg',
-            'type' => ''
         ]);
 
         $p24->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/muren-recliner-remmarn-dark-gray__0908535_pe783268_s5.jpg',
-            'type' => ''
         ]);
 
         $p24->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/muren-recliner-remmarn-dark-gray__0908537_pe783270_s5.jpg',
-            'type' => ''
         ]);
 
         $p24->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/muren-recliner-remmarn-dark-gray__0908538_pe783271_s5.jpg',
-            'type' => ''
         ]);
 
         $p24->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/muren-recliner-remmarn-dark-gray__0908540_pe783273_s5.jpg',
-            'type' => ''
         ]);
 
         $p24->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/muren-recliner-remmarn-dark-gray__0908539_pe783272_s5.jpg',
-            'type' => ''
         ]);
 
         $p24->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/muren-recliner-remmarn-dark-gray__0681591_pe720190_s5.jpg',
-            'type' => ''
         ]);
 
         $p25 = Product::create([
@@ -1122,43 +944,35 @@ class ProductSeeder extends Seeder
             'description' => 'Take a seat in MUREN recliner and get a pleasant surprise. It is adjustable to three positions and comes with an inbuilt footstool. While sitting, use your back to press against the backrest - it lowers and the footstool lifts up. Now relax and enjoy!',
             'source' => 'https://www.ikea.com/us/en/p/muren-recliner-remmarn-light-gray-60438550/',
             'image_url' => 'https://ikea.com/us/en/images/products/muren-recliner-remmarn-light-gray__0908542_pe783275_s5.jpg',
-            'specification_id' => '8',
             'category_id' => 1,
         ]);
 
         $p25->images()->create([
             'image_url' => 'https://ikea.com/us/en/images/products/muren-recliner-remmarn-light-gray__0908542_pe783275_s5.jpg',
-            'type' => ''
         ]);
 
         $p25->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/muren-recliner-remmarn-light-gray__0908541_pe783274_s5.jpg',
-            'type' => ''
         ]);
 
         $p25->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/muren-recliner-remmarn-light-gray__0908544_pe783277_s5.jpg',
-            'type' => ''
         ]);
 
         $p25->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/muren-recliner-remmarn-light-gray__0908543_pe783276_s5.jpg',
-            'type' => ''
         ]);
 
         $p25->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/muren-recliner-remmarn-light-gray__0908545_pe783278_s5.jpg',
-            'type' => ''
         ]);
 
         $p25->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/muren-recliner-remmarn-light-gray__0908546_pe783279_s5.jpg',
-            'type' => ''
         ]);
 
         $p25->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/muren-recliner-remmarn-light-gray__0681591_pe720190_s5.jpg',
-            'type' => ''
         ]);
 
         $vc7->products()->attach($p24->id);
@@ -1172,48 +986,39 @@ class ProductSeeder extends Seeder
             'description' => 'Small spaces need smart storage. This wardrobe has a clothes rail for shirts and dresses, an inner shelf for folded clothes like t-shirts and sweaters – and there is also room to hang your long clothes.',
             'source' => 'https://www.ikea.com/us/en/p/brimnes-wardrobe-with-2-doors-white-30574799/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/brimnes-wardrobe-with-2-doors-white__1268948_pe928889_s5.jpg',
-            'specification_id' => '9',
             'category_id' => 6,
         ]);
 
         $p26->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/brimnes-wardrobe-with-2-doors-white__1268948_pe928889_s5.jpg',
-            'type' => ''
         ]);
 
         $p26->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/brimnes-wardrobe-with-2-doors-white__1268944_pe928902_s5.jpg',
-            'type' => ''
         ]);
 
         $p26->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/brimnes-wardrobe-with-2-doors-white__1268945_pe928903_s5.jpg',
-            'type' => ''
         ]);
 
         $p26->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/brimnes-wardrobe-with-2-doors-white__1268946_pe928904_s5.jpg',
-            'type' => ''
         ]);
 
         $p26->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/brimnes-wardrobe-with-2-doors-white__0778225_pe758860_s5.jpg',
-            'type' => ''
         ]);
 
         $p26->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/brimnes-wardrobe-with-2-doors-white__1268947_pe928905_s5.jpg',
-            'type' => ''
         ]);
 
         $p26->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/brimnes-wardrobe-with-2-doors-white__0380433_pe555354_s5.jpg',
-            'type' => ''
         ]);
 
         $p26->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/brimnes-wardrobe-with-2-doors-white__1246508_pe922171_s5.jpg',
-            'type' => ''
         ]);
 
         $p27 = Product::create([
@@ -1224,38 +1029,31 @@ class ProductSeeder extends Seeder
             'description' => 'Simple and smart! When all you need is a wardrobe with all the basic functions. If storage space is still not enough, why not add another wardrobe from the KLEPPSTAD series?',
             'source' => 'https://www.ikea.com/us/en/p/kleppstad-wardrobe-with-3-doors-white-20441757/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/kleppstad-wardrobe-with-3-doors-white__0753594_pe748782_s5.jpg',
-            'specification_id' => '10',
-            'category_id' => 6,
+             'category_id' => 6,
         ]);
 
         $p27->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/kleppstad-wardrobe-with-3-doors-white__0753594_pe748782_s5.jpg',
-            'type' => ''
         ]);
 
         $p27->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/kleppstad-wardrobe-with-3-doors-white__1276202_ph170507_s5.jpg',
-            'type' => ''
         ]);
 
         $p27->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/kleppstad-wardrobe-with-3-doors-white__0813670_ph165843_s5.jpg',
-            'type' => ''
         ]);
 
         $p27->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/kleppstad-wardrobe-with-3-doors-white__0824204_pe776026_s5.jpg',
-            'type' => ''
         ]);
 
         $p27->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/kleppstad-wardrobe-with-3-doors-white__0753595_pe748783_s5.jpg',
-            'type' => ''
         ]);
 
         $p27->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/kleppstad-wardrobe-with-3-doors-white__0789783_pe764172_s5.jpg',
-            'type' => ''
         ]);
 
         $p28 = Product::create([
@@ -1266,28 +1064,23 @@ class ProductSeeder extends Seeder
             'description' => 'Simple and smart! When all you need is a wardrobe with all the basic functions. If storage space is still not enough, why not add another wardrobe from the RAKKESTAD series?',
             'source' => 'https://www.ikea.com/us/en/p/rakkestad-wardrobe-with-3-doors-black-brown-00453765/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/rakkestad-wardrobe-with-3-doors-black-brown__0823987_pe776018_s5.jpg',
-            'specification_id' => '11',
-            'category_id' => 6,
+             'category_id' => 6,
         ]);
 
         $p28->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/rakkestad-wardrobe-with-3-doors-black-brown__0823987_pe776018_s5.jpg',
-            'type' => ''
         ]);
 
         $p28->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/rakkestad-wardrobe-with-3-doors-black-brown__0823988_pe776019_s5.jpg',
-            'type' => ''
         ]);
 
         $p28->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/rakkestad-wardrobe-with-3-doors-black-brown__0823989_pe776020_s5.jpg',
-            'type' => ''
         ]);
 
         $p28->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/rakkestad-wardrobe-with-3-doors-black-brown__0789783_pe764172_s5.jpg',
-            'type' => ''
         ]);
 
         $vc8 = VariationCollection::create();
@@ -1300,28 +1093,23 @@ class ProductSeeder extends Seeder
             'description' => 'The classic design with panelled doors never goes out of style. Are you on your way? Use the full-length mirror so you can see your outfit from head to toe. Psst! Please attach to the wall.',
             'source' => 'https://www.ikea.com/us/en/p/songesand-wardrobe-brown-90394559/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/songesand-wardrobe-brown__0555114_pe660180_s5.jpg',
-            'specification_id' => '12',
-            'category_id' => 6,
+             'category_id' => 6,
         ]);
 
         $p29->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/songesand-wardrobe-brown__0555114_pe660180_s5.jpg',
-            'type' => ''
         ]);
 
         $p29->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/songesand-wardrobe-brown__0858553_pe660181_s5.jpg',
-            'type' => ''
         ]);
 
         $p29->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/songesand-wardrobe-brown__0858559_pe660182_s5.jpg',
-            'type' => ''
         ]);
 
         $p29->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/songesand-wardrobe-brown__0858565_pe660183_s5.jpg',
-            'type' => ''
         ]);
 
         $p30 = Product::create([
@@ -1332,33 +1120,27 @@ class ProductSeeder extends Seeder
             'description' => 'The classic design with panelled doors never goes out of style. Are you on your way? Use the full-length mirror so you can see your outfit from head to toe. Psst! Please attach to the wall.',
             'source' => 'https://www.ikea.com/us/en/p/songesand-wardrobe-white-10394558/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/songesand-wardrobe-white__0555120_pe660185_s5.jpg',
-            'specification_id' => '12',
-            'category_id' => 6,
+             'category_id' => 6,
         ]);
 
         $p30->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/songesand-wardrobe-white__0555120_pe660185_s5.jpg',
-            'type' => ''
         ]);
 
         $p30->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/songesand-wardrobe-white__0858618_pe660187_s5.jpg',
-            'type' => ''
         ]);
 
         $p30->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/songesand-wardrobe-white__0818036_ph167731_s5.jpg',
-            'type' => ''
         ]);
 
         $p30->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/songesand-wardrobe-white__0858614_pe660184_s5.jpg',
-            'type' => ''
         ]);
 
         $p30->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/songesand-wardrobe-white__0789904_pe764192_s5.jpg',
-            'type' => ''
         ]);
 
         $vc8->products()->attach($p29->id);
@@ -1372,38 +1154,31 @@ class ProductSeeder extends Seeder
             'description' => 'Simple and smart! When all you need is a wardrobe with all the basic functions. If storage space is still not enough, why not add another wardrobe from the KLEPPSTAD series?',
             'source' => 'https://www.ikea.com/us/en/p/kleppstad-wardrobe-with-sliding-doors-white-90437238/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/kleppstad-wardrobe-with-sliding-doors-white__0823547_pe775917_s5.jpg',
-            'specification_id' => '13',
-            'category_id' => 6,
+             'category_id' => 6,
         ]);
 
         $p31->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/kleppstad-wardrobe-with-sliding-doors-white__0823547_pe775917_s5.jpg',
-            'type' => ''
         ]);
 
         $p31->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/kleppstad-wardrobe-with-sliding-doors-white__1276204_ph192051_s5.jpg',
-            'type' => ''
         ]);
 
         $p31->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/kleppstad-wardrobe-with-sliding-doors-white__1276203_ph193172_s5.jpg',
-            'type' => ''
         ]);
 
         $p31->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/kleppstad-wardrobe-with-sliding-doors-white__0824204_pe776026_s5.jpg',
-            'type' => ''
         ]);
 
         $p31->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/kleppstad-wardrobe-with-sliding-doors-white__0823548_pe775916_s5.jpg',
-            'type' => ''
         ]);
 
         $p31->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/kleppstad-wardrobe-with-sliding-doors-white__0946835_pe798278_s5.jpg',
-            'type' => ''
         ]);
 
         $vc9 = VariationCollection::create();
@@ -1416,38 +1191,31 @@ class ProductSeeder extends Seeder
             'description' => 'A black-brown TV bench with both shelves and drawers, as well as open and closed storage. A neat piece of furniture that fits almost anywhere and has space for pretty much all of your TV-equipment.',
             'source' => 'https://www.ikea.com/us/en/p/hemnes-tv-unit-black-brown-30334506/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/hemnes-tv-unit-black-brown__0625361_pe692211_s5.jpg',
-            'specification_id' => '14',
-            'category_id' => 4,
+             'category_id' => 4,
         ]);
 
         $p32->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/hemnes-tv-unit-black-brown__0625361_pe692211_s5.jpg',
-            'type' => ''
         ]);
 
         $p32->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/hemnes-tv-unit-black-brown__0679553_pe719634_s5.jpg',
-            'type' => ''
         ]);
 
         $p32->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/hemnes-tv-unit-black-brown__0803357_pe768854_s5.jpg',
-            'type' => ''
         ]);
 
         $p32->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/hemnes-tv-unit-black-brown__0679554_pe719633_s5.jpg',
-            'type' => ''
         ]);
 
         $p32->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/hemnes-tv-unit-black-brown__0978642_pe814195_s5.jpg',
-            'type' => ''
         ]);
 
         $p32->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/hemnes-tv-unit-black-brown__1257804_pe926043_s5.jpg',
-            'type' => ''
         ]);
 
         $p33 = Product::create([
@@ -1458,33 +1226,27 @@ class ProductSeeder extends Seeder
             'description' => 'Sustainable beauty from sustainably-sourced solid pine, a natural and renewable material that gets more beautiful with each passing year. Like it? Combine with other products in the HEMNES series.',
             'source' => 'https://www.ikea.com/us/en/p/hemnes-tv-unit-dark-gray-stained-90381731/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/hemnes-tv-unit-dark-gray-stained__0531274_pe647229_s5.jpg',
-            'specification_id' => '14',
-            'category_id' => 4,
+             'category_id' => 4,
         ]);
 
         $p33->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/hemnes-tv-unit-dark-gray-stained__0531274_pe647229_s5.jpg',
-            'type' => ''
         ]);
 
         $p33->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/hemnes-tv-unit-dark-gray-stained__0851330_pe647231_s5.jpg',
-            'type' => ''
         ]);
 
         $p33->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/hemnes-tv-unit-dark-gray-stained__0803359_pe768856_s5.jpg',
-            'type' => ''
         ]);
 
         $p33->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/hemnes-tv-unit-dark-gray-stained__0850385_pe671757_s5.jpg',
-            'type' => ''
         ]);
 
         $p33->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/hemnes-tv-unit-dark-gray-stained__0978642_pe814195_s5.jpg',
-            'type' => ''
         ]);
 
         $p34 = Product::create([
@@ -1495,38 +1257,31 @@ class ProductSeeder extends Seeder
             'description' => 'A white-stained TV bench with both shelves and drawers, as well as open and closed storage. A neat piece of furniture that fits almost anywhere and has space for pretty much all of your TV-equipment.',
             'source' => 'https://www.ikea.com/us/en/p/hemnes-tv-unit-white-stain-40349569/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/hemnes-tv-unit-white-stain__0644455_pe702706_s5.jpg',
-            'specification_id' => '14',
-            'category_id' => 4,
+             'category_id' => 4,
         ]);
 
         $p34->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/hemnes-tv-unit-white-stain__0644455_pe702706_s5.jpg',
-            'type' => ''
         ]);
 
         $p34->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/hemnes-tv-unit-white-stain__0679567_pe719638_s5.jpg',
-            'type' => ''
         ]);
 
         $p34->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/hemnes-tv-unit-white-stain__0803358_pe768857_s5.jpg',
-            'type' => ''
         ]);
 
         $p34->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/hemnes-tv-unit-white-stain__0164867_pe316751_s5.jpg',
-            'type' => ''
         ]);
 
         $p34->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/hemnes-tv-unit-white-stain__0978642_pe814195_s5.jpg',
-            'type' => ''
         ]);
 
         $p34->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/hemnes-tv-unit-white-stain__1257804_pe926043_s5.jpg',
-            'type' => ''
         ]);
 
         $p35 = Product::create([
@@ -1537,38 +1292,31 @@ class ProductSeeder extends Seeder
             'description' => 'Sustainable beauty from sustainably-sourced solid pine, a natural and renewable material that gets more beautiful with each passing year. Like it? Combine with other products in the HEMNES series.',
             'source' => 'https://www.ikea.com/us/en/p/hemnes-tv-unit-white-stain-light-brown-10413528/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/hemnes-tv-unit-white-stain-light-brown__0583377_pe671187_s5.jpg',
-            'specification_id' => '14',
-            'category_id' => 4,
+             'category_id' => 4,
         ]);
 
         $p35->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/hemnes-tv-unit-white-stain-light-brown__0583377_pe671187_s5.jpg',
-            'type' => ''
         ]);
 
         $p35->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/hemnes-tv-unit-white-stain-light-brown__0850139_pe671188_s5.jpg',
-            'type' => ''
         ]);
 
         $p35->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/hemnes-tv-unit-white-stain-light-brown__0803360_pe768855_s5.jpg',
-            'type' => ''
         ]);
 
         $p35->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/hemnes-tv-unit-white-stain-light-brown__0164867_pe316751_s5.jpg',
-            'type' => ''
         ]);
 
         $p35->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/hemnes-tv-unit-white-stain-light-brown__0978642_pe814195_s5.jpg',
-            'type' => ''
         ]);
 
         $p35->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/hemnes-tv-unit-white-stain-light-brown__1257804_pe926043_s5.jpg',
-            'type' => ''
         ]);
 
         $vc9->products()->attach($p32->id);
@@ -1584,28 +1332,23 @@ class ProductSeeder extends Seeder
             'description' => 'With open storage it\'s easier to get an overview, and with closed storage you can keep things nice and tidy. This TV bench has both, and an adjustable shelf in each section too.',
             'source' => 'https://www.ikea.com/us/en/p/byas-tv-unit-high-gloss-white-80227797/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/byas-tv-unit-high-gloss-white__0644411_pe702653_s5.jpg',
-            'specification_id' => '15',
-            'category_id' => 4,
+             'category_id' => 4,
         ]);
 
         $p36->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/byas-tv-unit-high-gloss-white__0644411_pe702653_s5.jpg',
-            'type' => ''
         ]);
 
         $p36->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/byas-tv-unit-high-gloss-white__0849938_pe560742_s5.jpg',
-            'type' => ''
         ]);
 
         $p36->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/byas-tv-unit-high-gloss-white__0378189_pe322598_s5.jpg',
-            'type' => ''
         ]);
 
         $p36->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/byas-tv-unit-high-gloss-white__0544140_pe654903_s5.jpg',
-            'type' => ''
         ]);
 
         $p37 = Product::create([
@@ -1616,33 +1359,27 @@ class ProductSeeder extends Seeder
             'description' => 'BESTÅ TV bench provides a home for your TV and storage for the gadgets that belong to it. With spacious drawers there’s plenty of space to keep TV games and accessories organized. And it looks tidy too!',
             'source' => 'https://www.ikea.com/us/en/p/besta-burs-tv-unit-high-gloss-white-30269129/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/besta-burs-tv-unit-high-gloss-white__65138_pe175906_s5.jpg',
-            'specification_id' => '16',
-            'category_id' => 4,
+             'category_id' => 4,
         ]);
 
         $p37->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/besta-burs-tv-unit-high-gloss-white__65138_pe175906_s5.jpg',
-            'type' => ''
         ]);
 
         $p37->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/besta-burs-tv-unit-high-gloss-white__0257776_pe402056_s5.jpg',
-            'type' => ''
         ]);
 
         $p37->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/besta-burs-tv-unit-high-gloss-white__0257777_pe402057_s5.jpg',
-            'type' => ''
         ]);
 
         $p37->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/besta-burs-tv-unit-high-gloss-white__0257969_pe402007_s5.jpg',
-            'type' => ''
         ]);
 
         $p37->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/besta-burs-tv-unit-high-gloss-white__1056931_pe848656_s5.jpg',
-            'type' => ''
         ]);
 
         $p38 = Product::create([
@@ -1653,28 +1390,23 @@ class ProductSeeder extends Seeder
             'description' => 'Classic design meets nicely brushed veneer in the TONSTAD series, giving the furniture a unique character. This TV bench has smart, built-in cable management which makes it easy to keep unruly cables hidden.',
             'source' => 'https://www.ikea.com/us/en/p/tonstad-tv-unit-oak-veneer-60542962/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/tonstad-tv-unit-oak-veneer__1186266_pe898748_s5.jpg',
-            'specification_id' => '17',
-            'category_id' => 4,
+             'category_id' => 4,
         ]);
 
         $p38->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/tonstad-tv-unit-oak-veneer__1186266_pe898748_s5.jpg',
-            'type' => ''
         ]);
 
         $p38->images()->create([
             'image_url' => 'https://ikea.com/us/en/images/products/tonstad-tv-unit-oak-veneer__1209014_pe908977_s5.jpg',
-            'type' => ''
         ]);
 
         $p38->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/tonstad-tv-unit-oak-veneer__1236542_pe917690_s5.jpg',
-            'type' => ''
         ]);
 
         $p38->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/tonstad-tv-unit-oak-veneer__1220965_pe913617_s5.jpg',
-            'type' => ''
         ]);
 
         $p39 = Product::create([
@@ -1685,43 +1417,35 @@ class ProductSeeder extends Seeder
             'description' => 'Since the doors allow signals to get through from your remote control, your electronic equipment will get along well with FJÄLLBO. Probably you too – the open back makes it easy to manage cables.',
             'source' => 'https://www.ikea.com/us/en/p/fjaellbo-tv-unit-black-90339290/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/fjaellbo-tv-unit-black__0473390_pe614545_s5.jpg',
-            'specification_id' => '18',
-            'category_id' => 4,
+             'category_id' => 4,
         ]);
 
         $p39->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/fjaellbo-tv-unit-black__0473390_pe614545_s5.jpg',
-            'type' => ''
         ]);
 
         $p39->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/fjaellbo-tv-unit-black__0925815_ph157836_s5.jpg',
-            'type' => ''
         ]);
 
         $p39->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/fjaellbo-tv-unit-black__0850235_pe616397_s5.jpg',
-            'type' => ''
         ]);
 
         $p39->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/fjaellbo-tv-unit-black__0850248_pe725299_s5.jpg',
-            'type' => ''
         ]);
 
         $p39->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/fjaellbo-tv-unit-black__0658086_ph150571_s5.jpg',
-            'type' => ''
         ]);
 
         $p39->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/fjaellbo-tv-unit-black__0476530_pe616398_s5.jpg',
-            'type' => ''
         ]);
 
         $p39->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/fjaellbo-tv-unit-black__0802552_pe768508_s5.jpg',
-            'type' => ''
         ]);
 
         $p40 = Product::create([
@@ -1732,38 +1456,31 @@ class ProductSeeder extends Seeder
             'description' => 'IDANÄS series combines timeless design with modern functionality. Keep the area around the TV tidy and store your games, controls and accessories in the two drawers and feed the cables through the outlets in the back.',
             'source' => 'https://www.ikea.com/us/en/p/idanaes-tv-unit-white-90487860/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/idanaes-tv-unit-white__1009042_pe827428_s5.jpg',
-            'specification_id' => '19',
-            'category_id' => 4,
+             'category_id' => 4,
         ]);
 
         $p40->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/idanaes-tv-unit-white__1009042_pe827428_s5.jpg',
-            'type' => ''
         ]);
 
         $p40->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/idanaes-tv-unit-white__1021401_pe832124_s5.jpg',
-            'type' => ''
         ]);
 
         $p40->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/idanaes-tv-unit-white__1021400_pe832149_s5.jpg',
-            'type' => ''
         ]);
 
         $p40->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/idanaes-tv-unit-white__0985314_pe816591_s5.jpg',
-            'type' => ''
         ]);
 
         $p40->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/idanaes-tv-unit-white__0985307_pe816584_s5.jpg',
-            'type' => ''
         ]);
 
         $p40->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/idanaes-tv-unit-white__1022450_pe832733_s5.jpg',
-            'type' => ''
         ]);
 
         $vc10 = VariationCollection::create();
@@ -1776,43 +1493,35 @@ class ProductSeeder extends Seeder
             'description' => 'The SKRUVBY series has a traditional style with solitaire storage units that can be coordinated. This TV bench’s top panel has an oak look and profiled edges that add a warm, natural feel to the room.',
             'source' => 'https://www.ikea.com/us/en/p/skruvby-tv-unit-black-blue-10542747/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/skruvby-tv-unit-black-blue__1128170_pe876449_s5.jpg',
-            'specification_id' => '20',
-            'category_id' => 4,
+             'category_id' => 4,
         ]);
 
         $p41->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/skruvby-tv-unit-black-blue__1128170_pe876449_s5.jpg',
-            'type' => ''
         ]);
 
         $p41->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/skruvby-tv-unit-black-blue__1142036_pe881132_s5.jpg',
-            'type' => ''
         ]);
 
         $p41->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/skruvby-tv-unit-black-blue__1142035_pe881128_s5.jpg',
-            'type' => ''
         ]);
 
         $p41->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/skruvby-tv-unit-black-blue__1133139_pe878450_s5.jpg',
-            'type' => ''
         ]);
 
         $p41->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/skruvby-tv-unit-black-blue__1144172_pe881750_s5.jpg',
-            'type' => ''
         ]);
 
         $p41->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/skruvby-tv-unit-black-blue__1122128_pe874516_s5.jpg',
-            'type' => ''
         ]);
 
         $p41->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/skruvby-tv-unit-black-blue__1236095_pe917447_s5.jpg',
-            'type' => ''
         ]);
 
         $p42 = Product::create([
@@ -1823,37 +1532,29 @@ class ProductSeeder extends Seeder
             'description' => 'The SKRUVBY series has a traditional style with solitaire storage units that can be coordinated. This TV bench’s top panel has an oak look and profiled edges that add a warm, natural feel to the room.',
             'source' => 'https://www.ikea.com/us/en/p/skruvby-tv-unit-white-90542748/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/skruvby-tv-unit-white__1128171_pe876450_s5.jpg',
-            'specification_id' => '20',
-            'category_id' => 4,
+             'category_id' => 4,
         ]);
 
         $p42->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/skruvby-tv-unit-white__1128171_pe876450_s5.jpg',
-            'type' => ''
         ]);
         $p42->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/skruvby-tv-unit-white__1142039_pe881129_s5.jpg',
-            'type' => ''
         ]);
         $p42->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/skruvby-tv-unit-white__1142038_pe881131_s5.jpg',
-            'type' => ''
         ]);
         $p42->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/skruvby-tv-unit-white__1142030_pe881124_s5.jpg',
-            'type' => ''
         ]);
         $p42->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/skruvby-tv-unit-white__1144173_pe881749_s5.jpg',
-            'type' => ''
         ]);
         $p42->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/skruvby-tv-unit-white__1122128_pe874516_s5.jpg',
-            'type' => ''
         ]);
         $p42->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/skruvby-tv-unit-white__1236095_pe917447_s5.jpg',
-            'type' => ''
         ]);
 
         $vc10->products()->attach($p41->id);
@@ -1869,28 +1570,23 @@ class ProductSeeder extends Seeder
             'description' => 'A simple frame can be the start of something great. Place this TV bench on the floor or put it on legs. Add units, organise with shelves, drawers or doors. The possibilities are endless.',
             'source' => 'https://www.ikea.com/us/en/p/besta-tv-unit-black-brown-50566034/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/besta-tv-unit-black-brown__0316215_pe516839_s5.jpg',
-            'specification_id' => '21',
-            'category_id' => 4,
+             'category_id' => 4,
         ]);
 
         $p43->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/besta-tv-unit-black-brown__0316215_pe516839_s5.jpg',
-            'type' => ''
         ]);
 
         $p43->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/besta-tv-unit-black-brown__0843438_pe535720_s5.jpg',
-            'type' => ''
         ]);
 
         $p43->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/besta-tv-unit-black-brown__0763977_pe753011_s5.jpg',
-            'type' => ''
         ]);
 
         $p43->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/besta-tv-unit-black-brown__1219324_pe913365_s5.jpg',
-            'type' => ''
         ]);
 
         $p44 = Product::create([
@@ -1901,25 +1597,20 @@ class ProductSeeder extends Seeder
             'description' => 'A simple frame can be the start of something great. Place this TV bench on the floor or put it on legs. Add units, organise with shelves, drawers or doors. The possibilities are endless.',
             'source' => 'https://www.ikea.com/us/en/p/besta-tv-unit-dark-gray-60575226/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/besta-tv-unit-dark-gray__1219601_pe913478_s5.jpg',
-            'specification_id' => '21',
-            'category_id' => 4,
+             'category_id' => 4,
         ]);
 
         $p44->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/besta-tv-unit-dark-gray__1219601_pe913478_s5.jpg',
-            'type' => ''
         ]);
         $p44->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/besta-tv-unit-dark-gray__1255236_pe924457_s5.jpg',
-            'type' => ''
         ]);
         $p44->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/besta-tv-unit-dark-gray__1255235_pe924458_s5.jpg',
-            'type' => ''
         ]);
         $p44->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/besta-tv-unit-dark-gray__1219324_pe913365_s5.jpg',
-            'type' => ''
         ]);
 
         $p45 = Product::create([
@@ -1930,28 +1621,23 @@ class ProductSeeder extends Seeder
             'description' => 'A simple frame can be the start of something great. Place this TV bench on the floor or put it on legs. Add units, organise with shelves, drawers or doors. The possibilities are endless.',
             'source' => 'https://www.ikea.com/us/en/p/besta-tv-unit-white-20566035/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/besta-tv-unit-white__0377000_pe516842_s5.jpg',
-            'specification_id' => '21',
-            'category_id' => 4,
+             'category_id' => 4,
         ]);
 
         $p45->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/besta-tv-unit-white__0377000_pe516842_s5.jpg',
-            'type' => ''
         ]);
 
         $p45->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/besta-tv-unit-white__0843389_pe535717_s5.jpg',
-            'type' => ''
         ]);
 
         $p45->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/besta-tv-unit-white__0763979_pe753013_s5.jpg',
-            'type' => ''
         ]);
 
         $p45->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/besta-tv-unit-white__1219324_pe913365_s5.jpg',
-            'type' => ''
         ]);
 
         $p46 = Product::create([
@@ -1962,28 +1648,23 @@ class ProductSeeder extends Seeder
             'description' => 'A simple frame can be the start of something great. Place this TV bench on the floor or put it on legs. Add units, organise with shelves, drawers or doors. The possibilities are endless.',
             'source' => 'https://www.ikea.com/us/en/p/besta-tv-unit-white-stained-oak-effect-80576003/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/besta-tv-unit-white-stained-oak-effect__0316224_pe516843_s5.jpg',
-            'specification_id' => '21',
-            'category_id' => 4,
+             'category_id' => 4,
         ]);
 
         $p46->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/besta-tv-unit-white-stained-oak-effect__0316224_pe516843_s5.jpg',
-            'type' => ''
         ]);
 
         $p46->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/besta-tv-unit-white-stained-oak-effect__0843366_pe535714_s5.jpg',
-            'type' => ''
         ]);
 
         $p46->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/besta-tv-unit-white-stained-oak-effect__0763980_pe753014_s5.jpg',
-            'type' => ''
         ]);
 
         $p46->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/besta-tv-unit-white-stained-oak-effect__1219324_pe913365_s5.jpg',
-            'type' => ''
         ]);
 
         $vc11->products()->attach($p43->id);
@@ -2001,38 +1682,31 @@ class ProductSeeder extends Seeder
             'description' => 'NOLMYRA easy chair re-imagines comfort with mesh fabric stretched over the frame, making the need for foam unnecessary. The result is an elegantly engineered lounge chair at a low price.',
             'source' => 'https://www.ikea.com/us/en/p/nolmyra-chair-birch-veneer-gray-10233532/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/nolmyra-chair-birch-veneer-gray__0152020_pe310348_s5.jpg',
-            'specification_id' => '22',
-            'category_id' => 3,
+             'category_id' => 3,
         ]);
 
         $p47->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/nolmyra-chair-birch-veneer-gray__0152020_pe310348_s5.jpg',
-            'type' => ''
         ]);
 
         $p47->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/nolmyra-chair-birch-veneer-gray__1096307_ph161211_s5.jpg',
-            'type' => ''
         ]);
 
         $p47->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/nolmyra-chair-birch-veneer-gray__1096308_ph178808_s5.jpg',
-            'type' => ''
         ]);
 
         $p47->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/nolmyra-chair-birch-veneer-gray__1247730_ph183453_s5.jpg',
-            'type' => ''
         ]);
 
         $p47->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/nolmyra-chair-birch-veneer-gray__0836779_pe585625_s5.jpg',
-            'type' => ''
         ]);
 
         $p47->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/nolmyra-chair-birch-veneer-gray__1249048_pe923327_s5.jpg',
-            'type' => ''
         ]);
 
         $p48 = Product::create([
@@ -2043,38 +1717,31 @@ class ProductSeeder extends Seeder
             'description' => 'NOLMYRA easy chair re-imagines comfort with mesh fabric stretched over the frame, making the need for foam unnecessary. The result is an elegantly engineered lounge chair at a low price.',
             'source' => 'https://www.ikea.com/us/en/p/nolmyra-chair-black-black-40233535/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/nolmyra-chair-black-black__0169629_pe323574_s5.jpg',
-            'specification_id' => '22',
-            'category_id' => 3,
+             'category_id' => 3,
         ]);
 
         $p48->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/nolmyra-chair-black-black__0169629_pe323574_s5.jpg',
-            'type' => ''
         ]);
 
         $p48->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/nolmyra-chair-black-black__1096309_ph168814_s5.jpg',
-            'type' => ''
         ]);
 
         $p48->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/nolmyra-chair-black-black__1061716_ph177951_s5.jpg',
-            'type' => ''
         ]);
 
         $p48->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/nolmyra-chair-black-black__0256705_pe400728_s5.jpg',
-            'type' => ''
         ]);
 
         $p48->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/nolmyra-chair-black-black__0840386_pe585812_s5.jpg',
-            'type' => ''
         ]);
 
         $p48->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/nolmyra-chair-black-black__1249048_pe923327_s5.jpg',
-            'type' => ''
         ]);
 
         $vc12->products()->attach($p47->id);
@@ -2090,33 +1757,27 @@ class ProductSeeder extends Seeder
             'description' => 'Who doesn\'t dream of having their own nook to relax in? The comfy OSKARSHAMN wing chair feels wonderfully embracing while the timeless design makes it the given eye-catcher in any room.',
             'source' => 'https://www.ikea.com/us/en/p/oskarshamn-wing-chair-gunnared-black-gray-70521662/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/oskarshamn-wing-chair-gunnared-black-gray__1118159_pe872953_s5.jpg',
-            'specification_id' => '23',
-            'category_id' => 3,
+             'category_id' => 1,
         ]);
 
         $p49->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/oskarshamn-wing-chair-gunnared-black-gray__1118159_pe872953_s5.jpg',
-            'type' => ''
         ]);
 
         $p49->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/oskarshamn-wing-chair-gunnared-black-gray__1214227_pe911514_s5.jpg',
-            'type' => ''
         ]);
 
         $p49->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/oskarshamn-wing-chair-gunnared-black-gray__1173989_ph184779_s5.jpg',
-            'type' => ''
         ]);
 
         $p49->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/oskarshamn-wing-chair-gunnared-black-gray__1123982_pe874952_s5.jpg',
-            'type' => ''
         ]);
 
         $p49->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/oskarshamn-wing-chair-gunnared-black-gray__1161244_pe889316_s5.jpg',
-            'type' => ''
         ]);
 
         $p50 = Product::create([
@@ -2127,38 +1788,31 @@ class ProductSeeder extends Seeder
             'description' => 'Who doesn\'t dream of having their own nook to relax in? The comfy OSKARSHAMN wing chair feels wonderfully embracing while the timeless design makes it the given eye-catcher in any room.',
             'source' => 'https://www.ikea.com/us/en/p/oskarshamn-wing-chair-tibbleby-beige-gray-30523615/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/oskarshamn-wing-chair-tibbleby-beige-gray__1118157_pe872954_s5.jpg',
-            'specification_id' => '23',
-            'category_id' => 3,
+             'category_id' => 1,
         ]);
 
         $p50->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/oskarshamn-wing-chair-tibbleby-beige-gray__1118157_pe872954_s5.jpg',
-            'type' => ''
         ]);
 
         $p50->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/oskarshamn-wing-chair-tibbleby-beige-gray__1173932_ph190301_s5.jpg',
-            'type' => ''
         ]);
 
         $p50->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/oskarshamn-wing-chair-tibbleby-beige-gray__1123975_pe874945_s5.jpg',
-            'type' => ''
         ]);
 
         $p50->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/oskarshamn-wing-chair-tibbleby-beige-gray__1123973_pe874943_s5.jpg',
-            'type' => ''
         ]);
 
         $p50->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/oskarshamn-wing-chair-tibbleby-beige-gray__1123974_pe874944_s5.jpg',
-            'type' => ''
         ]);
 
         $p50->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/oskarshamn-wing-chair-tibbleby-beige-gray__1161244_pe889316_s5.jpg',
-            'type' => ''
         ]);
 
         $vc13->products()->attach($p49->id);
@@ -2174,38 +1828,31 @@ class ProductSeeder extends Seeder
             'description' => 'Soft but distinct lines create an elegant profile. Perfect when you want your own space in an open environment, yet still socialize with others. The cover in blue adds tranquillity and beauty.',
             'source' => 'https://www.ikea.com/us/en/p/vedbo-armchair-gunnared-blue-80423576/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-blue__0634896_pe696809_s5.jpg',
-            'specification_id' => '24',
-            'category_id' => 3,
+             'category_id' => 3,
         ]);
 
         $p51->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-blue__0634896_pe696809_s5.jpg',
-            'type' => ''
         ]);
 
         $p51->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-blue__0708566_ph154665_s5.jpg',
-            'type' => ''
         ]);
 
         $p51->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-blue__0837370_pe649528_s5.jpg',
-            'type' => ''
         ]);
 
         $p51->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-blue__0837375_pe649530_s5.jpg',
-            'type' => ''
         ]);
 
         $p51->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-blue__0837372_pe649529_s5.jpg',
-            'type' => ''
         ]);
 
         $p51->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-blue__0632856_pe695638_s5.jpg',
-            'type' => ''
         ]);
 
         $p52 = Product::create([
@@ -2216,48 +1863,39 @@ class ProductSeeder extends Seeder
             'description' => 'Soft but distinct lines create an elegant profile. Perfect when you want your own space in an open environment, yet still socialize with others. The cover in dark gray adds elegance and style.',
             'source' => 'https://www.ikea.com/us/en/p/vedbo-armchair-gunnared-dark-gray-50424129/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-dark-gray__0512767_pe638683_s5.jpg',
-            'specification_id' => '24',
-            'category_id' => 3,
+             'category_id' => 3,
         ]);
 
         $p52->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-dark-gray__0512767_pe638683_s5.jpg',
-            'type' => ''
         ]);
 
         $p52->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-dark-gray__0708567_ph153038_s5.jpg',
-            'type' => ''
         ]);
 
         $p52->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-dark-gray__0707625_ph147021_s5.jpg',
-            'type' => ''
         ]);
 
         $p52->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-dark-gray__0837084_pe638857_s5.jpg',
-            'type' => ''
         ]);
 
         $p52->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-dark-gray__0837089_pe638860_s5.jpg',
-            'type' => ''
         ]);
 
         $p52->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-dark-gray__0837082_pe638415_s5.jpg',
-            'type' => ''
         ]);
 
         $p52->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-dark-gray__0837092_pe704434_s5.jpg',
-            'type' => ''
         ]);
 
         $p52->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-dark-gray__0632856_pe695638_s5.jpg',
-            'type' => ''
         ]);
 
         $p53 = Product::create([
@@ -2268,38 +1906,31 @@ class ProductSeeder extends Seeder
             'description' => 'Soft but distinct lines create an elegant profile. Perfect when you want your own space in an open environment, yet still socialize with others. The cover in brown-pink adds warmth and energy.',
             'source' => 'https://www.ikea.com/us/en/p/vedbo-armchair-gunnared-light-brown-pink-80423581/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-light-brown-pink__0634903_pe696815_s5.jpg',
-            'specification_id' => '24',
-            'category_id' => 3,
+             'category_id' => 3,
         ]);
 
         $p53->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-light-brown-pink__0634903_pe696815_s5.jpg',
-            'type' => ''
         ]);
 
         $p53->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-light-brown-pink__0837412_pe696814_s5.jpg',
-            'type' => ''
         ]);
 
         $p53->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-light-brown-pink__0837396_pe649535_s5.jpg',
-            'type' => ''
         ]);
 
         $p53->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-light-brown-pink__0837394_pe649534_s5.jpg',
-            'type' => ''
         ]);
 
         $p53->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-light-brown-pink__0837392_pe649533_s5.jpg',
-            'type' => ''
         ]);
 
         $p53->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-light-brown-pink__0632856_pe695638_s5.jpg',
-            'type' => ''
         ]);
 
         $p54 = Product::create([
@@ -2310,48 +1941,39 @@ class ProductSeeder extends Seeder
             'description' => 'Soft but distinct lines create an elegant profile. The armchair\'s nicely curved back gives your lumbar region support. And covers in earthy colors provide natural warmth and beauty to the room.',
             'source' => 'https://www.ikea.com/us/en/p/vedbo-armchair-gunnared-light-green-60494249/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-light-green__0949818_pe800035_s5.jpg',
-            'specification_id' => '24',
-            'category_id' => 3,
+             'category_id' => 3,
         ]);
 
         $p54->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-light-green__0949818_pe800035_s5.jpg',
-            'type' => ''
         ]);
 
         $p54->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-light-green__0971804_ph175234_s5.jpg',
-            'type' => ''
         ]);
 
         $p54->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-light-green__0949819_pe800036_s5.jpg',
-            'type' => ''
         ]);
 
         $p54->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-light-green__0949820_pe800037_s5.jpg',
-            'type' => ''
         ]);
 
         $p54->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-light-green__0949821_pe800042_s5.jpg',
-            'type' => ''
         ]);
 
         $p54->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-light-green__0949827_pe800043_s5.jpg',
-            'type' => ''
         ]);
 
         $p54->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-light-green__0949826_pe800044_s5.jpg',
-            'type' => ''
         ]);
 
         $p54->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-armchair-gunnared-light-green__0632856_pe695638_s5.jpg',
-            'type' => ''
         ]);
 
         $vc14->products()->attach($p51->id);
@@ -2369,48 +1991,39 @@ class ProductSeeder extends Seeder
             'description' => 'Soft but distinct lines create an elegant profile. The armchair’s nicely curved back provides your lumbar region with good support. And the cover in blue adds tranquillity and beauty.',
             'source' => 'https://www.ikea.com/us/en/p/vedbo-high-back-armchair-gunnared-blue-50423587/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-blue__0635321_pe697114_s5.jpg',
-            'specification_id' => '24',
-            'category_id' => 3,
+             'category_id' => 3,
         ]);
 
         $p55->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-blue__0635321_pe697114_s5.jpg',
-            'type' => ''
         ]);
 
         $p55->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-blue__1247740_ph193153_s5.jpg',
-            'type' => ''
         ]);
 
         $p55->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-blue__0840517_pe697113_s5.jpg',
-            'type' => ''
         ]);
 
         $p55->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-blue__0840505_pe649538_s5.jpg',
-            'type' => ''
         ]);
 
         $p55->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-blue__0840507_pe649539_s5.jpg',
-            'type' => ''
         ]);
 
         $p55->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-blue__0840782_pe687335_s5.jpg',
-            'type' => ''
         ]);
 
         $p55->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-blue__0840778_pe687334_s5.jpg',
-            'type' => ''
         ]);
 
         $p55->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-blue__0632855_pe695637_s5.jpg',
-            'type' => ''
         ]);
 
         $p56 = Product::create([
@@ -2421,43 +2034,35 @@ class ProductSeeder extends Seeder
             'description' => 'Soft but distinct lines create an elegant profile. The armchair’s nicely curved back provides your lumbar region with good support. And the cover in dark gray adds elegance and style.',
             'source' => 'https://www.ikea.com/us/en/p/vedbo-high-back-armchair-gunnared-dark-gray-50424134/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-dark-gray__0512775_pe638684_s5.jpg',
-            'specification_id' => '24',
-            'category_id' => 3,
+             'category_id' => 3,
         ]);
 
         $p56->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-dark-gray__0512775_pe638684_s5.jpg',
-            'type' => ''
         ]);
 
         $p56->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-dark-gray__0837110_pe704423_s5.jpg',
-            'type' => ''
         ]);
 
         $p56->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-dark-gray__0837112_pe704426_s5.jpg',
-            'type' => ''
         ]);
 
         $p56->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-dark-gray__0837082_pe638415_s5.jpg',
-            'type' => ''
         ]);
 
         $p56->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-dark-gray__0837107_pe638865_s5.jpg',
-            'type' => ''
         ]);
 
         $p56->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-dark-gray__0837104_pe638864_s5.jpg',
-            'type' => ''
         ]);
 
         $p56->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-dark-gray__0632855_pe695637_s5.jpg',
-            'type' => ''
         ]);
 
         $p57 = Product::create([
@@ -2468,43 +2073,35 @@ class ProductSeeder extends Seeder
             'description' => 'Soft but distinct lines create an elegant profile. The armchair’s nicely curved back provides your lumbar region with good support. And the cover in brown-pink adds warmth and energy.',
             'source' => 'https://www.ikea.com/us/en/p/vedbo-high-back-armchair-gunnared-light-brown-pink-50423592/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-light-brown-pink__0643605_pe701951_s5.jpg',
-            'specification_id' => '24',
-            'category_id' => 3,
+             'category_id' => 3,
         ]);
 
         $p57->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-light-brown-pink__0643605_pe701951_s5.jpg',
-            'type' => ''
         ]);
 
         $p57->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-light-brown-pink__0945783_ph171545_s5.jpg',
-            'type' => ''
         ]);
 
         $p57->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-light-brown-pink__0707623_ph152599_s5.jpg',
-            'type' => ''
         ]);
 
         $p57->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-light-brown-pink__0836884_pe649543_s5.jpg',
-            'type' => ''
         ]);
 
         $p57->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-light-brown-pink__0837073_pe687337_s5.jpg',
-            'type' => ''
         ]);
 
         $p57->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-light-brown-pink__0836895_pe687336_s5.jpg',
-            'type' => ''
         ]);
 
         $p57->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-light-brown-pink__0632855_pe695637_s5.jpg',
-            'type' => ''
         ]);
 
         $p58 = Product::create([
@@ -2515,33 +2112,27 @@ class ProductSeeder extends Seeder
             'description' => 'Soft but distinct lines creates an elegant profile. Perfect when you want your own space in an open environment, and still socialize with others. Covers in earthy colors provide natural warmth and beauty.',
             'source' => 'https://www.ikea.com/us/en/p/vedbo-high-back-armchair-gunnared-light-green-90494262/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-light-green__0949822_pe800039_s5.jpg',
-            'specification_id' => '24',
             'category_id' => 3,
         ]);
 
         $p58->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-light-green__0949822_pe800039_s5.jpg',
-            'type' => ''
         ]);
 
         $p58->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-light-green__0991388_ph175235_s5.jpg',
-            'type' => ''
         ]);
 
         $p58->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-light-green__0949827_pe800043_s5.jpg',
-            'type' => ''
         ]);
 
         $p58->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-light-green__0949826_pe800044_s5.jpg',
-            'type' => ''
         ]);
 
         $p58->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-high-back-armchair-gunnared-light-green__0632855_pe695637_s5.jpg',
-            'type' => ''
         ]);
 
         $vc15->products()->attach($p55->id);
@@ -2557,45 +2148,37 @@ class ProductSeeder extends Seeder
             'description' => 'Simple design but rich in functions, as it offers many possibilities to fit into your home interior. SPIKSMED has both open and closed storage with sliding doors – perfect for small spaces.',
             'source' => 'https://www.ikea.com/us/en/p/spiksmed-tv-unit-light-gray-10542064/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/spiksmed-tv-unit-light-gray__1152577_pe885417_s5.jpg',
-            'specification_id' => '25',
-            'category_id' => 4,
+             'category_id' => 4,
         ]);
 
         $vc16 = VariationCollection::create();
 
         $p59->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/spiksmed-tv-unit-light-gray__1152577_pe885417_s5.jpg',
-            'type' => ''
         ]);
 
         $p59->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/spiksmed-tv-unit-light-gray__1248718_pe923204_s5.jpg',
-            'type' => ''
         ]);
 
         $p59->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/spiksmed-tv-unit-light-gray__1152582_pe885423_s5.jpg',
-            'type' => ''
         ]);
 
         $p59->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/spiksmed-tv-unit-light-gray__1184082_pe897710_s5.jpg',
-            'type' => ''
         ]);
 
         $p59->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/spiksmed-tv-unit-light-gray__1152583_pe885424_s5.jpg',
-            'type' => ''
         ]);
 
         $p59->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/spiksmed-tv-unit-light-gray__1152578_pe885418_s5.jpg',
-            'type' => ''
         ]);
 
         $p59->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/spiksmed-tv-unit-light-gray__1170103_pe892660_s5.jpg',
-            'type' => ''
         ]);
 
         $p60 = Product::create([
@@ -2606,28 +2189,23 @@ class ProductSeeder extends Seeder
             'description' => 'A TV bench without frills that can hold both your TV and all those accessories. The middle shelf in tempered glass gives the bench a light and airy expression.',
             'source' => 'https://www.ikea.com/us/en/p/vittsjoe-tv-unit-black-brown-glass-70303428/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/vittsjoe-tv-unit-black-brown-glass__0644745_pe702933_s5.jpg',
-            'specification_id' => '26',
-            'category_id' => 4,
+             'category_id' => 4,
         ]);
 
         $p60->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vittsjoe-tv-unit-black-brown-glass__0644745_pe702933_s5.jpg',
-            'type' => ''
         ]);
 
         $p60->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vittsjoe-tv-unit-black-brown-glass__1287830_pe933979_s5.jpg',
-            'type' => ''
         ]);
 
         $p60->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vittsjoe-tv-unit-black-brown-glass__0850771_pe527558_s5.jpg',
-            'type' => ''
         ]);
 
         $p60->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vittsjoe-tv-unit-black-brown-glass__0778401_pe758943_s5.jpg',
-            'type' => ''
         ]);
 
         $p61 = Product::create([
@@ -2638,28 +2216,23 @@ class ProductSeeder extends Seeder
             'description' => 'A TV bench without frills that can hold both your TV and all those accessories. The middle shelf in tempered glass gives the bench a light and airy expression.',
             'source' => 'https://www.ikea.com/us/en/p/vittsjoe-tv-unit-white-glass-50303434/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/vittsjoe-tv-unit-white-glass__0644743_pe702931_s5.jpg',
-            'specification_id' => '26',
-            'category_id' => 4,
+             'category_id' => 4,
         ]);
 
         $p61->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vittsjoe-tv-unit-white-glass__0644743_pe702931_s5.jpg',
-            'type' => ''
         ]);
 
         $p61->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vittsjoe-tv-unit-white-glass__0850103_pe561998_s5.jpg',
-            'type' => ''
         ]);
 
         $p61->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vittsjoe-tv-unit-white-glass__0850099_pe527557_s5.jpg',
-            'type' => ''
         ]);
 
         $p61->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vittsjoe-tv-unit-white-glass__0778401_pe758943_s5.jpg',
-            'type' => ''
         ]);
 
         $vc16->products()->attach($p60->id);
@@ -2675,23 +2248,19 @@ class ProductSeeder extends Seeder
             'description' => 'VIHALS storage series has a cohesive look that connects the rooms throughout your home. Set your TV on this clever bench – or set yourself on it – all depending on your needs and where you place it.',
             'source' => 'https://www.ikea.com/us/en/p/vihals-tv-unit-dark-gray-10542870/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/vihals-tv-unit-dark-gray__1203689_pe906381_s5.jpg',
-            'specification_id' => '27',
-            'category_id' => 4,
+             'category_id' => 4,
         ]);
 
         $p62->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vihals-tv-unit-dark-gray__1203689_pe906381_s5.jpg',
-            'type' => ''
         ]);
 
         $p62->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vihals-tv-unit-dark-gray__1212502_pe910664_s5.jpg',
-            'type' => ''
         ]);
 
         $p62->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vihals-tv-unit-dark-gray__1257835_pe926053_s5.jpg',
-            'type' => ''
         ]);
 
         $p63 = Product::create([
@@ -2702,43 +2271,35 @@ class ProductSeeder extends Seeder
             'description' => 'VIHALS storage series has a cohesive look that connects the rooms throughout your home. This TV bench with 2 drawers has storage for your different needs and cable management in the back.',
             'source' => 'https://www.ikea.com/us/en/p/vihals-tv-unit-white-70542867/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/vihals-tv-unit-white__1203696_pe906389_s5.jpg',
-            'specification_id' => '27',
-            'category_id' => 4,
+             'category_id' => 4,
         ]);
 
         $p63->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vihals-tv-unit-white__1203696_pe906389_s5.jpg',
-            'type' => ''
         ]);
 
         $p63->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vihals-tv-unit-white__1239669_pe918999_s5.jpg',
-            'type' => ''
         ]);
 
         $p63->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vihals-tv-unit-white__1051511_pe845563_s5.jpg',
-            'type' => ''
         ]);
 
         $p63->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vihals-tv-unit-white__1051513_pe845565_s5.jpg',
-            'type' => ''
         ]);
 
         $p63->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vihals-tv-unit-white__1051539_pe845591_s5.jpg',
-            'type' => ''
         ]);
 
         $p63->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vihals-tv-unit-white__1212502_pe910664_s5.jpg',
-            'type' => ''
         ]);
 
         $p63->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/vihals-tv-unit-white__1257835_pe926053_s5.jpg',
-            'type' => ''
         ]);
 
         $vc17->products()->attach($p62->id);
@@ -2748,44 +2309,37 @@ class ProductSeeder extends Seeder
 
         $p64 = Product::create([
             'name' => 'KALLAX TV unit, black-brown, 57 3/4x23 1/2 "',
-            'price' => 79.99,
+            'price' => 79.99,'price' => 79.99,
             'model_path' => '/models/10562090_PS01_S01_NV01_RQP3_4.0_5071b9806fb44044a3581c235562553e.glb',
             'is_stackable' => 1,
             'description' => 'A perfect TV bench with plenty of space for equipment and accessories. If you want closed storage, place boxes or inserts in the lower compartments. The open back makes cable management easy!',
             'source' => 'https://www.ikea.com/us/en/p/kallax-tv-unit-black-brown-90574881/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/kallax-tv-unit-black-brown__1238897_pe918669_s5.jpg',
-            'specification_id' => '28',
             'category_id' => 4,
         ]);
 
         $p64->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/kallax-tv-unit-black-brown__1238897_pe918669_s5.jpg',
-            'type' => ''
         ]);
 
         $p64->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/kallax-tv-unit-black-brown__1248782_pe923214_s5.jpg',
-            'type' => ''
         ]);
 
         $p64->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/kallax-tv-unit-black-brown__1274277_pe930228_s5.jpg',
-            'type' => ''
         ]);
 
         $p64->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/kallax-tv-unit-black-brown__1106845_pe868820_s5.jpg',
-            'type' => ''
         ]);
 
         $p64->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/kallax-tv-unit-black-brown__1212006_pe910456_s5.jpg',
-            'type' => ''
         ]);
 
         $p64->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/kallax-tv-unit-black-brown__1219453_pe913403_s5.jpg',
-            'type' => ''
         ]);
 
         $p65 = Product::create([
@@ -2796,38 +2350,31 @@ class ProductSeeder extends Seeder
             'description' => 'A perfect TV bench with plenty of space for equipment and accessories. If you want closed storage, place boxes or inserts in the lower compartments. The open back makes cable management easy!',
             'source' => 'https://www.ikea.com/us/en/p/kallax-tv-unit-white-00574885/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/kallax-tv-unit-white__1238898_pe918671_s5.jpg',
-            'specification_id' => '28',
             'category_id' => 4,
         ]);
 
         $p65->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/kallax-tv-unit-white__1238898_pe918671_s5.jpg',
-            'type' => ''
         ]);
 
         $p65->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/kallax-tv-unit-white__1248783_pe923213_s5.jpg',
-            'type' => ''
         ]);
 
         $p65->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/kallax-tv-unit-white__1274278_pe930229_s5.jpg',
-            'type' => ''
         ]);
 
         $p65->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/kallax-tv-unit-white__1106846_pe868822_s5.jpg',
-            'type' => ''
         ]);
 
         $p65->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/kallax-tv-unit-white__1212006_pe910456_s5.jpg',
-            'type' => ''
         ]);
 
         $p65->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/kallax-tv-unit-white__1219453_pe913403_s5.jpg',
-            'type' => ''
         ]);
 
         $p66 = Product::create([
@@ -2838,64 +2385,1817 @@ class ProductSeeder extends Seeder
             'description' => 'A perfect TV bench with plenty of space for equipment and accessories. If you want closed storage, place boxes or inserts in the lower compartments. The open back makes cable management easy!',
             'source' => 'https://www.ikea.com/us/en/p/kallax-tv-unit-white-stained-oak-effect-50574883/',
             'image_url' => 'https://www.ikea.com/us/en/images/products/kallax-tv-unit-white-stained-oak-effect__1238899_pe918670_s5.jpg',
-            'specification_id' => '28',
             'category_id' => 4,
         ]);
 
         $p66->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/kallax-tv-unit-white-stained-oak-effect__1238899_pe918670_s5.jpg',
-            'type' => ''
         ]);
 
         $p66->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/kallax-tv-unit-white-stained-oak-effect__1248784_pe923212_s5.jpg',
-            'type' => ''
         ]);
 
         $p66->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/kallax-tv-unit-white-stained-oak-effect__1274279_pe930230_s5.jpg',
-            'type' => ''
         ]);
 
         $p66->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/kallax-tv-unit-white-stained-oak-effect__1106847_pe868821_s5.jpg',
-            'type' => ''
         ]);
 
         $p66->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/kallax-tv-unit-white-stained-oak-effect__1212006_pe910456_s5.jpg',
-            'type' => ''
         ]);
 
         $p66->images()->create([
             'image_url' => 'https://www.ikea.com/us/en/images/products/kallax-tv-unit-white-stained-oak-effect__1219453_pe913403_s5.jpg',
-            'type' => ''
         ]);
 
         $vc18->products()->attach($p64->id);
         $vc18->products()->attach($p65->id);
         $vc18->products()->attach($p66->id);
 
-        // $p63 = Product::create([
+        $p67 = Product::create([
+            'name' => 'DALFRED Bar stool, black, 24 3/4-29 1/8 "',
+            'price' => 75.00,
+            'model_path' => '/models/60155602_PS01_S01_NV01_RQP3_3.0_10fbcdacd24848b4bebb2a7be702c4f2.glb',
+            'is_stackable' => 0,
+            'description' => 'You can adjust the height as you like.',
+            'source' => 'https://www.ikea.com/us/en/p/dalfred-bar-stool-black-60155602/',
+            'image_url' => 'https://www.ikea.com/us/en/images/products/dalfred-bar-stool-black__0727486_pe735711_s5.jpg',
+            'category_id' => 3,
+        ]);
+
+        $p67->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/dalfred-bar-stool-black__0727486_pe735711_s5.jpg',
+        ]);
+
+        $p67->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/dalfred-bar-stool-black__0874458_pe595557_s5.jpg',
+        ]);
+
+        $p67->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/dalfred-bar-stool-black__0874439_pe595546_s5.jpg',
+        ]);
+
+        $p67->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/dalfred-bar-stool-black__0874435_pe593537_s5.jpg',
+        ]);
+
+        $p67->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/dalfred-bar-stool-black__0444237_pe594812_s5.jpg',
+        ]);
+
+        $p67->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/dalfred-bar-stool-black__0874414_pe590535_s5.jpg',
+        ]);
+
+        $p67->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/dalfred-bar-stool-black__0874431_pe590863_s5.jpg',
+        ]);
+
+        $p67->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/dalfred-bar-stool-black__0949790_pe800007_s5.jpg',
+        ]);
+
+        $p67->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/dalfred-bar-stool-black__1053196_pe846790_s5.jpg',
+        ]);
+
+        $p67->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/dalfred-bar-stool-black__1053197_pe846791_s5.jpg',
+        ]);
+
+        $p67->images()->create([
+            'image_url' => 'https://www.ikea.com/us/en/images/products/dalfred-bar-stool-black__1223307_pe914598_s5.jpg',
+        ]);
+
+        // $p68 = Product::create([
         //     'name' => '',
         //     'price' => 129.99,
         //     'model_path' => '',
         //     'is_stackable' => 1,
         //     'description' => '',
         //     'source' => '',
-        //     'specification_id' => '27',
-        //     'category_id' => 4,
+        //      'category_id' => 4,
         // ]);
 
-        // $p60->images()->create([
-        //     'image_url' => '',
-        //     'type' => ''
+        // $p67 = Product::create([
+        //     'name' => '',
+        //     'price' => 129.99,
+        //     'model_path' => '',
+        //     'is_stackable' => 1,
+        //     'description' => '',
+        //     'source' => '',
+        //         'category_id' => 4,
         // ]);
 
         // $p10->images()->create([
         //     'image_url' => '',
-        //     'type' => ''
+        //      => ''
         // ]);
 
+        $vc20244747 = VariationCollection::create();
+
+		$p20244747 = Product::create([
+			'name' => 'MICKE Desk, black-brown, 28 3/4x19 5/8 "',
+			'price' => 59.99,
+			'model_path' => '/models/20244747_PS01_S01_NV01_RQP3_3.0_1550e43a1c7f443c8eab591c586259cc.glb',
+			'is_stackable' => 1,
+			'description' => 'MICKE Desk, black-brown, 28 3/4x19 5/8 "',
+			'source' => 'https://www.ikea.com/us/en/p/micke-desk-black-brown-20244747/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/micke-desk-black-brown__0736021_pe740348_s5.jpg',
+			'category_id' => 2,
+		]);
+
+		$p20244747->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/micke-desk-black-brown__0736021_pe740348_s5.jpg' ]);
+		$p20244747->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/micke-desk-black-brown__0849657_pe565229_s5.jpg' ]);
+		$p20244747->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/micke-desk-black-brown__0657146_pe709630_s5.jpg' ]);
+		$p20244747->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/micke-desk-black-brown__1305339_pe939483_s5.jpg' ]);
+		$p20244747->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/micke-desk-black-brown__0526705_pe645106_s5.jpg' ]);
+		$p20244747->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/micke-desk-black-brown__1305338_pe939464_s5.jpg' ]);
+		$p20244747->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/micke-desk-black-brown__0403469_pe565528_s5.jpg' ]);
+		$p20244747->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/micke-desk-black-brown__0921903_pe787995_s5.jpg' ]);
+		$p20244747->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/micke-desk-black-brown__0403529_pe565588_s5.jpg' ]);
+		$p20244747->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/micke-desk-black-brown__0849679_pe573411_s5.jpg' ]);
+
+		$p30213076 = Product::create([
+			'name' => 'MICKE Desk, white, 28 3/4x19 5/8 "',
+			'price' => 59.99,
+			'model_path' => '/models/30213076_PS01_S01_NV01_RQP3_3.0_d4cf9a7e8e9a44c78bb40f0ae7f27c7d.glb',
+			'is_stackable' => 1,
+			'description' => 'MICKE Desk, white, 28 3/4x19 5/8 "',
+			'source' => 'https://www.ikea.com/us/en/p/micke-desk-white-30213076/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/micke-desk-white__0736022_pe740349_s5.jpg',
+			'category_id' => 2,
+		]);
+
+		$p30213076->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/micke-desk-white__0736022_pe740349_s5.jpg' ]);
+		$p30213076->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/micke-desk-white__0526705_pe645106_s5.jpg' ]);
+		$p30213076->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/micke-desk-white__1305348_pe939472_s5.jpg' ]);
+		$p30213076->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/micke-desk-white__1305349_pe939473_s5.jpg' ]);
+		$p30213076->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/micke-desk-white__0849937_pe565227_s5.jpg' ]);
+		$p30213076->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/micke-desk-white__0403530_pe565589_s5.jpg' ]);
+		$p30213076->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/micke-desk-white__0849957_pe573413_s5.jpg' ]);
+		$p30213076->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/micke-desk-white__0921905_pe787996_s5.jpg' ]);
+		$p30213076->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/micke-desk-white__0403470_pe565529_s5.jpg' ]);
+
+		$vc20244747->products()->attach($p20244747->id);
+		$vc20244747->products()->attach($p30213076->id);
+
+		$vc50244741 = VariationCollection::create();
+
+		$p50250713 = Product::create([
+			'name' => 'MICKE Corner workstation, white, 39 3/8x55 7/8 "',
+			'price' => 289.99,
+			'model_path' => '/models/50250713_PS01_S01_NV01_RQP3_3.0_3b47ab1efdbf4c519683f3039d3f63f0.glb',
+			'is_stackable' => 1,
+			'description' => 'MICKE Corner workstation, white, 39 3/8x55 7/8 "',
+			'source' => 'https://www.ikea.com/us/en/p/micke-corner-workstation-white-50250713/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/micke-corner-workstation-white__0734328_pe739442_s5.jpg',
+			'category_id' => 2,
+		]);
+
+		$p50250713->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/micke-corner-workstation-white__0734328_pe739442_s5.jpg' ]);
+		$p50250713->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/micke-corner-workstation-white__0921924_pe788003_s5.jpg' ]);
+		$p50250713->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/micke-corner-workstation-white__0403684_pe565688_s5.jpg' ]);
+		$p50250713->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/micke-corner-workstation-white__0546702_pe656302_s5.jpg' ]);
+
+		$vc50244741->products()->attach($p50250713->id);
+
+		$vc20442827 = VariationCollection::create();
+
+		$p90442824 = Product::create([
+			'name' => 'LOMMARP Desk, light beige, 35 3/8x21 1/4 "',
+			'price' => 249.99,
+			'model_path' => '/models/90442824_PS01_S01_NV01_RQP3_3.0_065648c1e0564eb0a0dc3a9f53306c7b.glb',
+			'is_stackable' => 1,
+			'description' => 'LOMMARP Desk, light beige, 35 3/8x21 1/4 "',
+			'source' => 'https://www.ikea.com/us/en/p/lommarp-desk-light-beige-90442824/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/lommarp-desk-light-beige__0770955_pe755649_s5.jpg',
+			'category_id' => 2,
+		]);
+
+		$p90442824->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lommarp-desk-light-beige__0770955_pe755649_s5.jpg' ]);
+		$p90442824->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lommarp-desk-light-beige__0741484_pe742386_s5.jpg' ]);
+		$p90442824->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lommarp-desk-light-beige__1045398_pe842604_s5.jpg' ]);
+		$p90442824->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lommarp-desk-light-beige__0741482_pe742384_s5.jpg' ]);
+		$p90442824->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lommarp-desk-light-beige__0742810_pe742830_s5.jpg' ]);
+		$p90442824->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lommarp-desk-light-beige__0741483_pe742385_s5.jpg' ]);
+
+		$p20442827 = Product::create([
+			'name' => 'LOMMARP Desk, dark blue-green, 35 3/8x21 1/4 "',
+			'price' => 249.99,
+			'model_path' => '/models/20442827_PS01_S01_NV01_RQP3_3.0_174fa91185884b4c918fba8877426cfc.glb',
+			'is_stackable' => 1,
+			'description' => 'LOMMARP Desk, dark blue-green, 35 3/8x21 1/4 "',
+			'source' => 'https://www.ikea.com/us/en/p/lommarp-desk-dark-blue-green-20442827/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/lommarp-desk-dark-blue-green__0770954_pe755650_s5.jpg',
+			'category_id' => 2,
+		]);
+
+		$p20442827->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lommarp-desk-dark-blue-green__0770954_pe755650_s5.jpg' ]);
+		$p20442827->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lommarp-desk-dark-blue-green__0784001_ph158338_s5.jpg' ]);
+		$p20442827->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lommarp-desk-dark-blue-green__1045398_pe842604_s5.jpg' ]);
+		$p20442827->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lommarp-desk-dark-blue-green__0741478_pe742380_s5.jpg' ]);
+		$p20442827->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lommarp-desk-dark-blue-green__0834437_ph164419_s5.jpg' ]);
+		$p20442827->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lommarp-desk-dark-blue-green__0832469_ph167281_s5.jpg' ]);
+		$p20442827->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lommarp-desk-dark-blue-green__0742809_pe742831_s5.jpg' ]);
+		$p20442827->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lommarp-desk-dark-blue-green__0741480_pe742382_s5.jpg' ]);
+		$p20442827->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lommarp-desk-dark-blue-green__0741479_pe742381_s5.jpg' ]);
+
+		$vc20442827->products()->attach($p90442824->id);
+		$vc20442827->products()->attach($p20442827->id);
+
+		$vc10473555 = VariationCollection::create();
+
+		$p10473555 = Product::create([
+			'name' => 'ALEX Desk, white, 39 3/8x18 7/8 "',
+			'price' => 249.99,
+			'model_path' => '/models/10473555_PS01_S01_NV01_RQP3_3.0_3081682d7eeb43539831d2a7e1fd0acd.glb',
+			'is_stackable' => 1,
+			'description' => 'ALEX Desk, white, 39 3/8x18 7/8 "',
+			'source' => 'https://www.ikea.com/us/en/p/alex-desk-white-10473555/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/alex-desk-white__0977658_pe813725_s5.jpg',
+			'category_id' => 2,
+		]);
+
+		$p10473555->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/alex-desk-white__0977658_pe813725_s5.jpg' ]);
+		$p10473555->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/alex-desk-white__1043714_ph176887_s5.jpg' ]);
+		$p10473555->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/alex-desk-white__0995620_pe821790_s5.jpg' ]);
+		$p10473555->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/alex-desk-white__0995589_ph176888_s5.jpg' ]);
+		$p10473555->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/alex-desk-white__0798449_ph165504_s5.jpg' ]);
+		$p10473555->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/alex-desk-white__0995566_pe821754_s5.jpg' ]);
+		$p10473555->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/alex-desk-white__1005734_pe825506_s5.jpg' ]);
+		$p10473555->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/alex-desk-white__0995559_pe821750_s5.jpg' ]);
+		$p10473555->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/alex-desk-white__0995581_pe821764_s5.jpg' ]);
+
+		$vc10473555->products()->attach($p10473555->id);
+
+		$vc50496381 = VariationCollection::create();
+
+		$p90496398 = Product::create([
+			'name' => 'IDÅSEN Cabinet with doors and drawers, dark green, 31 1/2x18 1/2x46 7/8 "',
+			'price' => 439.99,
+			'model_path' => '/models/30320726_PS01_S01_NV01_RQP3_3.0_3babf15967b6495595ee153a1afd19ad.glb',
+			'is_stackable' => 1,
+			'description' => 'IDÅSEN Cabinet with doors and drawers, dark green, 31 1/2x18 1/2x46 7/8 "',
+			'source' => 'https://www.ikea.com/us/en/p/idasen-cabinet-with-doors-and-drawers-dark-green-90496398/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/idasen-cabinet-with-doors-and-drawers-dark-green__1020153_pe831807_s5.jpg',
+			'category_id' => 2,
+		]);
+
+		$p90496398->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idasen-cabinet-with-doors-and-drawers-dark-green__1020153_pe831807_s5.jpg' ]);
+		$p90496398->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idasen-cabinet-with-doors-and-drawers-dark-green__1124022_pe874976_s5.jpg' ]);
+		$p90496398->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idasen-cabinet-with-doors-and-drawers-dark-green__0685749_pe721490_s5.jpg' ]);
+		$p90496398->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idasen-cabinet-with-doors-and-drawers-dark-green__1025937_pe834234_s5.jpg' ]);
+		$p90496398->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idasen-cabinet-with-doors-and-drawers-dark-green__1193460_pe901488_s5.jpg' ]);
+		$p90496398->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idasen-cabinet-with-doors-and-drawers-dark-green__1078995_pe857374_s5.jpg' ]);
+		$p90496398->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idasen-cabinet-with-doors-and-drawers-dark-green__1041210_pe840910_s5.jpg' ]);
+		$p90496398->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idasen-cabinet-with-doors-and-drawers-dark-green__1025938_pe834235_s5.jpg' ]);
+		$p90496398->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idasen-cabinet-with-doors-and-drawers-dark-green__1025942_pe834237_s5.jpg' ]);
+		$p90496398->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idasen-cabinet-with-doors-and-drawers-dark-green__1041209_pe840909_s5.jpg' ]);
+		$p90496398->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idasen-cabinet-with-doors-and-drawers-dark-green__1025939_pe834236_s5.jpg' ]);
+		$p90496398->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idasen-cabinet-with-doors-and-drawers-dark-green__1025943_pe834238_s5.jpg' ]);
+
+		$p50496381 = Product::create([
+			'name' => 'IDÅSEN Cabinet with doors and drawers, dark gray, 31 1/2x18 1/2x46 7/8 "',
+			'price' => 439.99,
+			'model_path' => '/models/30320726_PS01_S01_NV01_RQP3_3.0_3babf15967b6495595ee153a1afd19ad.glb',
+			'is_stackable' => 1,
+			'description' => 'IDÅSEN Cabinet with doors and drawers, dark gray, 31 1/2x18 1/2x46 7/8 "',
+			'source' => 'https://www.ikea.com/us/en/p/idasen-cabinet-with-doors-and-drawers-dark-gray-50496381/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/idasen-cabinet-with-doors-and-drawers-dark-gray__1020156_pe831808_s5.jpg',
+			'category_id' => 2,
+		]);
+
+		$p50496381->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idasen-cabinet-with-doors-and-drawers-dark-gray__1020156_pe831808_s5.jpg' ]);
+		$p50496381->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idasen-cabinet-with-doors-and-drawers-dark-gray__1025945_pe834240_s5.jpg' ]);
+		$p50496381->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idasen-cabinet-with-doors-and-drawers-dark-gray__1123986_pe874956_s5.jpg' ]);
+		$p50496381->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idasen-cabinet-with-doors-and-drawers-dark-gray__1041212_pe840912_s5.jpg' ]);
+		$p50496381->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idasen-cabinet-with-doors-and-drawers-dark-gray__1025946_pe834241_s5.jpg' ]);
+		$p50496381->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idasen-cabinet-with-doors-and-drawers-dark-gray__1041211_pe840911_s5.jpg' ]);
+		$p50496381->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idasen-cabinet-with-doors-and-drawers-dark-gray__1025944_pe834239_s5.jpg' ]);
+		$p50496381->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idasen-cabinet-with-doors-and-drawers-dark-gray__1041208_pe840908_s5.jpg' ]);
+		$p50496381->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idasen-cabinet-with-doors-and-drawers-dark-gray__0685749_pe721490_s5.jpg' ]);
+
+		$vc50496381->products()->attach($p90496398->id);
+		$vc50496381->products()->attach($p50496381->id);
+
+		$vc99429578 = VariationCollection::create();
+
+		$p99429578 = Product::create([
+			'name' => 'TROTTEN Desk sit/stand, white, 47 1/4x27 1/2 "',
+			'price' => 339.99,
+			'model_path' => '/models/39429581_PS01_S01_NV01_ISP1_2.0_ca3f5284e38b417db9f94579f568187c.glb',
+			'is_stackable' => 1,
+			'description' => 'TROTTEN Desk sit/stand, white, 47 1/4x27 1/2 "',
+			'source' => 'https://www.ikea.com/us/en/p/trotten-desk-sit-stand-white-s99429578/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-desk-sit-stand-white__1020756_pe831984_s5.jpg',
+			'category_id' => 2,
+		]);
+
+		$p99429578->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-desk-sit-stand-white__1020756_pe831984_s5.jpg' ]);
+		$p99429578->images()->create([ 'image_url' => 'https://www.ikea.com/pvid/1076998_fe001699.jpg' ]);
+		$p99429578->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-desk-sit-stand-white__1040109_pe840587_s5.jpg' ]);
+		$p99429578->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-desk-sit-stand-white__1033615_pe837351_s5.jpg' ]);
+		$p99429578->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-desk-sit-stand-white__1040249_pe840622_s5.jpg' ]);
+		$p99429578->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-desk-sit-stand-white__0869909_pe781506_s5.jpg' ]);
+		$p99429578->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-desk-sit-stand-white__0798464_pe767233_s5.jpg' ]);
+
+		$vc99429578->products()->attach($p99429578->id);
+
+		$vc79429602 = VariationCollection::create();
+
+		$p79429602 = Product::create([
+			'name' => 'TROTTEN Desk sit/stand, white, 63x31 1/2 "',
+			'price' => 369.99,
+			'model_path' => '/models/39429581_PS01_S01_NV01_ISP1_2.0_ca3f5284e38b417db9f94579f568187c.glb',
+			'is_stackable' => 1,
+			'description' => 'TROTTEN Desk sit/stand, white, 63x31 1/2 "',
+			'source' => 'https://www.ikea.com/us/en/p/trotten-desk-sit-stand-white-s79429602/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-desk-sit-stand-white__1020773_pe835553_s5.jpg',
+			'category_id' => 2,
+		]);
+
+		$p79429602->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-desk-sit-stand-white__1020773_pe835553_s5.jpg' ]);
+		$p79429602->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-desk-sit-stand-white__1040267_pe840629_s5.jpg' ]);
+		$p79429602->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-desk-sit-stand-white__1033615_pe837351_s5.jpg' ]);
+		$p79429602->images()->create([ 'image_url' => 'https://www.ikea.com/pvid/1076998_fe001699.jpg' ]);
+
+		$vc79429602->products()->attach($p79429602->id);
+
+		$vc20476474 = VariationCollection::create();
+
+		$p20476474 = Product::create([
+			'name' => 'BJÖRKÅSEN Laptop stand, anthracite',
+			'price' => 49.99,
+			'model_path' => '/models/20476474_PS01_S01_NV01_RQP3_3.0_1b72cd301c5748ae85ed0ba8e760f1b1.glb',
+			'is_stackable' => 1,
+			'description' => 'BJÖRKÅSEN Laptop stand, anthracite',
+			'source' => 'https://www.ikea.com/us/en/p/bjoerkasen-laptop-stand-anthracite-20476474/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/bjoerkasen-laptop-stand-anthracite__0955981_pe804392_s5.jpg',
+			'category_id' => 2,
+		]);
+
+		$p20476474->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/bjoerkasen-laptop-stand-anthracite__0955981_pe804392_s5.jpg' ]);
+		$p20476474->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/bjoerkasen-laptop-stand-anthracite__0964123_pe808905_s5.jpg' ]);
+		$p20476474->images()->create([ 'image_url' => 'https://www.ikea.com/pvid/0989641_fe001296.jpg' ]);
+		$p20476474->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/bjoerkasen-laptop-stand-anthracite__0955424_pe803799_s5.jpg' ]);
+		$p20476474->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/bjoerkasen-laptop-stand-anthracite__0970066_pe810967_s5.jpg' ]);
+		$p20476474->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/bjoerkasen-laptop-stand-anthracite__0970065_pe810966_s5.jpg' ]);
+
+		$p90467838 = Product::create([
+			'name' => 'BJÖRKÅSEN Laptop stand, beige',
+			'price' => 49.99,
+			'model_path' => '/models/90467838_PS01_S01_NV01_RQP3_3.0_06ce5fb873faa7366a1f4f33c0498cc5.glb',
+			'is_stackable' => 1,
+			'description' => 'BJÖRKÅSEN Laptop stand, beige',
+			'source' => 'https://www.ikea.com/us/en/p/bjoerkasen-laptop-stand-beige-90467838/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/bjoerkasen-laptop-stand-beige__0955982_pe804391_s5.jpg',
+			'category_id' => 2,
+		]);
+
+		$p90467838->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/bjoerkasen-laptop-stand-beige__0955982_pe804391_s5.jpg' ]);
+		$p90467838->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/bjoerkasen-laptop-stand-beige__0964125_pe808907_s5.jpg' ]);
+		$p90467838->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/bjoerkasen-laptop-stand-beige__0970068_pe810969_s5.jpg' ]);
+		$p90467838->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/bjoerkasen-laptop-stand-beige__0982353_ph176079_s5.jpg' ]);
+		$p90467838->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/bjoerkasen-laptop-stand-beige__0970067_pe810971_s5.jpg' ]);
+		$p90467838->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/bjoerkasen-laptop-stand-beige__0982354_ph176080_s5.jpg' ]);
+		$p90467838->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/bjoerkasen-laptop-stand-beige__0955424_pe803799_s5.jpg' ]);
+		$p90467838->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/bjoerkasen-laptop-stand-beige__0982355_ph176081_s5.jpg' ]);
+
+		$vc20476474->products()->attach($p20476474->id);
+		$vc20476474->products()->attach($p90467838->id);
+
+		$vc60477674 = VariationCollection::create();
+
+		$p90477677 = Product::create([
+			'name' => 'HAUGA Desk, white, 39 3/8x17 7/8 "',
+			'price' => 149.99,
+			'model_path' => '/models/90477677_PS01_S01_NV01_RQP3_3.0_5f1aaec27d574958a2aea580ec52b9c6.glb',
+			'is_stackable' => 1,
+			'description' => 'HAUGA Desk, white, 39 3/8x17 7/8 "',
+			'source' => 'https://www.ikea.com/us/en/p/hauga-desk-white-90477677/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/hauga-desk-white__0955767_pe804102_s5.jpg',
+			'category_id' => 2,
+		]);
+
+		$p90477677->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/hauga-desk-white__0955767_pe804102_s5.jpg' ]);
+		$p90477677->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/hauga-desk-white__1187387_ph182268_s5.jpg' ]);
+		$p90477677->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/hauga-desk-white__1187385_ph179707_s5.jpg' ]);
+		$p90477677->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/hauga-desk-white__0972711_pe811746_s5.jpg' ]);
+		$p90477677->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/hauga-desk-white__0955706_pe803970_s5.jpg' ]);
+		$p90477677->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/hauga-desk-white__0982753_ph176452_s5.jpg' ]);
+		$p90477677->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/hauga-desk-white__0959503_pe806043_s5.jpg' ]);
+		$p90477677->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/hauga-desk-white__0975475_ph175705_s5.jpg' ]);
+
+		$p60477674 = Product::create([
+			'name' => 'HAUGA Desk, gray, 39 3/8x17 7/8 "',
+			'price' => 149.99,
+			'model_path' => '/models/60477674_PS01_S01_NV01_RQP3_3.0_32151829490a417480be7b12e45db9cd.glb',
+			'is_stackable' => 1,
+			'description' => 'HAUGA Desk, gray, 39 3/8x17 7/8 "',
+			'source' => 'https://www.ikea.com/us/en/p/hauga-desk-gray-60477674/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/hauga-desk-gray__0955766_pe804103_s5.jpg',
+			'category_id' => 2,
+		]);
+
+		$p60477674->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/hauga-desk-gray__0955766_pe804103_s5.jpg' ]);
+		$p60477674->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/hauga-desk-gray__0972710_pe811747_s5.jpg' ]);
+		$p60477674->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/hauga-desk-gray__1026883_pe834605_s5.jpg' ]);
+		$p60477674->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/hauga-desk-gray__1187382_ph179711_s5.jpg' ]);
+		$p60477674->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/hauga-desk-gray__0955706_pe803970_s5.jpg' ]);
+		$p60477674->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/hauga-desk-gray__0979098_ph175898_s5.jpg' ]);
+		$p60477674->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/hauga-desk-gray__0959500_pe806039_s5.jpg' ]);
+
+		$vc60477674->products()->attach($p90477677->id);
+		$vc60477674->products()->attach($p60477674->id);
+
+		$vc00487652 = VariationCollection::create();
+
+		$p60487649 = Product::create([
+			'name' => 'IDANÄS Drop-leaf table, dark brown, 20 1/8/33 7/8x37 3/4 "',
+			'price' => 199.99,
+			'model_path' => '/models/60487649_PS01_S01_NV01_RQP3_3.0_728cb29159234e7cbecf02bc66223fb4.glb',
+			'is_stackable' => 1,
+			'description' => 'IDANÄS Drop-leaf table, dark brown, 20 1/8/33 7/8x37 3/4 "',
+			'source' => 'https://www.ikea.com/us/en/p/idanaes-drop-leaf-table-dark-brown-60487649/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/idanaes-drop-leaf-table-dark-brown__1028822_pe835544_s5.jpg',
+			'category_id' => 2,
+		]);
+
+		$p60487649->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idanaes-drop-leaf-table-dark-brown__1028822_pe835544_s5.jpg' ]);
+		$p60487649->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idanaes-drop-leaf-table-dark-brown__1197401_pe903511_s5.jpg' ]);
+		$p60487649->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idanaes-drop-leaf-table-dark-brown__0975829_pe812873_s5.jpg' ]);
+		$p60487649->images()->create([ 'image_url' => 'https://www.ikea.com/pvid/1118191_fe001924.jpg' ]);
+		$p60487649->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idanaes-drop-leaf-table-dark-brown__1031338_pe836483_s5.jpg' ]);
+		$p60487649->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idanaes-drop-leaf-table-dark-brown__0975830_pe812872_s5.jpg' ]);
+
+		$p00487652 = Product::create([
+			'name' => 'IDANÄS Drop-leaf table, white, 20 1/8/33 7/8x37 3/4 "',
+			'price' => 199.99,
+			'model_path' => '/models/00487652_PS01_S01_NV01_RQP3_3.0_13a8538be2f6437e9e416d5bcd921aae.glb',
+			'is_stackable' => 1,
+			'description' => 'IDANÄS Drop-leaf table, white, 20 1/8/33 7/8x37 3/4 "',
+			'source' => 'https://www.ikea.com/us/en/p/idanaes-drop-leaf-table-white-00487652/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/idanaes-drop-leaf-table-white__0926738_pe789490_s5.jpg',
+			'category_id' => 2,
+		]);
+
+		$p00487652->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idanaes-drop-leaf-table-white__0926738_pe789490_s5.jpg' ]);
+		$p00487652->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idanaes-drop-leaf-table-white__1058104_ph178833_s5.jpg' ]);
+		$p00487652->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idanaes-drop-leaf-table-white__1058069_ph178870_s5.jpg' ]);
+		$p00487652->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idanaes-drop-leaf-table-white__0926740_pe789491_s5.jpg' ]);
+		$p00487652->images()->create([ 'image_url' => 'https://www.ikea.com/pvid/1118191_fe001924.jpg' ]);
+		$p00487652->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idanaes-drop-leaf-table-white__1197401_pe903511_s5.jpg' ]);
+		$p00487652->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idanaes-drop-leaf-table-white__0926739_pe789492_s5.jpg' ]);
+		$p00487652->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idanaes-drop-leaf-table-white__0926755_pe789495_s5.jpg' ]);
+
+		$vc00487652->products()->attach($p60487649->id);
+		$vc00487652->products()->attach($p00487652->id);
+
+		$vc00496388 = VariationCollection::create();
+
+		$p10496401 = Product::create([
+			'name' => 'IDÅSEN High cabinet with drawer and doors, dark green, 17 3/4x67 3/4 "',
+			'price' => 379.99,
+			'model_path' => '/models/10496401_PS01_S01_NV01_RQP3_3.0_8bda97239057424aa17cf5809c19b914.glb',
+			'is_stackable' => 1,
+			'description' => 'IDÅSEN High cabinet with drawer and doors, dark green, 17 3/4x67 3/4 "',
+			'source' => 'https://www.ikea.com/us/en/p/idasen-high-cabinet-with-drawer-and-doors-dark-green-10496401/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/idasen-high-cabinet-with-drawer-and-doors-dark-green__1020158_pe831810_s5.jpg',
+			'category_id' => 2,
+		]);
+
+		$p10496401->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idasen-high-cabinet-with-drawer-and-doors-dark-green__1020158_pe831810_s5.jpg' ]);
+		$p10496401->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idasen-high-cabinet-with-drawer-and-doors-dark-green__1207177_pe907833_s5.jpg' ]);
+		$p10496401->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idasen-high-cabinet-with-drawer-and-doors-dark-green__1041215_pe840915_s5.jpg' ]);
+		$p10496401->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idasen-high-cabinet-with-drawer-and-doors-dark-green__1041214_pe840914_s5.jpg' ]);
+		$p10496401->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idasen-high-cabinet-with-drawer-and-doors-dark-green__1078990_pe857373_s5.jpg' ]);
+		$p10496401->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idasen-high-cabinet-with-drawer-and-doors-dark-green__0685750_pe721489_s5.jpg' ]);
+
+		$vc00496388->products()->attach($p10496401->id);
+
+		$vc00250249 = VariationCollection::create();
+
+		$p00250249 = Product::create([
+			'name' => 'VITTSJÖ Laptop stand, black-brown/glass, 13 3/4x25 5/8 "',
+			'price' => 44.99,
+			'model_path' => '/models/00250249_PS01_S01_NV01_RQP3_3.0_2e4fe0a1d4584bc984c95f0b7a0ac68a.glb',
+			'is_stackable' => 1,
+			'description' => 'VITTSJÖ Laptop stand, black-brown/glass, 13 3/4x25 5/8 "',
+			'source' => 'https://www.ikea.com/us/en/p/vittsjoe-laptop-stand-black-brown-glass-00250249/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/vittsjoe-laptop-stand-black-brown-glass__0176250_pe329143_s5.jpg',
+			'category_id' => 2,
+		]);
+
+		$p00250249->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/vittsjoe-laptop-stand-black-brown-glass__0176250_pe329143_s5.jpg' ]);
+		$p00250249->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/vittsjoe-laptop-stand-black-brown-glass__1048428_ph150969_s5.jpg' ]);
+		$p00250249->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/vittsjoe-laptop-stand-black-brown-glass__0855294_pe564652_s5.jpg' ]);
+		$p00250249->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/vittsjoe-laptop-stand-black-brown-glass__1048175_pe843625_s5.jpg' ]);
+		$p00250249->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/vittsjoe-laptop-stand-black-brown-glass__1048429_ph151049_s5.jpg' ]);
+
+		$p90303446 = Product::create([
+			'name' => 'VITTSJÖ Laptop stand, white/glass, 13 3/4x25 5/8 "',
+			'price' => 44.99,
+			'model_path' => '/models/90303446_PS01_S01_NV01_RQP3_3.0_09d887418cf04186be8b4d8e45f4dd4c.glb',
+			'is_stackable' => 1,
+			'description' => 'VITTSJÖ Laptop stand, white/glass, 13 3/4x25 5/8 "',
+			'source' => 'https://www.ikea.com/us/en/p/vittsjoe-laptop-stand-white-glass-90303446/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/vittsjoe-laptop-stand-white-glass__0324875_pe517662_s5.jpg',
+			'category_id' => 2,
+		]);
+
+		$p90303446->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/vittsjoe-laptop-stand-white-glass__0324875_pe517662_s5.jpg' ]);
+		$p90303446->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/vittsjoe-laptop-stand-white-glass__0855521_pe564654_s5.jpg' ]);
+		$p90303446->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/vittsjoe-laptop-stand-white-glass__1048175_pe843625_s5.jpg' ]);
+		$p90303446->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/vittsjoe-laptop-stand-white-glass__0739660_pe741826_s5.jpg' ]);
+		$p90303446->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/vittsjoe-laptop-stand-white-glass__0738808_ph153049_s5.jpg' ]);
+
+		$vc00250249->products()->attach($p00250249->id);
+		$vc00250249->products()->attach($p90303446->id);
+
+		$vc00474838 = VariationCollection::create();
+
+		$p00474838 = Product::create([
+			'name' => 'TROTTEN Cabinet with sliding doors, anthracite, 31 1/2x21 5/8x29 1/2 "',
+			'price' => 199.99,
+			'model_path' => '/models/00474838_PS01_S01_NV01_RQP3_3.0_46c391c999f74d6787f745d765badf57.glb',
+			'is_stackable' => 1,
+			'description' => 'TROTTEN Cabinet with sliding doors, anthracite, 31 1/2x21 5/8x29 1/2 "',
+			'source' => 'https://www.ikea.com/us/en/p/trotten-cabinet-with-sliding-doors-anthracite-00474838/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-sliding-doors-anthracite__1009413_pe827585_s5.jpg',
+			'category_id' => 2,
+		]);
+
+		$p00474838->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-sliding-doors-anthracite__1009413_pe827585_s5.jpg' ]);
+		$p00474838->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-sliding-doors-anthracite__1021228_pe832074_s5.jpg' ]);
+		$p00474838->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-sliding-doors-anthracite__1192496_pe901117_s5.jpg' ]);
+		$p00474838->images()->create([ 'image_url' => 'https://www.ikea.com/pvid/1198877_fe002424.jpg' ]);
+		$p00474838->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-sliding-doors-anthracite__1042809_pe841587_s5.jpg' ]);
+		$p00474838->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-sliding-doors-anthracite__1036208_pe838363_s5.jpg' ]);
+		$p00474838->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-sliding-doors-anthracite__1190782_pe900316_s5.jpg' ]);
+		$p00474838->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-sliding-doors-anthracite__1191338_pe900619_s5.jpg' ]);
+		$p00474838->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-sliding-doors-anthracite__1054173_pe847553_s5.jpg' ]);
+		$p00474838->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-sliding-doors-anthracite__1190783_pe900317_s5.jpg' ]);
+
+		$p40474761 = Product::create([
+			'name' => 'TROTTEN Cabinet with sliding doors, white, 31 1/2x21 5/8x29 1/2 "',
+			'price' => 199.99,
+			'model_path' => '/models/40474761_PS01_S01_NV01_RQP3_3.0_6278887af26f4d95b3c46af25daecec5.glb',
+			'is_stackable' => 1,
+			'description' => 'TROTTEN Cabinet with sliding doors, white, 31 1/2x21 5/8x29 1/2 "',
+			'source' => 'https://www.ikea.com/us/en/p/trotten-cabinet-with-sliding-doors-white-40474761/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-sliding-doors-white__1009414_pe827586_s5.jpg',
+			'category_id' => 2,
+		]);
+
+		$p40474761->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-sliding-doors-white__1009414_pe827586_s5.jpg' ]);
+		$p40474761->images()->create([ 'image_url' => 'https://www.ikea.com/pvid/1198879_fe002425.jpg' ]);
+		$p40474761->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-sliding-doors-white__1192572_pe901158_s5.jpg' ]);
+		$p40474761->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-sliding-doors-white__1021514_pe832162_s5.jpg' ]);
+		$p40474761->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-sliding-doors-white__1192571_pe901156_s5.jpg' ]);
+		$p40474761->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-sliding-doors-white__1054174_pe847554_s5.jpg' ]);
+		$p40474761->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-sliding-doors-white__1193497_pe901514_s5.jpg' ]);
+		$p40474761->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-sliding-doors-white__1192573_pe901157_s5.jpg' ]);
+		$p40474761->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-sliding-doors-white__1036206_pe838361_s5.jpg' ]);
+		$p40474761->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-sliding-doors-white__1042809_pe841587_s5.jpg' ]);
+
+		$vc00474838->products()->attach($p00474838->id);
+		$vc00474838->products()->attach($p40474761->id);
+
+		$vc00474763 = VariationCollection::create();
+
+		$p20474842 = Product::create([
+			'name' => 'TROTTEN Storage unit on casters, anthracite, 13 3/4x18 1/2 "',
+			'price' => 89.99,
+			'model_path' => '/models/20474842_PS01_S01_NV01_RQP3_3.0_7bddafd5bad74c22b41e311145602344.glb',
+			'is_stackable' => 1,
+			'description' => 'TROTTEN Storage unit on casters, anthracite, 13 3/4x18 1/2 "',
+			'source' => 'https://www.ikea.com/us/en/p/trotten-storage-unit-on-casters-anthracite-20474842/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-storage-unit-on-casters-anthracite__1009429_pe827593_s5.jpg',
+			'category_id' => 2,
+		]);
+
+		$p20474842->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-storage-unit-on-casters-anthracite__1009429_pe827593_s5.jpg' ]);
+		$p20474842->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-storage-unit-on-casters-anthracite__1042818_pe841593_s5.jpg' ]);
+		$p20474842->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-storage-unit-on-casters-anthracite__1054197_pe847577_s5.jpg' ]);
+		$p20474842->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-storage-unit-on-casters-anthracite__1192525_pe901127_s5.jpg' ]);
+		$p20474842->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-storage-unit-on-casters-anthracite__1021507_pe832159_s5.jpg' ]);
+		$p20474842->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-storage-unit-on-casters-anthracite__1192528_pe901129_s5.jpg' ]);
+		$p20474842->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-storage-unit-on-casters-anthracite__1025929_pe834232_s5.jpg' ]);
+		$p20474842->images()->create([ 'image_url' => 'https://www.ikea.com/pvid/1198860_fe002420.jpg' ]);
+		$p20474842->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-storage-unit-on-casters-anthracite__1193112_pe901337_s5.jpg' ]);
+
+		$p00474763 = Product::create([
+			'name' => 'TROTTEN Storage unit on casters, white, 13 3/4x18 1/2 "',
+			'price' => 89.99,
+			'model_path' => '/models/20474842_PS01_S01_NV01_RQP3_3.0_7bddafd5bad74c22b41e311145602344.glb',
+			'is_stackable' => 1,
+			'description' => 'TROTTEN Storage unit on casters, white, 13 3/4x18 1/2 "',
+			'source' => 'https://www.ikea.com/us/en/p/trotten-storage-unit-on-casters-white-00474763/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-storage-unit-on-casters-white__1009431_pe827594_s5.jpg',
+			'category_id' => 2,
+		]);
+
+		$p00474763->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-storage-unit-on-casters-white__1009431_pe827594_s5.jpg' ]);
+		$p00474763->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-storage-unit-on-casters-white__1192606_pe901183_s5.jpg' ]);
+		$p00474763->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-storage-unit-on-casters-white__1080622_pe858111_s5.jpg' ]);
+		$p00474763->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-storage-unit-on-casters-white__1080623_pe858115_s5.jpg' ]);
+		$p00474763->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-storage-unit-on-casters-white__1025932_pe834233_s5.jpg' ]);
+		$p00474763->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-storage-unit-on-casters-white__1021212_pe832064_s5.jpg' ]);
+		$p00474763->images()->create([ 'image_url' => 'https://www.ikea.com/pvid/1198864_fe002421.jpg' ]);
+		$p00474763->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-storage-unit-on-casters-white__1192605_pe901181_s5.jpg' ]);
+		$p00474763->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-storage-unit-on-casters-white__1054199_pe847580_s5.jpg' ]);
+		$p00474763->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-storage-unit-on-casters-white__1042818_pe841593_s5.jpg' ]);
+		$p00474763->images()->create([ 'image_url' => 'https://www.ikea.com/pvid/1076997_fe001698.jpg' ]);
+
+		$vc00474763->products()->attach($p20474842->id);
+		$vc00474763->products()->attach($p00474763->id);
+
+		$vc10541432 = VariationCollection::create();
+
+		$p80501885 = Product::create([
+			'name' => 'ÖRFJÄLL Child\'s desk chair, white/Vissle light gray',
+			'price' => 54.99,
+			'model_path' => '/models/10501884_PS01_S01_NV01_RQP3_3.0_809f30fc53b841a395033efcae03d967.glb',
+			'is_stackable' => 1,
+			'description' => 'ÖRFJÄLL Child\'s desk chair, white/Vissle light gray',
+			'source' => 'https://www.ikea.com/us/en/p/oerfjaell-childs-desk-chair-white-vissle-light-gray-80501885/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/oerfjaell-childs-desk-chair-white-vissle-light-gray__0977960_pe813958_s5.jpg',
+			'category_id' => 2,
+		]);
+
+		$p80501885->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/oerfjaell-childs-desk-chair-white-vissle-light-gray__0977960_pe813958_s5.jpg' ]);
+		$p80501885->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/oerfjaell-childs-desk-chair-white-vissle-light-gray__1248439_pe923103_s5.jpg' ]);
+		$p80501885->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/oerfjaell-childs-desk-chair-white-vissle-light-gray__1075680_pe856529_s5.jpg' ]);
+		$p80501885->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/oerfjaell-childs-desk-chair-white-vissle-light-gray__0977977_pe813971_s5.jpg' ]);
+		$p80501885->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/oerfjaell-childs-desk-chair-white-vissle-light-gray__0977963_pe813959_s5.jpg' ]);
+
+		$vc10541432->products()->attach($p80501885->id);
+
+		$vc10472589 = VariationCollection::create();
+
+		$p90472590 = Product::create([
+			'name' => 'IDÅSEN Drawer unit on casters, golden brown, 16 1/2x24 "',
+			'price' => 259.99,
+			'model_path' => '/models/90472590_PS01_S01_NV01_RQP3_3.0_903c34f3eaa1fb26707fe10bf120b91e.glb',
+			'is_stackable' => 1,
+			'description' => 'IDÅSEN Drawer unit on casters, golden brown, 16 1/2x24 "',
+			'source' => 'https://www.ikea.com/us/en/p/idasen-drawer-unit-on-casters-golden-brown-90472590/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/idasen-drawer-unit-on-casters-golden-brown__0613647_pe686436_s5.jpg',
+			'category_id' => 2,
+		]);
+
+		$p90472590->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idasen-drawer-unit-on-casters-golden-brown__0613647_pe686436_s5.jpg' ]);
+		$p90472590->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idasen-drawer-unit-on-casters-golden-brown__0973814_ph172909_s5.jpg' ]);
+		$p90472590->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idasen-drawer-unit-on-casters-golden-brown__0856323_pe709882_s5.jpg' ]);
+		$p90472590->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idasen-drawer-unit-on-casters-golden-brown__0685748_pe721487_s5.jpg' ]);
+		$p90472590->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idasen-drawer-unit-on-casters-golden-brown__0799532_ph160148_s5.jpg' ]);
+		$p90472590->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idasen-drawer-unit-on-casters-golden-brown__0854535_pe780656_s5.jpg' ]);
+		$p90472590->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idasen-drawer-unit-on-casters-golden-brown__0856319_pe709881_s5.jpg' ]);
+		$p90472590->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idasen-drawer-unit-on-casters-golden-brown__0709541_ph154515_s5.jpg' ]);
+		$p90472590->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idasen-drawer-unit-on-casters-golden-brown__0856305_pe709879_s5.jpg' ]);
+
+		$p10472589 = Product::create([
+			'name' => 'IDÅSEN Drawer unit on casters, dark gray, 16 1/2x24 "',
+			'price' => 259.99,
+			'model_path' => '/models/10472589_PS01_S01_NV01_RQP3_3.0_03e55101be4a4ba5a040382bb31d6432.glb',
+			'is_stackable' => 1,
+			'description' => 'IDÅSEN Drawer unit on casters, dark gray, 16 1/2x24 "',
+			'source' => 'https://www.ikea.com/us/en/p/idasen-drawer-unit-on-casters-dark-gray-10472589/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/idasen-drawer-unit-on-casters-dark-gray__0613645_pe686437_s5.jpg',
+			'category_id' => 2,
+		]);
+
+		$p10472589->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idasen-drawer-unit-on-casters-dark-gray__0613645_pe686437_s5.jpg' ]);
+		$p10472589->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idasen-drawer-unit-on-casters-dark-gray__0667826_pe714107_s5.jpg' ]);
+		$p10472589->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idasen-drawer-unit-on-casters-dark-gray__0799579_ph162160_s5.jpg' ]);
+		$p10472589->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idasen-drawer-unit-on-casters-dark-gray__0685748_pe721487_s5.jpg' ]);
+		$p10472589->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idasen-drawer-unit-on-casters-dark-gray__0856397_pe709884_s5.jpg' ]);
+		$p10472589->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idasen-drawer-unit-on-casters-dark-gray__0854534_pe780657_s5.jpg' ]);
+		$p10472589->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idasen-drawer-unit-on-casters-dark-gray__0709558_ph155770_s5.jpg' ]);
+		$p10472589->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idasen-drawer-unit-on-casters-dark-gray__0856297_pe709885_s5.jpg' ]);
+		$p10472589->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idasen-drawer-unit-on-casters-dark-gray__0856293_pe709878_s5.jpg' ]);
+
+		$vc10472589->products()->attach($p90472590->id);
+		$vc10472589->products()->attach($p10472589->id);
+
+		$vc20474837 = VariationCollection::create();
+
+		$p20474837 = Product::create([
+			'name' => 'TROTTEN Cabinet with sliding doors, anthracite, 31 1/2x21 5/8x43 1/4 "',
+			'price' => 279.99,
+			'model_path' => '/models/20474837_PS01_S01_NV01_RQP3_3.0_9d66a1c06b434d11a915f73b875632ea.glb',
+			'is_stackable' => 1,
+			'description' => 'TROTTEN Cabinet with sliding doors, anthracite, 31 1/2x21 5/8x43 1/4 "',
+			'source' => 'https://www.ikea.com/us/en/p/trotten-cabinet-with-sliding-doors-anthracite-20474837/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-sliding-doors-anthracite__1009392_pe827581_s5.jpg',
+			'category_id' => 2,
+		]);
+
+		$p20474837->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-sliding-doors-anthracite__1009392_pe827581_s5.jpg' ]);
+		$p20474837->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-sliding-doors-anthracite__1038437_pe839676_s5.jpg' ]);
+		$p20474837->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-sliding-doors-anthracite__1036208_pe838363_s5.jpg' ]);
+		$p20474837->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-sliding-doors-anthracite__1054170_pe847550_s5.jpg' ]);
+		$p20474837->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-sliding-doors-anthracite__1042659_pe841499_s5.jpg' ]);
+		$p20474837->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-sliding-doors-anthracite__1080643_pe858125_s5.jpg' ]);
+
+		$vc20474837->products()->attach($p20474837->id);
+
+		$vc80474759 = VariationCollection::create();
+
+		$p80474759 = Product::create([
+			'name' => 'TROTTEN Cabinet with sliding doors, white, 31 1/2x21 5/8x70 7/8 "',
+			'price' => 329.99,
+			'model_path' => '/models/80474759_PS01_S01_NV01_RQP3_3.0_91086b3c568b4ffc9cbf75c33c78a7be.glb',
+			'is_stackable' => 1,
+			'description' => 'TROTTEN Cabinet with sliding doors, white, 31 1/2x21 5/8x70 7/8 "',
+			'source' => 'https://www.ikea.com/us/en/p/trotten-cabinet-with-sliding-doors-white-80474759/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-sliding-doors-white__1009412_pe827584_s5.jpg',
+			'category_id' => 2,
+		]);
+
+		$p80474759->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-sliding-doors-white__1009412_pe827584_s5.jpg' ]);
+		$p80474759->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-sliding-doors-white__1038443_pe839681_s5.jpg' ]);
+		$p80474759->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-sliding-doors-white__1056702_ph181167_s5.jpg' ]);
+		$p80474759->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-sliding-doors-white__1080604_pe858096_s5.jpg' ]);
+		$p80474759->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-sliding-doors-white__1199668_pe904631_s5.jpg' ]);
+		$p80474759->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-sliding-doors-white__1036206_pe838361_s5.jpg' ]);
+		$p80474759->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-sliding-doors-white__1042664_pe841503_s5.jpg' ]);
+		$p80474759->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-sliding-doors-white__1199667_pe904629_s5.jpg' ]);
+		$p80474759->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-sliding-doors-white__1036204_pe838360_s5.jpg' ]);
+		$p80474759->images()->create([ 'image_url' => 'https://www.ikea.com/pvid/1132407_fe002005.jpg' ]);
+		$p80474759->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-sliding-doors-white__1199669_pe904630_s5.jpg' ]);
+		$p80474759->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-sliding-doors-white__1021217_pe832067_s5.jpg' ]);
+		$p80474759->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-sliding-doors-white__1201934_pe905742_s5.jpg' ]);
+
+		$p80474839 = Product::create([
+			'name' => 'TROTTEN Cabinet with sliding doors, anthracite, 31 1/2x21 5/8x70 7/8 "',
+			'price' => 329.99,
+			'model_path' => '/models/80474839_PS01_S01_NV01_RQP3_3.0_d808a9839cdf48f4b8a81b951ad688e0.glb',
+			'is_stackable' => 1,
+			'description' => 'TROTTEN Cabinet with sliding doors, anthracite, 31 1/2x21 5/8x70 7/8 "',
+			'source' => 'https://www.ikea.com/us/en/p/trotten-cabinet-with-sliding-doors-anthracite-80474839/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-sliding-doors-anthracite__1009402_pe827583_s5.jpg',
+			'category_id' => 2,
+		]);
+
+		$p80474839->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-sliding-doors-anthracite__1009402_pe827583_s5.jpg' ]);
+		$p80474839->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-sliding-doors-anthracite__1080599_pe858091_s5.jpg' ]);
+		$p80474839->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-sliding-doors-anthracite__1080603_pe858095_s5.jpg' ]);
+		$p80474839->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-sliding-doors-anthracite__1038437_pe839676_s5.jpg' ]);
+		$p80474839->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-sliding-doors-anthracite__1036207_pe838362_s5.jpg' ]);
+		$p80474839->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-sliding-doors-anthracite__1021225_pe832072_s5.jpg' ]);
+		$p80474839->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-sliding-doors-anthracite__1021506_pe832158_s5.jpg' ]);
+		$p80474839->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-sliding-doors-anthracite__1036208_pe838363_s5.jpg' ]);
+		$p80474839->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-sliding-doors-anthracite__1042664_pe841503_s5.jpg' ]);
+		$p80474839->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-sliding-doors-anthracite__1025900_pe834171_s5.jpg' ]);
+		$p80474839->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-sliding-doors-anthracite__1038441_pe839679_s5.jpg' ]);
+		$p80474839->images()->create([ 'image_url' => 'https://www.ikea.com/pvid/1132407_fe002005.jpg' ]);
+
+		$vc80474759->products()->attach($p80474759->id);
+		$vc80474759->products()->attach($p80474839->id);
+
+		$vc10244743 = VariationCollection::create();
+
+		$p10489839 = Product::create([
+			'name' => 'MICKE Desk, white/anthracite, 41 3/8x19 5/8 "',
+			'price' => 79.99,
+			'model_path' => '/models/10489839_PS01_S01_NV01_RQP3_3.0_a5396f276df24c239a1f3f6e7b5ed19b.glb',
+			'is_stackable' => 1,
+			'description' => 'MICKE Desk, white/anthracite, 41 3/8x19 5/8 "',
+			'source' => 'https://www.ikea.com/us/en/p/micke-desk-white-anthracite-10489839/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/micke-desk-white-anthracite__0921886_pe787989_s5.jpg',
+			'category_id' => 2,
+		]);
+
+		$p10489839->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/micke-desk-white-anthracite__0921886_pe787989_s5.jpg' ]);
+		$p10489839->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/micke-desk-white-anthracite__0921887_pe787990_s5.jpg' ]);
+		$p10489839->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/micke-desk-white-anthracite__0973769_ph175196_s5.jpg' ]);
+		$p10489839->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/micke-desk-white-anthracite__0921889_pe787988_s5.jpg' ]);
+		$p10489839->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/micke-desk-white-anthracite__0526706_pe645107_s5.jpg' ]);
+		$p10489839->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/micke-desk-white-anthracite__0973767_ph175190_s5.jpg' ]);
+		$p10489839->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/micke-desk-white-anthracite__0973768_ph175202_s5.jpg' ]);
+		$p10489839->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/micke-desk-white-anthracite__0921888_pe787991_s5.jpg' ]);
+
+		$p10244743 = Product::create([
+			'name' => 'MICKE Desk, black-brown, 41 3/8x19 5/8 "',
+			'price' => 79.99,
+			'model_path' => '/models/00354275_PS01_S01_NV01_RQP3_3.0_0a7e169b571d4dc1aa6e1b69b7ade8df.glb',
+			'is_stackable' => 1,
+			'description' => 'MICKE Desk, black-brown, 41 3/8x19 5/8 "',
+			'source' => 'https://www.ikea.com/us/en/p/micke-desk-black-brown-10244743/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/micke-desk-black-brown__0735981_pe740299_s5.jpg',
+			'category_id' => 2,
+		]);
+
+		$p10244743->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/micke-desk-black-brown__0735981_pe740299_s5.jpg' ]);
+		$p10244743->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/micke-desk-black-brown__0403204_pe565263_s5.jpg' ]);
+		$p10244743->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/micke-desk-black-brown__0798266_ph165487_s5.jpg' ]);
+		$p10244743->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/micke-desk-black-brown__0798267_ph165486_s5.jpg' ]);
+		$p10244743->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/micke-desk-black-brown__0748280_ph144536_s5.jpg' ]);
+		$p10244743->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/micke-desk-black-brown__0526706_pe645107_s5.jpg' ]);
+		$p10244743->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/micke-desk-black-brown__0798268_ph165484_s5.jpg' ]);
+		$p10244743->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/micke-desk-black-brown__0798269_ph165483_s5.jpg' ]);
+
+		$vc10244743->products()->attach($p10489839->id);
+		$vc10244743->products()->attach($p10244743->id);
+
+		$vc00214157 = VariationCollection::create();
+
+		$p00214157 = Product::create([
+			'name' => 'MALM Desk, black-brown, 55 1/8x25 5/8 "',
+			'price' => 219.99,
+			'model_path' => '/models/00214157_PS01_S01_NV01_RQP3_3.0_7f9f06dd076d4217900c7c8c69af7158.glb',
+			'is_stackable' => 1,
+			'description' => 'MALM Desk, black-brown, 55 1/8x25 5/8 "',
+			'source' => 'https://www.ikea.com/us/en/p/malm-desk-black-brown-00214157/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/malm-desk-black-brown__0735973_pe740307_s5.jpg',
+			'category_id' => 2,
+		]);
+
+		$p00214157->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/malm-desk-black-brown__0735973_pe740307_s5.jpg' ]);
+		$p00214157->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/malm-desk-black-brown__0798304_ph165604_s5.jpg' ]);
+		$p00214157->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/malm-desk-black-brown__0798305_ph165605_s5.jpg' ]);
+		$p00214157->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/malm-desk-black-brown__0798303_ph165607_s5.jpg' ]);
+		$p00214157->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/malm-desk-black-brown__0851356_pe602582_s5.jpg' ]);
+		$p00214157->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/malm-desk-black-brown__0403479_pe565538_s5.jpg' ]);
+		$p00214157->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/malm-desk-black-brown__0662307_pe711831_s5.jpg' ]);
+		$p00214157->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/malm-desk-black-brown__0526708_pe645109_s5.jpg' ]);
+		$p00214157->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/malm-desk-black-brown__0416095_pe573404_s5.jpg' ]);
+		$p00214157->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/malm-desk-black-brown__0657144_pe709627_s5.jpg' ]);
+		$p00214157->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/malm-desk-black-brown__0798302_ph165609_s5.jpg' ]);
+		$p00214157->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/malm-desk-black-brown__0798306_ph165608_s5.jpg' ]);
+		$p00214157->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/malm-desk-black-brown__0725368_pe734810_s5.jpg' ]);
+
+		$vc00214157->products()->attach($p00214157->id);
+
+		$vc00483442 = VariationCollection::create();
+
+		$p80483805 = Product::create([
+			'name' => 'ALEX Desk, gray-turquoise, 52x22 7/8 "',
+			'price' => 289.99,
+			'model_path' => '/models/80483805_PS01_S01_NV01_RQP3_3.0_025e920f7b4541ffbab5b8e2e6a10ede.glb',
+			'is_stackable' => 1,
+			'description' => 'ALEX Desk, gray-turquoise, 52x22 7/8 "',
+			'source' => 'https://www.ikea.com/us/en/p/alex-desk-gray-turquoise-80483805/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/alex-desk-gray-turquoise__0977665_pe813728_s5.jpg',
+			'category_id' => 2,
+		]);
+
+		$p80483805->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/alex-desk-gray-turquoise__0977665_pe813728_s5.jpg' ]);
+		$p80483805->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/alex-desk-gray-turquoise__0995580_pe821765_s5.jpg' ]);
+		$p80483805->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/alex-desk-gray-turquoise__0995619_pe821791_s5.jpg' ]);
+		$p80483805->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/alex-desk-gray-turquoise__1016786_pe830634_s5.jpg' ]);
+		$p80483805->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/alex-desk-gray-turquoise__0995558_pe821751_s5.jpg' ]);
+		$p80483805->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/alex-desk-gray-turquoise__1043711_ph177987_s5.jpg' ]);
+		$p80483805->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/alex-desk-gray-turquoise__0995565_pe821755_s5.jpg' ]);
+		$p80483805->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/alex-desk-gray-turquoise__1043712_ph177721_s5.jpg' ]);
+
+		$vc00483442->products()->attach($p80483805->id);
+
+		$vc89434127 = VariationCollection::create();
+
+		$p89434127 = Product::create([
+			'name' => 'TROTTEN Desk sit/stand, beige/white, 47 1/4x27 1/2 "',
+			'price' => 339.99,
+			'model_path' => '/models/39429581_PS01_S01_NV01_ISP1_2.0_ca3f5284e38b417db9f94579f568187c.glb',
+			'is_stackable' => 1,
+			'description' => 'TROTTEN Desk sit/stand, beige/white, 47 1/4x27 1/2 "',
+			'source' => 'https://www.ikea.com/us/en/p/trotten-desk-sit-stand-beige-white-s89434127/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-desk-sit-stand-beige-white__1020755_pe831983_s5.jpg',
+			'category_id' => 2,
+		]);
+
+		$p89434127->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-desk-sit-stand-beige-white__1020755_pe831983_s5.jpg' ]);
+		$p89434127->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-desk-sit-stand-beige-white__1033620_pe837354_s5.jpg' ]);
+		$p89434127->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-desk-sit-stand-beige-white__1054212_pe847592_s5.jpg' ]);
+		$p89434127->images()->create([ 'image_url' => 'https://www.ikea.com/pvid/1076998_fe001699.jpg' ]);
+		$p89434127->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-desk-sit-stand-beige-white__1040249_pe840622_s5.jpg' ]);
+		$p89434127->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-desk-sit-stand-beige-white__1054213_pe847593_s5.jpg' ]);
+		$p89434127->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-desk-sit-stand-beige-white__1080605_pe858097_s5.jpg' ]);
+		$p89434127->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-desk-sit-stand-beige-white__1192588_pe901168_s5.jpg' ]);
+		$p89434127->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-desk-sit-stand-beige-white__1192587_pe901169_s5.jpg' ]);
+
+		$vc89434127->products()->attach($p89434127->id);
+
+		$vc79429584 = VariationCollection::create();
+
+		$p79429584 = Product::create([
+			'name' => 'TROTTEN Desk sit/stand, beige/anthracite, 47 1/4x27 1/2 "',
+			'price' => 339.99,
+			'model_path' => '/models/39429581_PS01_S01_NV01_ISP1_2.0_ca3f5284e38b417db9f94579f568187c.glb',
+			'is_stackable' => 1,
+			'description' => 'TROTTEN Desk sit/stand, beige/anthracite, 47 1/4x27 1/2 "',
+			'source' => 'https://www.ikea.com/us/en/p/trotten-desk-sit-stand-beige-anthracite-s79429584/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-desk-sit-stand-beige-anthracite__1020754_pe831982_s5.jpg',
+			'category_id' => 2,
+		]);
+
+		$p79429584->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-desk-sit-stand-beige-anthracite__1020754_pe831982_s5.jpg' ]);
+		$p79429584->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-desk-sit-stand-beige-anthracite__1192516_pe901125_s5.jpg' ]);
+		$p79429584->images()->create([ 'image_url' => 'https://www.ikea.com/pvid/1076998_fe001699.jpg' ]);
+		$p79429584->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-desk-sit-stand-beige-anthracite__1104439_pe867683_s5.jpg' ]);
+		$p79429584->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-desk-sit-stand-beige-anthracite__1080648_pe858128_s5.jpg' ]);
+		$p79429584->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-desk-sit-stand-beige-anthracite__1192521_pe901126_s5.jpg' ]);
+		$p79429584->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-desk-sit-stand-beige-anthracite__1071026_pe854849_s5.jpg' ]);
+		$p79429584->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-desk-sit-stand-beige-anthracite__1071025_pe854848_s5.jpg' ]);
+		$p79429584->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-desk-sit-stand-beige-anthracite__1040249_pe840622_s5.jpg' ]);
+
+		$vc79429584->products()->attach($p79429584->id);
+
+		$vc39429581 = VariationCollection::create();
+
+		$p39429581 = Product::create([
+			'name' => 'TROTTEN Desk sit/stand, white/anthracite, 47 1/4x27 1/2 "',
+			'price' => 339.99,
+			'model_path' => '/models/39429581_PS01_S01_NV01_ISP1_2.0_ca3f5284e38b417db9f94579f568187c.glb',
+			'is_stackable' => 1,
+			'description' => 'TROTTEN Desk sit/stand, white/anthracite, 47 1/4x27 1/2 "',
+			'source' => 'https://www.ikea.com/us/en/p/trotten-desk-sit-stand-white-anthracite-s39429581/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-desk-sit-stand-white-anthracite__1020759_pe831985_s5.jpg',
+			'category_id' => 2,
+		]);
+
+		$p39429581->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-desk-sit-stand-white-anthracite__1020759_pe831985_s5.jpg' ]);
+		$p39429581->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-desk-sit-stand-white-anthracite__1074511_pe856217_s5.jpg' ]);
+		$p39429581->images()->create([ 'image_url' => 'https://www.ikea.com/pvid/1076998_fe001699.jpg' ]);
+		$p39429581->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-desk-sit-stand-white-anthracite__1074510_pe856216_s5.jpg' ]);
+		$p39429581->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-desk-sit-stand-white-anthracite__1040249_pe840622_s5.jpg' ]);
+
+		$vc39429581->products()->attach($p39429581->id);
+
+		$vc29434130 = VariationCollection::create();
+
+		$p29434130 = Product::create([
+			'name' => 'TROTTEN Desk sit/stand, beige/white, 63x31 1/2 "',
+			'price' => 369.99,
+			'model_path' => '/models/39429581_PS01_S01_NV01_ISP1_2.0_ca3f5284e38b417db9f94579f568187c.glb',
+			'is_stackable' => 1,
+			'description' => 'TROTTEN Desk sit/stand, beige/white, 63x31 1/2 "',
+			'source' => 'https://www.ikea.com/us/en/p/trotten-desk-sit-stand-beige-white-s29434130/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-desk-sit-stand-beige-white__1020768_pe831988_s5.jpg',
+			'category_id' => 2,
+		]);
+
+		$p29434130->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-desk-sit-stand-beige-white__1020768_pe831988_s5.jpg' ]);
+		$p29434130->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-desk-sit-stand-beige-white__1054212_pe847592_s5.jpg' ]);
+		$p29434130->images()->create([ 'image_url' => 'https://www.ikea.com/pvid/1076998_fe001699.jpg' ]);
+		$p29434130->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-desk-sit-stand-beige-white__1054213_pe847593_s5.jpg' ]);
+		$p29434130->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-desk-sit-stand-beige-white__1080607_pe858099_s5.jpg' ]);
+		$p29434130->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-desk-sit-stand-beige-white__1080605_pe858097_s5.jpg' ]);
+		$p29434130->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-desk-sit-stand-beige-white__1040267_pe840629_s5.jpg' ]);
+
+		$vc29434130->products()->attach($p29434130->id);
+
+		$vc19429596 = VariationCollection::create();
+
+		$p19429596 = Product::create([
+			'name' => 'TROTTEN Desk sit/stand, beige/anthracite, 63x31 1/2 "',
+			'price' => 369.99,
+			'model_path' => '/models/39429581_PS01_S01_NV01_ISP1_2.0_ca3f5284e38b417db9f94579f568187c.glb',
+			'is_stackable' => 1,
+			'description' => 'TROTTEN Desk sit/stand, beige/anthracite, 63x31 1/2 "',
+			'source' => 'https://www.ikea.com/us/en/p/trotten-desk-sit-stand-beige-anthracite-s19429596/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-desk-sit-stand-beige-anthracite__1020760_pe831986_s5.jpg',
+			'category_id' => 2,
+		]);
+
+		$p19429596->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-desk-sit-stand-beige-anthracite__1020760_pe831986_s5.jpg' ]);
+		$p19429596->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-desk-sit-stand-beige-anthracite__1192516_pe901125_s5.jpg' ]);
+		$p19429596->images()->create([ 'image_url' => 'https://www.ikea.com/pvid/1076998_fe001699.jpg' ]);
+		$p19429596->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-desk-sit-stand-beige-anthracite__1104447_pe867684_s5.jpg' ]);
+		$p19429596->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-desk-sit-stand-beige-anthracite__1080648_pe858128_s5.jpg' ]);
+		$p19429596->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-desk-sit-stand-beige-anthracite__1192521_pe901126_s5.jpg' ]);
+		$p19429596->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-desk-sit-stand-beige-anthracite__1040267_pe840629_s5.jpg' ]);
+		$p19429596->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-desk-sit-stand-beige-anthracite__1071025_pe854848_s5.jpg' ]);
+		$p19429596->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-desk-sit-stand-beige-anthracite__1021225_pe832072_s5.jpg' ]);
+
+		$vc19429596->products()->attach($p19429596->id);
+
+		$vc09429610 = VariationCollection::create();
+
+		$p09429610 = Product::create([
+			'name' => 'TROTTEN Table, beige/anthracite, 31 1/2x31 1/2 "',
+			'price' => 219.99,
+			'model_path' => '/models/09429605_PS01_S01_NV01_ISP1_2.0_4520d2f0aeef4e73b0ca30bc40872a05.glb',
+			'is_stackable' => 1,
+			'description' => 'TROTTEN Table, beige/anthracite, 31 1/2x31 1/2 "',
+			'source' => 'https://www.ikea.com/us/en/p/trotten-table-beige-anthracite-s09429610/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-table-beige-anthracite__1020997_pe832026_s5.jpg',
+			'category_id' => 2,
+		]);
+
+		$p09429610->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-table-beige-anthracite__1020997_pe832026_s5.jpg' ]);
+		$p09429610->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-table-beige-anthracite__1160252_pe888827_s5.jpg' ]);
+		$p09429610->images()->create([ 'image_url' => 'https://www.ikea.com/pvid/1077000_fe001700.jpg' ]);
+		$p09429610->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-table-beige-anthracite__1054215_pe847595_s5.jpg' ]);
+		$p09429610->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-table-beige-anthracite__1040223_pe840614_s5.jpg' ]);
+		$p09429610->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-table-beige-anthracite__1054214_pe847594_s5.jpg' ]);
+		$p09429610->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-table-beige-anthracite__1080600_pe858092_s5.jpg' ]);
+
+		$vc09429610->products()->attach($p09429610->id);
+
+		$vc49429608 = VariationCollection::create();
+
+		$p49429608 = Product::create([
+			'name' => 'TROTTEN Table, white/anthracite, 31 1/2x31 1/2 "',
+			'price' => 219.99,
+			'model_path' => '/models/09429605_PS01_S01_NV01_ISP1_2.0_4520d2f0aeef4e73b0ca30bc40872a05.glb',
+			'is_stackable' => 1,
+			'description' => 'TROTTEN Table, white/anthracite, 31 1/2x31 1/2 "',
+			'source' => 'https://www.ikea.com/us/en/p/trotten-table-white-anthracite-s49429608/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-table-white-anthracite__1021000_pe832028_s5.jpg',
+			'category_id' => 2,
+		]);
+
+		$p49429608->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-table-white-anthracite__1021000_pe832028_s5.jpg' ]);
+		$p49429608->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-table-white-anthracite__1054215_pe847595_s5.jpg' ]);
+		$p49429608->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-table-white-anthracite__1040223_pe840614_s5.jpg' ]);
+		$p49429608->images()->create([ 'image_url' => 'https://www.ikea.com/pvid/1077000_fe001700.jpg' ]);
+		$p49429608->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-table-white-anthracite__1054217_pe847597_s5.jpg' ]);
+
+		$vc49429608->products()->attach($p49429608->id);
+
+		$vc89436975 = VariationCollection::create();
+
+		$p89436975 = Product::create([
+			'name' => 'TROTTEN Table, beige/white, 31 1/2x31 1/2 "',
+			'price' => 219.99,
+			'model_path' => '/models/09429605_PS01_S01_NV01_ISP1_2.0_4520d2f0aeef4e73b0ca30bc40872a05.glb',
+			'is_stackable' => 1,
+			'description' => 'TROTTEN Table, beige/white, 31 1/2x31 1/2 "',
+			'source' => 'https://www.ikea.com/us/en/p/trotten-table-beige-white-s89436975/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-table-beige-white__1027025_pe834672_s5.jpg',
+			'category_id' => 2,
+		]);
+
+		$p89436975->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-table-beige-white__1027025_pe834672_s5.jpg' ]);
+		$p89436975->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-table-beige-white__1109897_pe870274_s5.jpg' ]);
+		$p89436975->images()->create([ 'image_url' => 'https://www.ikea.com/pvid/1077000_fe001700.jpg' ]);
+		$p89436975->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-table-beige-white__1160250_pe888825_s5.jpg' ]);
+		$p89436975->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-table-beige-white__1054216_pe847596_s5.jpg' ]);
+		$p89436975->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-table-beige-white__1040223_pe840614_s5.jpg' ]);
+		$p89436975->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-table-beige-white__1160244_pe888819_s5.jpg' ]);
+
+		$vc89436975->products()->attach($p89436975->id);
+
+		$vc30492690 = VariationCollection::create();
+
+		$p30492690 = Product::create([
+			'name' => 'TROTTEN Noticeboard, anthracite, 30x13 "',
+			'price' => 40.0,
+			'model_path' => '/models/30492690_PS01_S01_NV01_RQP3_3.0_75d2a44d231d4464923a1044640a41e6.glb',
+			'is_stackable' => 1,
+			'description' => 'TROTTEN Noticeboard, anthracite, 30x13 "',
+			'source' => 'https://www.ikea.com/us/en/p/trotten-noticeboard-anthracite-30492690/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-noticeboard-anthracite__1039542_pe840263_s5.jpg',
+			'category_id' => 2,
+		]);
+
+		$p30492690->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-noticeboard-anthracite__1039542_pe840263_s5.jpg' ]);
+		$p30492690->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-noticeboard-anthracite__1067955_pe852845_s5.jpg' ]);
+		$p30492690->images()->create([ 'image_url' => 'https://www.ikea.com/pvid/1104619_fe001857.jpg' ]);
+		$p30492690->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-noticeboard-anthracite__1189426_pe899823_s5.jpg' ]);
+		$p30492690->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-noticeboard-anthracite__1021508_pe832160_s5.jpg' ]);
+		$p30492690->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-noticeboard-anthracite__1021510_pe832161_s5.jpg' ]);
+		$p30492690->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-noticeboard-anthracite__1188727_pe899564_s5.jpg' ]);
+
+		$vc30492690->products()->attach($p30492690->id);
+
+		$vc30474766 = VariationCollection::create();
+
+		$p40474836 = Product::create([
+			'name' => 'TROTTEN Cabinet with doors, anthracite, 27 1/2x13 3/4x68 1/8 "',
+			'price' => 249.99,
+			'model_path' => '/models/40474836_PS01_S01_NV01_RQP3_3.0_884194d6e5d14762bd08bb03d735a65c.glb',
+			'is_stackable' => 1,
+			'description' => 'TROTTEN Cabinet with doors, anthracite, 27 1/2x13 3/4x68 1/8 "',
+			'source' => 'https://www.ikea.com/us/en/p/trotten-cabinet-with-doors-anthracite-40474836/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-doors-anthracite__1007248_pe825999_s5.jpg',
+			'category_id' => 2,
+		]);
+
+		$p40474836->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-doors-anthracite__1007248_pe825999_s5.jpg' ]);
+		$p40474836->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-doors-anthracite__1025887_pe834160_s5.jpg' ]);
+		$p40474836->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-doors-anthracite__1025890_pe834161_s5.jpg' ]);
+		$p40474836->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-doors-anthracite__1036208_pe838363_s5.jpg' ]);
+		$p40474836->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-doors-anthracite__1042658_pe841498_s5.jpg' ]);
+		$p40474836->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/trotten-cabinet-with-doors-anthracite__1025897_pe834168_s5.jpg' ]);
+
+		$vc30474766->products()->attach($p40474836->id);
+
+        $vc00369111 = VariationCollection::create();
+
+		$p40369109 = Product::create([
+			'name' => 'NORDVIKEN Chair, black',
+			'price' => 65.0,
+			'model_path' => '/models/40369109_PS01_S01_NV01_RQP3_3.0_2817448fa89a46f398822befc6cea26b.glb',
+			'is_stackable' => 0,
+			'description' => 'NORDVIKEN Chair, black',
+			'source' => 'https://www.ikea.com/us/en/p/nordviken-chair-black-40369109/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-chair-black__0714202_pe729964_s5.jpg',
+			'category_id' => 11,
+		]);
+
+		$p40369109->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-chair-black__0714202_pe729964_s5.jpg' ]);
+		$p40369109->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-chair-black__0744797_pe743408_s5.jpg' ]);
+		$p40369109->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-chair-black__0797392_pe766852_s5.jpg' ]);
+		$p40369109->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-chair-black__0947700_pe798621_s5.jpg' ]);
+		$p40369109->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-chair-black__1053090_pe846686_s5.jpg' ]);
+		$p40369109->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-chair-black__0928967_ph167490_s5.jpg' ]);
+		$p40369109->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-chair-black__1053088_pe846684_s5.jpg' ]);
+		$p40369109->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-chair-black__1053089_pe846685_s5.jpg' ]);
+		$p40369109->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-chair-black__0797433_ph163608_s5.jpg' ]);
+		$p40369109->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-chair-black__0955681_ph174047_s5.jpg' ]);
+		$p40369109->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-chair-black__1053091_pe846687_s5.jpg' ]);
+		$p40369109->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-chair-black__0744800_pe743411_s5.jpg' ]);
+		$p40369109->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-chair-black__1053087_pe846683_s5.jpg' ]);
+
+		$p30488546 = Product::create([
+			'name' => 'NORDVIKEN Chair, antique stain',
+			'price' => 65.0,
+			'model_path' => '/models/30488546_PS01_S01_NV01_RQP3_3.0_15d896138afb4aaea52e9b6bff496a74.glb',
+			'is_stackable' => 0,
+			'description' => 'NORDVIKEN Chair, antique stain',
+			'source' => 'https://www.ikea.com/us/en/p/nordviken-chair-antique-stain-30488546/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-chair-antique-stain__0832454_pe777681_s5.jpg',
+			'category_id' => 11,
+		]);
+
+		$p30488546->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-chair-antique-stain__0832454_pe777681_s5.jpg' ]);
+		$p30488546->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-chair-antique-stain__1053084_pe846680_s5.jpg' ]);
+		$p30488546->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-chair-antique-stain__1053082_pe846678_s5.jpg' ]);
+		$p30488546->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-chair-antique-stain__1053085_pe846681_s5.jpg' ]);
+		$p30488546->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-chair-antique-stain__1053083_pe846679_s5.jpg' ]);
+		$p30488546->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-chair-antique-stain__1351631_pe951957_s5.jpg' ]);
+		$p30488546->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-chair-antique-stain__0916591_pe785272_s5.jpg' ]);
+		$p30488546->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-chair-antique-stain__1053086_pe846682_s5.jpg' ]);
+		$p30488546->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-chair-antique-stain__0916590_pe785271_s5.jpg' ]);
+
+		$vc00369111->products()->attach($p40369109->id);
+		$vc00369111->products()->attach($p30488546->id);
+
+		$vc00360002 = VariationCollection::create();
+
+		$p50457313 = Product::create([
+			'name' => 'ODGER Chair, anthracite',
+			'price' => 125.0,
+			'model_path' => '/models/50457313_PS01_S01_NV01_RQP3_3.0_6f81e2ee62fc428f8ad63077fd96a495.glb',
+			'is_stackable' => 0,
+			'description' => 'ODGER Chair, anthracite',
+			'source' => 'https://www.ikea.com/us/en/p/odger-chair-anthracite-50457313/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/odger-chair-anthracite__0739669_pe741828_s5.jpg',
+			'category_id' => 11,
+		]);
+
+		$p50457313->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/odger-chair-anthracite__0739669_pe741828_s5.jpg' ]);
+		$p50457313->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/odger-chair-anthracite__1070852_pe854755_s5.jpg' ]);
+		$p50457313->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/odger-chair-anthracite__0798330_ph162754_s5.jpg' ]);
+		$p50457313->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/odger-chair-anthracite__1070849_pe854754_s5.jpg' ]);
+		$p50457313->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/odger-chair-anthracite__0948332_pe798956_s5.jpg' ]);
+		$p50457313->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/odger-chair-anthracite__1070850_pe854757_s5.jpg' ]);
+		$p50457313->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/odger-chair-anthracite__0963408_ph170906_s5.jpg' ]);
+		$p50457313->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/odger-chair-anthracite__0798331_ph162751_s5.jpg' ]);
+		$p50457313->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/odger-chair-anthracite__0798332_pe767221_s5.jpg' ]);
+		$p50457313->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/odger-chair-anthracite__1070851_pe854756_s5.jpg' ]);
+		$p50457313->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/odger-chair-anthracite__0946320_ph172863_s5.jpg' ]);
+
+		$p60359996 = Product::create([
+			'name' => 'ODGER Chair, white/beige',
+			'price' => 125.0,
+			'model_path' => '/models/60359996_PS01_S01_NV01_RQP3_3.0_70c8c49628614f8a9b29e78f0f9e7f53.glb',
+			'is_stackable' => 0,
+			'description' => 'ODGER Chair, white/beige',
+			'source' => 'https://www.ikea.com/us/en/p/odger-chair-white-beige-60359996/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/odger-chair-white-beige__0727334_pe735606_s5.jpg',
+			'category_id' => 11,
+		]);
+
+		$p60359996->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/odger-chair-white-beige__0727334_pe735606_s5.jpg' ]);
+		$p60359996->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/odger-chair-white-beige__0871166_pe640477_s5.jpg' ]);
+		$p60359996->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/odger-chair-white-beige__1070848_pe854751_s5.jpg' ]);
+		$p60359996->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/odger-chair-white-beige__1070847_pe854752_s5.jpg' ]);
+		$p60359996->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/odger-chair-white-beige__0948332_pe798956_s5.jpg' ]);
+		$p60359996->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/odger-chair-white-beige__0745775_ph158198_s5.jpg' ]);
+		$p60359996->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/odger-chair-white-beige__1070845_pe854750_s5.jpg' ]);
+		$p60359996->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/odger-chair-white-beige__0745774_ph152940_s5.jpg' ]);
+		$p60359996->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/odger-chair-white-beige__0744473_ph156947_s5.jpg' ]);
+		$p60359996->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/odger-chair-white-beige__0671207_ph152942_s5.jpg' ]);
+		$p60359996->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/odger-chair-white-beige__1070846_pe854753_s5.jpg' ]);
+
+		$p70516552 = Product::create([
+			'name' => 'ODGER Chair, red',
+			'price' => 125.0,
+			'model_path' => '/models/70516552_PS01_S01_NV01_RQP3_3.0_01a1bb5a5f654250996d3c073da921a7.glb',
+			'is_stackable' => 0,
+			'description' => 'ODGER Chair, red',
+			'source' => 'https://www.ikea.com/us/en/p/odger-chair-red-70516552/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/odger-chair-red__1038449_pe839684_s5.jpg',
+			'category_id' => 11,
+		]);
+
+		$p70516552->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/odger-chair-red__1038449_pe839684_s5.jpg' ]);
+		$p70516552->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/odger-chair-red__1038450_pe839686_s5.jpg' ]);
+		$p70516552->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/odger-chair-red__0948332_pe798956_s5.jpg' ]);
+		$p70516552->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/odger-chair-red__1057888_pe849043_s5.jpg' ]);
+		$p70516552->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/odger-chair-red__1038451_pe839685_s5.jpg' ]);
+		$p70516552->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/odger-chair-red__1057889_pe849042_s5.jpg' ]);
+
+		$vc00360002->products()->attach($p50457313->id);
+		$vc00360002->products()->attach($p60359996->id);
+		$vc00360002->products()->attach($p70516552->id);
+
+		$vc70519763 = VariationCollection::create();
+
+		$p70554577 = Product::create([
+			'name' => 'GRÖNSTA Chair, indoor/outdoor gray-turquoise',
+			'price' => 60.0,
+			'model_path' => '/models/70554577_PS01_S01_NV01_RQP3_3.0_045c77e2a24b4484af0711be9d0b9055.glb',
+			'is_stackable' => 0,
+			'description' => 'GRÖNSTA Chair, indoor/outdoor gray-turquoise',
+			'source' => 'https://www.ikea.com/us/en/p/groensta-chair-indoor-outdoor-gray-turquoise-70554577/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/groensta-chair-indoor-outdoor-gray-turquoise__1243686_pe920717_s5.jpg',
+			'category_id' => 11,
+		]);
+
+		$p70554577->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/groensta-chair-indoor-outdoor-gray-turquoise__1243686_pe920717_s5.jpg' ]);
+		$p70554577->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/groensta-chair-indoor-outdoor-gray-turquoise__1243684_pe920716_s5.jpg' ]);
+		$p70554577->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/groensta-chair-indoor-outdoor-gray-turquoise__1301483_pe937447_s5.jpg' ]);
+		$p70554577->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/groensta-chair-indoor-outdoor-gray-turquoise__1243724_pe920746_s5.jpg' ]);
+		$p70554577->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/groensta-chair-indoor-outdoor-gray-turquoise__1276101_pe930805_s5.jpg' ]);
+		$p70554577->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/groensta-chair-indoor-outdoor-gray-turquoise__1273245_pe929936_s5.jpg' ]);
+
+		$p70519763 = Product::create([
+			'name' => 'GRÖNSTA Chair, indoor/outdoor white',
+			'price' => 60.0,
+			'model_path' => '/models/70519763_PS01_S01_NV01_RQP3_3.0_20a71c0589fe45058ac2563628d7de7e.glb',
+			'is_stackable' => 0,
+			'description' => 'GRÖNSTA Chair, indoor/outdoor white',
+			'source' => 'https://www.ikea.com/us/en/p/groensta-chair-indoor-outdoor-white-70519763/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/groensta-chair-indoor-outdoor-white__1243689_pe920720_s5.jpg',
+			'category_id' => 11,
+		]);
+
+		$p70519763->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/groensta-chair-indoor-outdoor-white__1243689_pe920720_s5.jpg' ]);
+		$p70519763->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/groensta-chair-indoor-outdoor-white__1243687_pe920719_s5.jpg' ]);
+		$p70519763->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/groensta-chair-indoor-outdoor-white__1301486_pe937449_s5.jpg' ]);
+		$p70519763->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/groensta-chair-indoor-outdoor-white__1243734_pe920748_s5.jpg' ]);
+		$p70519763->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/groensta-chair-indoor-outdoor-white__1273245_pe929936_s5.jpg' ]);
+		$p70519763->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/groensta-chair-indoor-outdoor-white__1276104_pe930806_s5.jpg' ]);
+
+		$vc70519763->products()->attach($p70554577->id);
+		$vc70519763->products()->attach($p70519763->id);
+
+		$vc60334722 = VariationCollection::create();
+
+		$p90532589 = Product::create([
+			'name' => 'TOBIAS Chair, brown-red/chrome plated',
+			'price' => 85.0,
+			'model_path' => '/models/90532589_PS01_S01_NV01_RQP3_3.0_ad5e99bc2a2b400f80cc47e4b27e8a52.glb',
+			'is_stackable' => 0,
+			'description' => 'TOBIAS Chair, brown-red/chrome plated',
+			'source' => 'https://www.ikea.com/us/en/p/tobias-chair-brown-red-chrome-plated-90532589/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/tobias-chair-brown-red-chrome-plated__1126419_pe875739_s5.jpg',
+			'category_id' => 11,
+		]);
+
+		$p90532589->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/tobias-chair-brown-red-chrome-plated__1126419_pe875739_s5.jpg' ]);
+		$p90532589->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/tobias-chair-brown-red-chrome-plated__1190892_ph188821_s5.jpg' ]);
+		$p90532589->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/tobias-chair-brown-red-chrome-plated__0949817_pe800034_s5.jpg' ]);
+		$p90532589->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/tobias-chair-brown-red-chrome-plated__1315304_ph189259_s5.jpg' ]);
+		$p90532589->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/tobias-chair-brown-red-chrome-plated__1126418_pe875740_s5.jpg' ]);
+		$p90532589->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/tobias-chair-brown-red-chrome-plated__1126417_pe875738_s5.jpg' ]);
+
+		$p80349671 = Product::create([
+			'name' => 'TOBIAS Chair, clear/chrome plated',
+			'price' => 85.0,
+			'model_path' => '/models/80349671_PS01_S01_NV01_RQP3_3.0_234c23509585466a953ca48a65afdc95.glb',
+			'is_stackable' => 0,
+			'description' => 'TOBIAS Chair, clear/chrome plated',
+			'source' => 'https://www.ikea.com/us/en/p/tobias-chair-clear-chrome-plated-80349671/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/tobias-chair-clear-chrome-plated__0727342_pe735614_s5.jpg',
+			'category_id' => 11,
+		]);
+
+		$p80349671->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/tobias-chair-clear-chrome-plated__0727342_pe735614_s5.jpg' ]);
+		$p80349671->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/tobias-chair-clear-chrome-plated__0875154_pe620335_s5.jpg' ]);
+		$p80349671->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/tobias-chair-clear-chrome-plated__0870537_pe620341_s5.jpg' ]);
+		$p80349671->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/tobias-chair-clear-chrome-plated__0949817_pe800034_s5.jpg' ]);
+		$p80349671->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/tobias-chair-clear-chrome-plated__0870533_pe620340_s5.jpg' ]);
+
+		$vc60334722->products()->attach($p90532589->id);
+		$vc60334722->products()->attach($p80349671->id);
+
+		$p00211088 = Product::create([
+			'name' => 'STEFAN Chair, brown-black',
+			'price' => 35.0,
+			'model_path' => '/models/00211088_PS01_S01_NV01_RQP3_3.0_3fec8557adb64bc38f7763716af7376e.glb',
+			'is_stackable' => 0,
+			'description' => 'STEFAN Chair, brown-black',
+			'source' => 'https://www.ikea.com/us/en/p/stefan-chair-brown-black-00211088/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/stefan-chair-brown-black__0727320_pe735593_s5.jpg',
+			'category_id' => 11,
+		]);
+
+		$p00211088->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/stefan-chair-brown-black__0727320_pe735593_s5.jpg' ]);
+		$p00211088->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/stefan-chair-brown-black__1052539_pe846166_s5.jpg' ]);
+		$p00211088->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/stefan-chair-brown-black__1052536_pe846193_s5.jpg' ]);
+		$p00211088->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/stefan-chair-brown-black__1040183_pe840596_s5.jpg' ]);
+		$p00211088->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/stefan-chair-brown-black__0719926_ph154435_s5.jpg' ]);
+		$p00211088->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/stefan-chair-brown-black__0872007_pe590671_s5.jpg' ]);
+		$p00211088->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/stefan-chair-brown-black__1052538_pe846195_s5.jpg' ]);
+		$p00211088->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/stefan-chair-brown-black__1052537_pe846194_s5.jpg' ]);
+
+
+		$vc20492346 = VariationCollection::create();
+
+		$p30473069 = Product::create([
+			'name' => 'INGOLF Chair, white/Hallarp beige',
+			'price' => 95.0,
+			'model_path' => '/models/50473073_PS01_S01_NV01_RQP3_3.0_915b0c502c794989963211690361c8fd.glb',
+			'is_stackable' => 0,
+			'description' => 'INGOLF Chair, white/Hallarp beige',
+			'source' => 'https://www.ikea.com/us/en/p/ingolf-chair-white-hallarp-beige-30473069/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/ingolf-chair-white-hallarp-beige__0926877_pe789566_s5.jpg',
+			'category_id' => 11,
+		]);
+
+		$p30473069->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingolf-chair-white-hallarp-beige__0926877_pe789566_s5.jpg' ]);
+		$p30473069->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingolf-chair-white-hallarp-beige__1052473_pe846136_s5.jpg' ]);
+		$p30473069->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingolf-chair-white-hallarp-beige__1052470_pe846133_s5.jpg' ]);
+		$p30473069->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingolf-chair-white-hallarp-beige__0946318_ph172952_s5.jpg' ]);
+		$p30473069->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingolf-chair-white-hallarp-beige__0946316_ph173263_s5.jpg' ]);
+		$p30473069->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingolf-chair-white-hallarp-beige__1052469_pe846132_s5.jpg' ]);
+		$p30473069->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingolf-chair-white-hallarp-beige__1052472_pe846135_s5.jpg' ]);
+		$p30473069->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingolf-chair-white-hallarp-beige__1052471_pe846134_s5.jpg' ]);
+		$p30473069->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingolf-chair-white-hallarp-beige__0946317_ph172954_s5.jpg' ]);
+		$p30473069->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingolf-chair-white-hallarp-beige__0995228_pe821627_s5.jpg' ]);
+		$p30473069->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingolf-chair-white-hallarp-beige__0946315_ph173264_s5.jpg' ]);
+
+		$vc20492346->products()->attach($p30473069->id);
+
+		$vc10219178 = VariationCollection::create();
+
+		$p10219178 = Product::create([
+			'name' => 'ADDE Chair, white',
+			'price' => 12.5,
+			'model_path' => '/models/10219178_PS01_S01_NV01_RQP3_3.0_7ea31d713f7c4dd1b9b1eb94cf631136.glb',
+			'is_stackable' => 0,
+			'description' => 'ADDE Chair, white',
+			'source' => 'https://www.ikea.com/us/en/p/adde-chair-white-10219178/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/adde-chair-white__0728280_pe736170_s5.jpg',
+			'category_id' => 11,
+		]);
+
+		$p10219178->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/adde-chair-white__0728280_pe736170_s5.jpg' ]);
+		$p10219178->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/adde-chair-white__1052545_pe846250_s5.jpg' ]);
+		$p10219178->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/adde-chair-white__1052547_pe846202_s5.jpg' ]);
+		$p10219178->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/adde-chair-white__0872085_pe594884_s5.jpg' ]);
+		$p10219178->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/adde-chair-white__1052546_pe846201_s5.jpg' ]);
+		$p10219178->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/adde-chair-white__0437187_pe590726_s5.jpg' ]);
+		$p10219178->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/adde-chair-white__0872092_pe716742_s5.jpg' ]);
+		$p10219178->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/adde-chair-white__0947776_pe798637_s5.jpg' ]);
+		$p10219178->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/adde-chair-white__1052544_pe846199_s5.jpg' ]);
+
+		$vc10219178->products()->attach($p10219178->id);
+
+		$vc10547052 = VariationCollection::create();
+
+		$p70547049 = Product::create([
+			'name' => 'MÅNHULT Chair, black/Hakebo yellow-brown',
+			'price' => 55.0,
+			'model_path' => '/models/00547062_PS01_S01_NV01_RQP3_3.0_2b9858d3c2a640c793c2571de3be9f3f.glb',
+			'is_stackable' => 0,
+			'description' => 'MÅNHULT Chair, black/Hakebo yellow-brown',
+			'source' => 'https://www.ikea.com/us/en/p/manhult-chair-black-hakebo-yellow-brown-70547049/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/manhult-chair-black-hakebo-yellow-brown__1156114_pe886910_s5.jpg',
+			'category_id' => 11,
+		]);
+
+		$p70547049->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/manhult-chair-black-hakebo-yellow-brown__1156114_pe886910_s5.jpg' ]);
+		$p70547049->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/manhult-chair-black-hakebo-yellow-brown__1156112_pe886914_s5.jpg' ]);
+		$p70547049->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/manhult-chair-black-hakebo-yellow-brown__1123283_pe874752_s5.jpg' ]);
+		$p70547049->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/manhult-chair-black-hakebo-yellow-brown__1156111_pe886913_s5.jpg' ]);
+		$p70547049->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/manhult-chair-black-hakebo-yellow-brown__1156113_pe886915_s5.jpg' ]);
+
+		$p30547051 = Product::create([
+			'name' => 'MÅNHULT Chair, black/Hakebo deep red',
+			'price' => 85.0,
+			'model_path' => '/models/50547050_PS01_S01_NV01_RQP3_3.0_6f97cd519df147b39ec5431697c99bee.glb',
+			'is_stackable' => 0,
+			'description' => 'MÅNHULT Chair, black/Hakebo deep red',
+			'source' => 'https://www.ikea.com/us/en/p/manhult-chair-black-hakebo-deep-red-30547051/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/manhult-chair-black-hakebo-deep-red__1156106_pe886908_s5.jpg',
+			'category_id' => 11,
+		]);
+
+		$p30547051->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/manhult-chair-black-hakebo-deep-red__1156106_pe886908_s5.jpg' ]);
+		$p30547051->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/manhult-chair-black-hakebo-deep-red__1156105_pe886907_s5.jpg' ]);
+		$p30547051->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/manhult-chair-black-hakebo-deep-red__1156103_pe886905_s5.jpg' ]);
+		$p30547051->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/manhult-chair-black-hakebo-deep-red__1123283_pe874752_s5.jpg' ]);
+		$p30547051->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/manhult-chair-black-hakebo-deep-red__1156104_pe886906_s5.jpg' ]);
+
+		$vc10547052->products()->attach($p70547049->id);
+		$vc10547052->products()->attach($p30547051->id);
+
+		$p10341112 = Product::create([
+			'name' => 'EKEDALEN Chair, white/Orrsta light gray',
+			'price' => 60.0,
+			'model_path' => '/models/60341015_PS01_S01_NV01_RQP3_3.0_0509ccc5d80d459ea0c6827451c629a0.glb',
+			'is_stackable' => 0,
+			'description' => 'EKEDALEN Chair, white/Orrsta light gray',
+			'source' => 'https://www.ikea.com/us/en/p/ekedalen-chair-white-orrsta-light-gray-10341112/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-chair-white-orrsta-light-gray__0728310_pe736178_s5.jpg',
+			'category_id' => 11,
+		]);
+
+		$p10341112->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-chair-white-orrsta-light-gray__0728310_pe736178_s5.jpg' ]);
+		$p10341112->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-chair-white-orrsta-light-gray__1097693_pe865082_s5.jpg' ]);
+		$p10341112->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-chair-white-orrsta-light-gray__1052563_pe846218_s5.jpg' ]);
+		$p10341112->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-chair-white-orrsta-light-gray__1052560_pe846215_s5.jpg' ]);
+		$p10341112->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-chair-white-orrsta-light-gray__0871614_pe640451_s5.jpg' ]);
+		$p10341112->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-chair-white-orrsta-light-gray__0947751_pe798632_s5.jpg' ]);
+		$p10341112->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-chair-white-orrsta-light-gray__1052562_pe846217_s5.jpg' ]);
+		$p10341112->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-chair-white-orrsta-light-gray__0773740_pe756378_s5.jpg' ]);
+		$p10341112->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-chair-white-orrsta-light-gray__1052561_pe846216_s5.jpg' ]);
+		$p10341112->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-chair-white-orrsta-light-gray__0719156_pe731888_s5.jpg' ]);
+
+
+		$p00512091 = Product::create([
+			'name' => 'STEFAN Chair, brown-black/Knisa gray/beige',
+			'price' => 55.0,
+			'model_path' => '/models/80512087_PS01_S01_NV01_RQP1_4.0_67f6878f285042098bd176039fb00c05.glb',
+			'is_stackable' => 0,
+			'description' => 'STEFAN Chair, brown-black/Knisa gray/beige',
+			'source' => 'https://www.ikea.com/us/en/p/stefan-chair-brown-black-knisa-gray-beige-00512091/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/stefan-chair-brown-black-knisa-gray-beige__1068137_pe852981_s5.jpg',
+			'category_id' => 11,
+		]);
+
+		$p00512091->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/stefan-chair-brown-black-knisa-gray-beige__1068137_pe852981_s5.jpg' ]);
+		$p00512091->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/stefan-chair-brown-black-knisa-gray-beige__1068134_pe852980_s5.jpg' ]);
+		$p00512091->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/stefan-chair-brown-black-knisa-gray-beige__1068136_pe852982_s5.jpg' ]);
+		$p00512091->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/stefan-chair-brown-black-knisa-gray-beige__1085963_pe860285_s5.jpg' ]);
+		$p00512091->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/stefan-chair-brown-black-knisa-gray-beige__1068133_pe852979_s5.jpg' ]);
+		$p00512091->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/stefan-chair-brown-black-knisa-gray-beige__1068135_pe852983_s5.jpg' ]);
+
+
+		$p70518061 = Product::create([
+			'name' => 'NACKANÄS Chair, acacia',
+			'price' => 80.0,
+			'model_path' => '/models/70518061_PS01_S01_NV01_RQP3_3.0_7622cca3f8e84186a4b74774c21cd8b7.glb',
+			'is_stackable' => 0,
+			'description' => 'NACKANÄS Chair, acacia',
+			'source' => 'https://www.ikea.com/us/en/p/nackanaes-chair-acacia-70518061/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/nackanaes-chair-acacia__1113739_pe871520_s5.jpg',
+			'category_id' => 11,
+		]);
+
+		$p70518061->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nackanaes-chair-acacia__1113739_pe871520_s5.jpg' ]);
+		$p70518061->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nackanaes-chair-acacia__1218819_pe913221_s5.jpg' ]);
+		$p70518061->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nackanaes-chair-acacia__1154712_ph185240_s5.jpg' ]);
+		$p70518061->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nackanaes-chair-acacia__1113750_pe871525_s5.jpg' ]);
+		$p70518061->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nackanaes-chair-acacia__1113749_pe871524_s5.jpg' ]);
+		$p70518061->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nackanaes-chair-acacia__1141942_pe881106_s5.jpg' ]);
+		$p70518061->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nackanaes-chair-acacia__1113743_pe871523_s5.jpg' ]);
+		$p70518061->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nackanaes-chair-acacia__1113770_pe871535_s5.jpg' ]);
+		$p70518061->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nackanaes-chair-acacia__1113741_pe871522_s5.jpg' ]);
+		$p70518061->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nackanaes-chair-acacia__1113740_pe871521_s5.jpg' ]);
+
+
+		$p80417636 = Product::create([
+			'name' => 'YNGVAR Chair, anthracite',
+			'price' => 145.0,
+			'model_path' => '/models/80417636_PS01_S01_NV01_RQP3_3.0_2f455ad94d8b48fdab2774209b65ba02.glb',
+			'is_stackable' => 0,
+			'description' => 'YNGVAR Chair, anthracite',
+			'source' => 'https://www.ikea.com/us/en/p/yngvar-chair-anthracite-80417636/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/yngvar-chair-anthracite__0714279_pe730013_s5.jpg',
+			'category_id' => 11,
+		]);
+
+		$p80417636->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/yngvar-chair-anthracite__0714279_pe730013_s5.jpg' ]);
+		$p80417636->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/yngvar-chair-anthracite__1053102_pe846698_s5.jpg' ]);
+		$p80417636->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/yngvar-chair-anthracite__1053103_pe846699_s5.jpg' ]);
+		$p80417636->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/yngvar-chair-anthracite__1053104_pe846700_s5.jpg' ]);
+		$p80417636->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/yngvar-chair-anthracite__1053105_pe846701_s5.jpg' ]);
+		$p80417636->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/yngvar-chair-anthracite__0946427_ph173462_s5.jpg' ]);
+		$p80417636->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/yngvar-chair-anthracite__0750846_pe746839_s5.jpg' ]);
+		$p80417636->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/yngvar-chair-anthracite__1053106_pe846702_s5.jpg' ]);
+		$p80417636->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/yngvar-chair-anthracite__0946421_ph173663_s5.jpg' ]);
+		$p80417636->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/yngvar-chair-anthracite__0949308_pe799627_s5.jpg' ]);
+		$p80417636->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/yngvar-chair-anthracite__0750850_pe746841_s5.jpg' ]);
+
+
+		$p50434312 = Product::create([
+			'name' => 'NILSOVE Armchair, rattan/white',
+			'price' => 125.0,
+			'model_path' => '/models/50434312_PS01_S01_NV01_RQP3_3.0_9b396b8953214aa386aef02ec110cf4e.glb',
+			'is_stackable' => 0,
+			'description' => 'NILSOVE Armchair, rattan/white',
+			'source' => 'https://www.ikea.com/us/en/p/nilsove-armchair-rattan-white-50434312/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/nilsove-armchair-rattan-white__0672929_pe716967_s5.jpg',
+			'category_id' => 11,
+		]);
+
+		$p50434312->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nilsove-armchair-rattan-white__0672929_pe716967_s5.jpg' ]);
+		$p50434312->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nilsove-armchair-rattan-white__0750239_ph159746_s5.jpg' ]);
+		$p50434312->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nilsove-armchair-rattan-white__0750238_ph159469_s5.jpg' ]);
+		$p50434312->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nilsove-armchair-rattan-white__0870245_pe716966_s5.jpg' ]);
+		$p50434312->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nilsove-armchair-rattan-white__0706646_pe725942_s5.jpg' ]);
+		$p50434312->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nilsove-armchair-rattan-white__1053283_pe846873_s5.jpg' ]);
+		$p50434312->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nilsove-armchair-rattan-white__1053284_pe846874_s5.jpg' ]);
+		$p50434312->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nilsove-armchair-rattan-white__1053281_pe846871_s5.jpg' ]);
+		$p50434312->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nilsove-armchair-rattan-white__0750210_ph159465_s5.jpg' ]);
+		$p50434312->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nilsove-armchair-rattan-white__0874551_pe716968_s5.jpg' ]);
+		$p50434312->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nilsove-armchair-rattan-white__0870240_pe716965_s5.jpg' ]);
+		$p50434312->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nilsove-armchair-rattan-white__1053282_pe846872_s5.jpg' ]);
+
+
+		$p70308685 = Product::create([
+			'name' => 'ODGER Swivel chair, white/beige',
+			'price' => 189.99,
+			'model_path' => '/models/70308685_PS01_S01_NV01_RQP3_3.0_528477d192584923aadf2b69d08c21c6.glb',
+			'is_stackable' => 0,
+			'description' => 'ODGER Swivel chair, white/beige',
+			'source' => 'https://www.ikea.com/us/en/p/odger-swivel-chair-white-beige-70308685/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/odger-swivel-chair-white-beige__0734069_pe739278_s5.jpg',
+			'category_id' => 11,
+		]);
+
+		$p70308685->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/odger-swivel-chair-white-beige__0734069_pe739278_s5.jpg' ]);
+		$p70308685->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/odger-swivel-chair-white-beige__0781159_ph164351_s5.jpg' ]);
+		$p70308685->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/odger-swivel-chair-white-beige__0759511_pe750453_s5.jpg' ]);
+		$p70308685->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/odger-swivel-chair-white-beige__0793297_ph164901_s5.jpg' ]);
+		$p70308685->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/odger-swivel-chair-white-beige__0974430_ph163181_s5.jpg' ]);
+		$p70308685->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/odger-swivel-chair-white-beige__1135202_ph186245_s5.jpg' ]);
+		$p70308685->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/odger-swivel-chair-white-beige__0781160_ph164350_s5.jpg' ]);
+		$p70308685->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/odger-swivel-chair-white-beige__1067514_pe852752_s5.jpg' ]);
+		$p70308685->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/odger-swivel-chair-white-beige__0802336_ph165572_s5.jpg' ]);
+		$p70308685->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/odger-swivel-chair-white-beige__0985503_ph173302_s5.jpg' ]);
+		$p70308685->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/odger-swivel-chair-white-beige__1071553_pe854968_s5.jpg' ]);
+		$p70308685->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/odger-swivel-chair-white-beige__0759512_pe750449_s5.jpg' ]);
+		$p70308685->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/odger-swivel-chair-white-beige__0759510_pe750452_s5.jpg' ]);
+		$p70308685->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/odger-swivel-chair-white-beige__0759508_pe750450_s5.jpg' ]);
+
+
+		$p80422765 = Product::create([
+			'name' => 'UDMUND Chair, brown/Viarp beige/brown',
+			'price' => 115.0,
+			'model_path' => '/models/40422767_PS01_S01_NV01_RQP3_3.0_8a2adb76536246798a61852085ba6748.glb',
+			'is_stackable' => 0,
+			'description' => 'UDMUND Chair, brown/Viarp beige/brown',
+			'source' => 'https://www.ikea.com/us/en/p/udmund-chair-brown-viarp-beige-brown-80422765/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/udmund-chair-brown-viarp-beige-brown__0928426_pe789857_s5.jpg',
+			'category_id' => 11,
+		]);
+
+		$p80422765->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/udmund-chair-brown-viarp-beige-brown__0928426_pe789857_s5.jpg' ]);
+		$p80422765->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/udmund-chair-brown-viarp-beige-brown__1053059_pe846658_s5.jpg' ]);
+		$p80422765->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/udmund-chair-brown-viarp-beige-brown__0980943_pe815226_s5.jpg' ]);
+		$p80422765->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/udmund-chair-brown-viarp-beige-brown__0928428_pe789859_s5.jpg' ]);
+		$p80422765->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/udmund-chair-brown-viarp-beige-brown__0974256_pe839902_s5.jpg' ]);
+		$p80422765->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/udmund-chair-brown-viarp-beige-brown__1053060_pe846654_s5.jpg' ]);
+		$p80422765->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/udmund-chair-brown-viarp-beige-brown__1053056_pe846655_s5.jpg' ]);
+		$p80422765->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/udmund-chair-brown-viarp-beige-brown__1053057_pe846656_s5.jpg' ]);
+		$p80422765->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/udmund-chair-brown-viarp-beige-brown__0928429_pe789864_s5.jpg' ]);
+		$p80422765->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/udmund-chair-brown-viarp-beige-brown__1000314_pe824222_s5.jpg' ]);
+		$p80422765->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/udmund-chair-brown-viarp-beige-brown__1053058_pe846657_s5.jpg' ]);
+
+
+		$p70521134 = Product::create([
+			'name' => 'DANDERYD Chair, white/Vissle gray',
+			'price' => 115.0,
+			'model_path' => '/models/40520862_PS01_S01_NV01_RQP3_3.0_16dd1e6c3fa44ed6ba3c566ddbcdda0a.glb',
+			'is_stackable' => 0,
+			'description' => 'DANDERYD Chair, white/Vissle gray',
+			'source' => 'https://www.ikea.com/us/en/p/danderyd-chair-white-vissle-gray-70521134/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/danderyd-chair-white-vissle-gray__1114235_pe871692_s5.jpg',
+			'category_id' => 11,
+		]);
+
+		$p70521134->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/danderyd-chair-white-vissle-gray__1114235_pe871692_s5.jpg' ]);
+		$p70521134->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/danderyd-chair-white-vissle-gray__1137653_pe879656_s5.jpg' ]);
+		$p70521134->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/danderyd-chair-white-vissle-gray__1160052_ph186591_s5.jpg' ]);
+		$p70521134->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/danderyd-chair-white-vissle-gray__1114233_pe871694_s5.jpg' ]);
+		$p70521134->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/danderyd-chair-white-vissle-gray__1118995_pe873278_s5.jpg' ]);
+		$p70521134->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/danderyd-chair-white-vissle-gray__1223374_pe914620_s5.jpg' ]);
+		$p70521134->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/danderyd-chair-white-vissle-gray__1117955_pe872850_s5.jpg' ]);
+		$p70521134->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/danderyd-chair-white-vissle-gray__1114234_pe871693_s5.jpg' ]);
+		$p70521134->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/danderyd-chair-white-vissle-gray__1114232_pe871691_s5.jpg' ]);
+		$p70521134->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/danderyd-chair-white-vissle-gray__1160114_ph186599_s5.jpg' ]);
+
+
+		$p90263902 = Product::create([
+			'name' => 'IVAR Chair, pine',
+			'price' => 40.0,
+			'model_path' => '/models/90263902_PS01_S01_NV01_RQP3_3.0_46fea0c8b6c149c7a40105e82213ef8c.glb',
+			'is_stackable' => 0,
+			'description' => 'IVAR Chair, pine',
+			'source' => 'https://www.ikea.com/us/en/p/ivar-chair-pine-90263902/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/ivar-chair-pine__0728155_pe736115_s5.jpg',
+			'category_id' => 11,
+		]);
+
+		$p90263902->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ivar-chair-pine__0728155_pe736115_s5.jpg' ]);
+		$p90263902->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ivar-chair-pine__0745829_ph155580_s5.jpg' ]);
+		$p90263902->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ivar-chair-pine__1053299_pe846889_s5.jpg' ]);
+		$p90263902->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ivar-chair-pine__1053300_pe846890_s5.jpg' ]);
+		$p90263902->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ivar-chair-pine__1053298_pe846888_s5.jpg' ]);
+		$p90263902->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ivar-chair-pine__0949579_pe799870_s5.jpg' ]);
+		$p90263902->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ivar-chair-pine__0872451_pe590608_s5.jpg' ]);
+		$p90263902->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ivar-chair-pine__0383085_ph074181_s5.jpg' ]);
+		$p90263902->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ivar-chair-pine__0745834_ph145509_s5.jpg' ]);
+		$p90263902->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ivar-chair-pine__0383084_pe292394_s5.jpg' ]);
+		$p90263902->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ivar-chair-pine__1053297_pe846887_s5.jpg' ]);
+		$p90263902->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ivar-chair-pine__0437150_pe590696_s5.jpg' ]);
+		$p90263902->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ivar-chair-pine__0383089_pe331138_s5.jpg' ]);
+		$p90263902->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ivar-chair-pine__0745833_ph146381_s5.jpg' ]);
+		$p90263902->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ivar-chair-pine__0745830_ph156970_s5.jpg' ]);
+
+
+		$vc50544867 = VariationCollection::create();
+
+		$p70544866 = Product::create([
+			'name' => 'SKOGSTA Chair, acacia',
+			'price' => 65.0,
+			'model_path' => '/models/70544866_PS01_S01_NV01_RQP3_3.0_285c4a00623b42e0b49e96e3227b2d09.glb',
+			'is_stackable' => 0,
+			'description' => 'SKOGSTA Chair, acacia',
+			'source' => 'https://www.ikea.com/us/en/p/skogsta-chair-acacia-70544866/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/skogsta-chair-acacia__1343430_pe949583_s5.jpg',
+			'category_id' => 11,
+		]);
+
+		$p70544866->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/skogsta-chair-acacia__1343430_pe949583_s5.jpg' ]);
+		$p70544866->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/skogsta-chair-acacia__1342683_pe949088_s5.jpg' ]);
+		$p70544866->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/skogsta-chair-acacia__1342684_pe949087_s5.jpg' ]);
+		$p70544866->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/skogsta-chair-acacia__1342710_pe949093_s5.jpg' ]);
+		$p70544866->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/skogsta-chair-acacia__1249770_pe923496_s5.jpg' ]);
+		$p70544866->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/skogsta-chair-acacia__1249771_pe923498_s5.jpg' ]);
+		$p70544866->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/skogsta-chair-acacia__1292961_ph195439_s5.jpg' ]);
+		$p70544866->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/skogsta-chair-acacia__1262536_pe927108_s5.jpg' ]);
+
+		$vc50544867->products()->attach($p70544866->id);
+
+		$vc20428100 = VariationCollection::create();
+
+		$p60217822 = Product::create([
+			'name' => 'INGOLF Chair, brown-black',
+			'price' => 70.0,
+			'model_path' => '/models/60217822_PS01_S01_NV01_RQP3_3.0_7ecc0bbf6c404a7181c702556a085293.glb',
+			'is_stackable' => 0,
+			'description' => 'INGOLF Chair, brown-black',
+			'source' => 'https://www.ikea.com/us/en/p/ingolf-chair-brown-black-60217822/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/ingolf-chair-brown-black__0728153_pe736122_s5.jpg',
+			'category_id' => 11,
+		]);
+
+		$p60217822->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingolf-chair-brown-black__0728153_pe736122_s5.jpg' ]);
+		$p60217822->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingolf-chair-brown-black__0679681_ph146095_s5.jpg' ]);
+		$p60217822->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingolf-chair-brown-black__0872556_pe595406_s5.jpg' ]);
+		$p60217822->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingolf-chair-brown-black__0577868_ph135647_s5.jpg' ]);
+		$p60217822->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingolf-chair-brown-black__1053143_pe846736_s5.jpg' ]);
+		$p60217822->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingolf-chair-brown-black__1075752_pe856552_s5.jpg' ]);
+		$p60217822->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingolf-chair-brown-black__0872567_pe630827_s5.jpg' ]);
+		$p60217822->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingolf-chair-brown-black__0872561_pe630826_s5.jpg' ]);
+		$p60217822->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingolf-chair-brown-black__1053145_pe846738_s5.jpg' ]);
+		$p60217822->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingolf-chair-brown-black__0577867_ph132623_s5.jpg' ]);
+		$p60217822->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingolf-chair-brown-black__0947841_pe798658_s5.jpg' ]);
+		$p60217822->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingolf-chair-brown-black__1053144_pe846737_s5.jpg' ]);
+		$p60217822->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingolf-chair-brown-black__0744110_ph147726_s5.jpg' ]);
+		$p60217822->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingolf-chair-brown-black__1053142_pe846735_s5.jpg' ]);
+
+		$vc20428100->products()->attach($p60217822->id);
+
+		$vc30486156 = VariationCollection::create();
+
+		$p80530623 = Product::create([
+			'name' => 'TEODORES Chair, black',
+			'price' => 45.0,
+			'model_path' => '/models/20530621_PS01_S01_NV01_RQP3_3.0_89402b4cd40c404692b333af8738bc65.glb',
+			'is_stackable' => 0,
+			'description' => 'TEODORES Chair, black',
+			'source' => 'https://www.ikea.com/us/en/p/teodores-chair-black-80530623/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/teodores-chair-black__1114240_pe871696_s5.jpg',
+			'category_id' => 11,
+		]);
+
+		$p80530623->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/teodores-chair-black__1114240_pe871696_s5.jpg' ]);
+		$p80530623->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/teodores-chair-black__1114237_pe871695_s5.jpg' ]);
+		$p80530623->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/teodores-chair-black__1114238_pe871698_s5.jpg' ]);
+		$p80530623->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/teodores-chair-black__0949552_pe799848_s5.jpg' ]);
+		$p80530623->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/teodores-chair-black__1114239_pe871697_s5.jpg' ]);
+
+		$p60530619 = Product::create([
+			'name' => 'TEODORES Chair, green',
+			'price' => 45.0,
+			'model_path' => '/models/00530617_PS01_S01_NV01_RQP3_3.0_4cf1d3ec39fe4ef59d547103d8af7cbe.glb',
+			'is_stackable' => 0,
+			'description' => 'TEODORES Chair, green',
+			'source' => 'https://www.ikea.com/us/en/p/teodores-chair-green-60530619/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/teodores-chair-green__1114283_pe871739_s5.jpg',
+			'category_id' => 11,
+		]);
+
+		$p60530619->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/teodores-chair-green__1114283_pe871739_s5.jpg' ]);
+		$p60530619->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/teodores-chair-green__1114282_pe871740_s5.jpg' ]);
+		$p60530619->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/teodores-chair-green__1114280_pe871738_s5.jpg' ]);
+		$p60530619->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/teodores-chair-green__1114281_pe871741_s5.jpg' ]);
+
+		$vc30486156->products()->attach($p80530623->id);
+		$vc30486156->products()->attach($p60530619->id);
+
+		$vc20566747 = VariationCollection::create();
+
+		$p20566747 = Product::create([
+			'name' => 'KRYLBO Chair, Tonerud blue',
+			'price' => 90.0,
+			'model_path' => '/models/90566744_PS01_S01_NV01_RQP3_3.0_202ef48dd8e144678fe179ad006729fd.glb',
+			'is_stackable' => 0,
+			'description' => 'KRYLBO Chair, Tonerud blue',
+			'source' => 'https://www.ikea.com/us/en/p/krylbo-chair-tonerud-blue-20566747/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/krylbo-chair-tonerud-blue__1208500_pe908601_s5.jpg',
+			'category_id' => 11,
+		]);
+
+		$p20566747->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/krylbo-chair-tonerud-blue__1208500_pe908601_s5.jpg' ]);
+		$p20566747->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/krylbo-chair-tonerud-blue__1208497_pe908603_s5.jpg' ]);
+		$p20566747->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/krylbo-chair-tonerud-blue__1208498_pe908604_s5.jpg' ]);
+		$p20566747->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/krylbo-chair-tonerud-blue__1208499_pe908605_s5.jpg' ]);
+		$p20566747->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/krylbo-chair-tonerud-blue__1233556_pe916891_s5.jpg' ]);
+		$p20566747->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/krylbo-chair-tonerud-blue__1208496_pe908602_s5.jpg' ]);
+		$p20566747->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/krylbo-chair-tonerud-blue__1241360_ph194093_s5.jpg' ]);
+
+		$vc20566747->products()->attach($p20566747->id);
+
+		$vc20557875 = VariationCollection::create();
+
+		$p90557886 = Product::create([
+			'name' => 'GRÖNSTA Armchair, in/outdoor, white',
+			'price' => 70.0,
+			'model_path' => '/models/90557886_PS01_S01_NV01_RQP3_3.0_08dc48b687f4448c9247a1918d3abfdd.glb',
+			'is_stackable' => 0,
+			'description' => 'GRÖNSTA Armchair, in/outdoor, white',
+			'source' => 'https://www.ikea.com/us/en/p/groensta-armchair-in-outdoor-white-90557886/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/groensta-armchair-in-outdoor-white__1243810_pe920959_s5.jpg',
+			'category_id' => 11,
+		]);
+
+		$p90557886->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/groensta-armchair-in-outdoor-white__1243810_pe920959_s5.jpg' ]);
+		$p90557886->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/groensta-armchair-in-outdoor-white__1273246_pe929937_s5.jpg' ]);
+		$p90557886->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/groensta-armchair-in-outdoor-white__1243807_pe920958_s5.jpg' ]);
+		$p90557886->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/groensta-armchair-in-outdoor-white__1243808_pe920961_s5.jpg' ]);
+		$p90557886->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/groensta-armchair-in-outdoor-white__1243806_pe920957_s5.jpg' ]);
+		$p90557886->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/groensta-armchair-in-outdoor-white__1301481_pe937445_s5.jpg' ]);
+
+		$vc20557875->products()->attach($p90557886->id);
+
+		$vc00534776 = VariationCollection::create();
+
+		$p70534773 = Product::create([
+			'name' => 'LILLÅNÄS Chair, chrome plated/Bomstad black',
+			'price' => 125.0,
+			'model_path' => '/models/70534754_PS01_S01_NV01_RQP3_3.0_194c10691cf34e25843679c100e2ca41.glb',
+			'is_stackable' => 0,
+			'description' => 'LILLÅNÄS Chair, chrome plated/Bomstad black',
+			'source' => 'https://www.ikea.com/us/en/p/lillanaes-chair-chrome-plated-bomstad-black-70534773/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/lillanaes-chair-chrome-plated-bomstad-black__1150275_pe884447_s5.jpg',
+			'category_id' => 11,
+		]);
+
+		$p70534773->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lillanaes-chair-chrome-plated-bomstad-black__1150275_pe884447_s5.jpg' ]);
+		$p70534773->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lillanaes-chair-chrome-plated-bomstad-black__1163578_pe890740_s5.jpg' ]);
+		$p70534773->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lillanaes-chair-chrome-plated-bomstad-black__1150273_pe884449_s5.jpg' ]);
+		$p70534773->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lillanaes-chair-chrome-plated-bomstad-black__1150272_pe884446_s5.jpg' ]);
+		$p70534773->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lillanaes-chair-chrome-plated-bomstad-black__1150271_pe884445_s5.jpg' ]);
+		$p70534773->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lillanaes-chair-chrome-plated-bomstad-black__1150274_pe884448_s5.jpg' ]);
+
+		$vc00534776->products()->attach($p70534773->id);
+
+		$vc00534451 = VariationCollection::create();
+
+		$p00534451 = Product::create([
+			'name' => 'HÖGALT Chair, black/Älvsborg dark gray',
+			'price' => 65.0,
+			'model_path' => '/models/00534451_PS01_S01_NV01_RQP3_3.0_06bd828f009e47858570dc93afb5854d.glb',
+			'is_stackable' => 0,
+			'description' => 'HÖGALT Chair, black/Älvsborg dark gray',
+			'source' => 'https://www.ikea.com/us/en/p/hoegalt-chair-black-aelvsborg-dark-gray-00534451/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/hoegalt-chair-black-aelvsborg-dark-gray__1156080_pe886886_s5.jpg',
+			'category_id' => 11,
+		]);
+
+		$p00534451->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/hoegalt-chair-black-aelvsborg-dark-gray__1156080_pe886886_s5.jpg' ]);
+		$p00534451->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/hoegalt-chair-black-aelvsborg-dark-gray__1211713_ph193122_s5.jpg' ]);
+		$p00534451->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/hoegalt-chair-black-aelvsborg-dark-gray__1156078_pe886888_s5.jpg' ]);
+		$p00534451->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/hoegalt-chair-black-aelvsborg-dark-gray__1156077_pe886887_s5.jpg' ]);
+		$p00534451->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/hoegalt-chair-black-aelvsborg-dark-gray__1156079_pe886889_s5.jpg' ]);
+
+		$vc00534451->products()->attach($p00534451->id);
     }
 }
