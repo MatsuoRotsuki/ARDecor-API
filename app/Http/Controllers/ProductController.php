@@ -23,7 +23,7 @@ class ProductController extends Controller
                 ->union($firstInCollectionQ)
                 ->orderBy('id');
 
-            $products = Product::with(['images', 'category', 'variations'])
+            $products = Product::with(['category', 'variations'])
                 ->whereIn('id', function($innerQuery) use ($representatives) {
                     $innerQuery->select('id')->fromSub($representatives, 'representatives');
                 })
@@ -72,7 +72,7 @@ class ProductController extends Controller
                 ->union($firstInCollectionQ)
                 ->orderBy('id');
 
-            $products = Product::with(['images', 'category', 'variations'])
+            $products = Product::with(['images', 'category', 'variations', 'measurements.measurement_type'])
                 ->when(!$request->hasAny([
                     'category',
                     'keyword',
@@ -127,7 +127,7 @@ class ProductController extends Controller
     public function show($id)
     {
         try {
-            $product = Product::with(['images', 'category', 'variations.variationCollection'])
+            $product = Product::with(['images', 'category', 'variations.variationCollection', 'measurements.measurement_type'])
                 ->find($id);
 
             if (!isset($product))

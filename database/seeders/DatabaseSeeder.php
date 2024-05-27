@@ -6,6 +6,7 @@ use App\Models\User;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use App\Models\Category;
 use App\Models\RoomType;
+use App\Models\MeasurementType;
 use Illuminate\Database\Seeder;
 use Database\Seeders\ProductSeeder;
 
@@ -123,6 +124,111 @@ class DatabaseSeeder extends Seeder
         $bookcaseCat = Category::create([
             'name' => 'Giá sách',
             'image_url' => 'https://www.ikea.com/global/assets/range-categorisation/images/bookcases-10382.jpeg',
+        ]);
+
+        $lightningCat = Category::create([
+            'name' => 'Hệ thống chiếu sáng',
+            'image_url' => 'https://www.ikea.com/us/en/range-categorisation/images/lighting-li001.jpeg',
+        ]);
+
+        $measurementType1 = MeasurementType::create([
+            'name' => 'Chiều cao',
+            'unit' => 'mm',
+        ]);
+
+        $measurementType2 = MeasurementType::create([
+            'name' => 'Chiều dài',
+            'unit' => 'mm',
+        ]);
+
+        $measurementType3 = MeasurementType::create([
+            'name' => 'Chiều rộng',
+            'unit' => 'mm',
+        ]);
+
+        $measurementType4 = MeasurementType::create([
+            'name' => 'Tải trọng tối đa',
+            'unit' => 'kg',
+        ]);
+
+        $measurementType5 = MeasurementType::create([
+            'name' => 'Chiều cao tối thiểu',
+            'unit' => 'mm',
+        ]);
+
+        $measurementType6 = MeasurementType::create([
+            'name' => 'Chiều cao tối đa',
+            'unit' => 'mm',
+        ]);
+
+        $measurementType7 = MeasurementType::create([
+            'name' => 'Chiều cao dưới đồ nội thất',
+            'unit' => 'mm',
+        ]);
+
+        $measurementType8 = MeasurementType::create([
+            'name' => 'Chiều sâu ngăn kéo',
+            'unit' => 'mm',
+        ]);
+
+        $measurementType9 = MeasurementType::create([
+            'name' => 'Chiều rộng ngăn kéo',
+            'unit' => 'mm',
+        ]);
+
+        $measurementType10 = MeasurementType::create([
+            'name' => 'Chiều rộng ghế',
+            'unit' => 'mm',
+        ]);
+
+        $measurementType11 = MeasurementType::create([
+            'name' => 'Chiều sâu ghế',
+            'unit' => 'mm',
+        ]);
+
+        $measurementType12 = MeasurementType::create([
+            'name' => 'Chiều cao ghế',
+            'unit' => 'mm',
+        ]);
+
+        $measurementType13 = MeasurementType::create([
+            'name' => 'Đã thử nghiệm với khối lượng',
+            'unit' => 'kg',
+        ]);
+
+        $measurementType14 = MeasurementType::create([
+            'name' => 'Công suất tiêu thụ',
+            'unit' => 'W',
+        ]);
+
+        $measurementType15 = MeasurementType::create([
+            'name' => 'Chiều dài dây diện',
+            'unit' => 'mm',
+        ]);
+
+        $measurementType16 = MeasurementType::create([
+            'name' => 'Đường kính đáy',
+            'unit' => 'mm',
+        ]);
+
+        $measurementType17 = MeasurementType::create([
+            'name' => 'Đường kính chao đèn',
+            'unit' => 'mm',
+        ]);
+
+        $measurementType18 = MeasurementType::create([
+            'name' => 'Đường kính',
+            'unit' => 'mm',
+        ]);
+
+        $measurementType19 = MeasurementType::create([
+            'name' => 'Đường kính trong',
+            'unit' => 'mm',
+        ]);
+
+        $measurementType20 = MeasurementType::create([
+            'name' => 'Đường kính ngoài',
+            'unit' => 'mm',
         ]);
 
         $this->call(ProductSeeder::class);

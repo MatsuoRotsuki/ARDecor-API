@@ -4,6 +4,7 @@ namespace App\Models;
 
 use App\Models\Category;
 use App\Models\Variation;
+use App\Models\Measurement;
 use App\Models\ProductImage;
 use App\Models\VariationCollection;
 use Illuminate\Database\Eloquent\Model;
@@ -57,5 +58,10 @@ class Product extends Model
             return $variationCollection->products->makeHidden(['product_variations']);
         }
         else return [];
+    }
+
+    public function measurements()
+    {
+        return $this->hasMany(Measurement::class, 'product_id', 'id');
     }
 }

@@ -84,6 +84,7 @@ class PlacementController extends Controller
 
             if ($validator->fails())
             {
+                Log::debug($validator->errors());
                 return response()->json([
                     'message' => $validator->errors(),
                     'success' => false,
