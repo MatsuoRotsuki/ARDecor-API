@@ -14,14 +14,14 @@ class IdeaController extends Controller
     public function index()
     {
         try {
-            $ideas = Idea::with("images")
+            $ideas = Idea::with(['images', 'roomType'])
                 ->get();
 
             foreach($ideas as $idea)
             {
                 $products = collect(json_decode($idea->placements, true));
                 $productIds = $products->pluck('productId')->toArray();
-                $placement['products'] = Product::whereIn('id', $productIds)->get();
+                $idea['products'] = Product::whereIn('id', $productIds)->get();
             }
 
             return response()->json([
@@ -57,7 +57,7 @@ class IdeaController extends Controller
                 $result = preg_replace($key, $value, $result);
             }
 
-            $ideas = Idea::with('images')
+            $ideas = Idea::with(['images', 'roomType'])
                 ->when($request->q, function ($query) use ($result) {
                     $query->where('name', 'REGEXP', $result);
                 })
@@ -70,7 +70,7 @@ class IdeaController extends Controller
             {
                 $products = collect(json_decode($idea->placements, true));
                 $productIds = $products->pluck('productId')->toArray();
-                $placement['products'] = Product::whereIn('id', $productIds)->get();
+                $idea['products'] = Product::whereIn('id', $productIds)->get();
             }
 
             return response()->json([
@@ -91,7 +91,7 @@ class IdeaController extends Controller
     public function show($id)
     {
         try {
-            $idea = Idea::with('images')
+            $idea = Idea::with(['images', 'roomType'])
                 ->find($id);
 
             if (!isset($idea)) {
@@ -100,6 +100,10 @@ class IdeaController extends Controller
                     'success' => false,
                 ], 404);
             }
+
+            $products = collect(json_decode($idea->placements, true));
+            $productIds = $products->pluck('productId')->toArray();
+            $idea['products'] = Product::whereIn('id', $productIds)->get();
 
             return response()->json([
                 'data' => $idea,

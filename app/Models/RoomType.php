@@ -2,8 +2,9 @@
 
 namespace App\Models;
 
-use Illuminate\Database\Eloquent\Factories\HasFactory;
+use App\Models\Idea;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 
 class RoomType extends Model
 {
@@ -13,8 +14,13 @@ class RoomType extends Model
 
     protected $fillable = [
         'name',
-        'main_image_url',
+        'image_url',
     ];
 
     public $timestamps = false;
+
+    public function ideas()
+    {
+        return $this->hasMany(Idea::class, 'room_type_id', 'id');
+    }
 }

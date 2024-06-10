@@ -117,7 +117,7 @@ class PlacementController extends Controller
         try {
             $rules = [
                 'id' => ['required', 'exists:saved_placements'],
-                'name' => ['required', 'string', 'min:6'],
+                'name' => ['required', 'string'],
                 'placements' => ['required', 'json'],
                 'user_id' => ['required', 'string'],
             ];

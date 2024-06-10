@@ -12188,5 +12188,1250 @@ class ProductSeeder extends Seeder
         $p30458827->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/idanaes-cabinet-with-bi-folding-doors-white__0939203_pe794448_s5.jpg' ]);
 
         $vc10458828->products()->attach($p30458827->id);
+
+        //Furniture Set
+        $vcs29297294 = VariationCollection::create();
+
+		$ps49011766 = Product::create([
+			'name' => 'MELLTORP / ADDE Table and 2 chairs, white, 29 1/2 "',
+			'price' => 64.99,
+			'model_path' => '/models/G-49011766-420b6db49bd5373489ec6ba56a4e2e6c3acad000_0efcbdf10e5c4ee0ad8ea2b403f328c7.glb',
+			'is_stackable' => 1,
+			'description' => 'This table suits many people from the minimalist to the family demanding everyday strength and durability. Put it in the kitchen or in the dining room. The clean design coordinates well with many styles.',
+			'source' => 'https://www.ikea.com/us/en/p/melltorp-adde-table-and-2-chairs-white-s49011766/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/melltorp-adde-table-and-2-chairs-white__0737985_pe741286_s5.jpg',
+			'category_id' => 10,
+		]);
+
+		$ps49011766->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/melltorp-adde-table-and-2-chairs-white__0737985_pe741286_s5.jpg' ]);
+		$ps49011766->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/melltorp-adde-table-and-2-chairs-white__0872066_pe590954_s5.jpg' ]);
+		$ps49011766->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/melltorp-adde-table-and-2-chairs-white__0947776_pe798637_s5.jpg' ]);
+		$ps49011766->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/melltorp-adde-table-and-2-chairs-white__0174114_pe328020_s5.jpg' ]);
+		$ps49011766->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/melltorp-adde-table-and-2-chairs-white__0976376_pe813160_s5.jpg' ]);
+		$ps49011766->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/melltorp-adde-table-and-2-chairs-white__0870681_pe594905_s5.jpg' ]);
+		$ps49011766->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/melltorp-adde-table-and-2-chairs-white__0872092_pe716742_s5.jpg' ]);
+		$ps49011766->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/melltorp-adde-table-and-2-chairs-white__0872085_pe594884_s5.jpg' ]);
+
+		$ps49011766->measurements()->create(['value' => 750,'measurement_type_id' => 2]);
+		$ps49011766->measurements()->create(['value' => 740,'measurement_type_id' => 1]);
+		$ps49011766->measurements()->create(['value' => 750,'measurement_type_id' => 3]);
+
+		$vcs29297294->products()->attach($ps49011766->id);
+
+		$vcs09482693 = VariationCollection::create();
+
+		$ps19246144 = Product::create([
+			'name' => 'SKOGSTA / NORRARYD Table and 6 chairs, acacia/black, 92 1/2x39 3/8 "',
+			'price' => 1239.0,
+			'model_path' => '/models/G-19246144-702d94106e1de3621498ae660fb7d947985a6eaa_300028bd5b484ee6be2180f78af1e17c.glb',
+			'is_stackable' => 1,
+			'description' => 'Every table is unique, with varying grain pattern and natural color shifts that are part of the charm of wood.',
+			'source' => 'https://www.ikea.com/us/en/p/skogsta-norraryd-table-and-6-chairs-acacia-black-s19246144/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/skogsta-norraryd-table-and-6-chairs-acacia-black__0549135_pe657574_s5.jpg',
+			'category_id' => 10,
+		]);
+
+		$ps19246144->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/skogsta-norraryd-table-and-6-chairs-acacia-black__0549135_pe657574_s5.jpg' ]);
+		$ps19246144->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/skogsta-norraryd-table-and-6-chairs-acacia-black__0872191_pe590638_s5.jpg' ]);
+		$ps19246144->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/skogsta-norraryd-table-and-6-chairs-acacia-black__0872198_pe657576_s5.jpg' ]);
+		$ps19246144->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/skogsta-norraryd-table-and-6-chairs-acacia-black__0949342_pe799652_s5.jpg' ]);
+		$ps19246144->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/skogsta-norraryd-table-and-6-chairs-acacia-black__0870623_pe548254_s5.jpg' ]);
+		$ps19246144->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/skogsta-norraryd-table-and-6-chairs-acacia-black__0949260_pe799598_s5.jpg' ]);
+		$ps19246144->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/skogsta-norraryd-table-and-6-chairs-acacia-black__0628543_ph149771_s5.jpg' ]);
+
+		$ps19246144->measurements()->create(['value' => 2350,'measurement_type_id' => 2]);
+		$ps19246144->measurements()->create(['value' => 740,'measurement_type_id' => 1]);
+		$ps19246144->measurements()->create(['value' => 1000,'measurement_type_id' => 3]);
+
+		$ps69482690 = Product::create([
+			'name' => 'SKOGSTA / NORDVIKEN Table and 6 chairs, acacia/black, 92 1/2x39 3/8 "',
+			'price' => 939.0,
+			'model_path' => '/models/G-69482690-d84173216b5ef29a917c16d22897ae7b3605c676_2722025b572c4726a051f152e7d9cd70.glb',
+			'is_stackable' => 1,
+			'description' => 'A durable dining set that makes it easy to have big dinners. The solid wood holds up well over time and will endure all the family meals and activities around the table.',
+			'source' => 'https://www.ikea.com/us/en/p/skogsta-nordviken-table-and-6-chairs-acacia-black-s69482690/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/skogsta-nordviken-table-and-6-chairs-acacia-black__1097254_pe864851_s5.jpg',
+			'category_id' => 10,
+		]);
+
+		$ps69482690->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/skogsta-nordviken-table-and-6-chairs-acacia-black__1097254_pe864851_s5.jpg' ]);
+		$ps69482690->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/skogsta-nordviken-table-and-6-chairs-acacia-black__0797392_pe766852_s5.jpg' ]);
+		$ps69482690->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/skogsta-nordviken-table-and-6-chairs-acacia-black__1053089_pe846685_s5.jpg' ]);
+		$ps69482690->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/skogsta-nordviken-table-and-6-chairs-acacia-black__0947700_pe798621_s5.jpg' ]);
+		$ps69482690->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/skogsta-nordviken-table-and-6-chairs-acacia-black__1053088_pe846684_s5.jpg' ]);
+		$ps69482690->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/skogsta-nordviken-table-and-6-chairs-acacia-black__0949260_pe799598_s5.jpg' ]);
+		$ps69482690->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/skogsta-nordviken-table-and-6-chairs-acacia-black__1097281_pe864868_s5.jpg' ]);
+
+		$ps69482690->measurements()->create(['value' => 2350,'measurement_type_id' => 2]);
+		$ps69482690->measurements()->create(['value' => 740,'measurement_type_id' => 1]);
+		$ps69482690->measurements()->create(['value' => 1000,'measurement_type_id' => 3]);
+
+		$ps09482693 = Product::create([
+			'name' => 'SKOGSTA / INGOLF Table and 6 chairs, acacia/black, 92 1/2x39 3/8 "',
+			'price' => 969.0,
+			'model_path' => '/models/G-09482693-a1a0a87dd37145da28a19959dfc91157a7dc0b09_28af703438a54ade93685494972e7d10.glb',
+			'is_stackable' => 1,
+			'description' => 'A durable dining set that makes it easy to have big dinners. The solid wood holds up well over time and will endure all the family meals and activities around the table.',
+			'source' => 'https://www.ikea.com/us/en/p/skogsta-ingolf-table-and-6-chairs-acacia-black-s09482693/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/skogsta-ingolf-table-and-6-chairs-acacia-black__1097256_pe864853_s5.jpg',
+			'category_id' => 10,
+		]);
+
+		$ps09482693->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/skogsta-ingolf-table-and-6-chairs-acacia-black__1097256_pe864853_s5.jpg' ]);
+		$ps09482693->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/skogsta-ingolf-table-and-6-chairs-acacia-black__1053142_pe846735_s5.jpg' ]);
+		$ps09482693->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/skogsta-ingolf-table-and-6-chairs-acacia-black__0949260_pe799598_s5.jpg' ]);
+		$ps09482693->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/skogsta-ingolf-table-and-6-chairs-acacia-black__0947841_pe798658_s5.jpg' ]);
+		$ps09482693->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/skogsta-ingolf-table-and-6-chairs-acacia-black__1053143_pe846736_s5.jpg' ]);
+		$ps09482693->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/skogsta-ingolf-table-and-6-chairs-acacia-black__1097283_pe864870_s5.jpg' ]);
+
+		$ps09482693->measurements()->create(['value' => 2350,'measurement_type_id' => 2]);
+		$ps09482693->measurements()->create(['value' => 740,'measurement_type_id' => 1]);
+		$ps09482693->measurements()->create(['value' => 1000,'measurement_type_id' => 3]);
+
+		$vcs09482693->products()->attach($ps19246144->id);
+		$vcs09482693->products()->attach($ps69482690->id);
+		$vcs09482693->products()->attach($ps09482693->id);
+
+		$vc50211104 = VariationCollection::create();
+
+		$p50211104 = Product::create([
+			'name' => 'JOKKMOKK Table and 4 chairs, antique stain',
+			'price' => 199.99,
+			'model_path' => '/models/50211104_PS01_S01_NV01_RQP3_3.0_3de347c737fc4bf388f28f0b6347e4cd.glb',
+			'is_stackable' => 1,
+			'description' => 'A simple and sturdy set that’s perfect for your breakfast nook or smaller dining area. The solid pine holds up well over time and will endure all the family meals and activities around the table.',
+			'source' => 'https://www.ikea.com/us/en/p/jokkmokk-table-and-4-chairs-antique-stain-50211104/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/jokkmokk-table-and-4-chairs-antique-stain__0736929_pe740809_s5.jpg',
+			'category_id' => 10,
+		]);
+
+		$p50211104->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/jokkmokk-table-and-4-chairs-antique-stain__0736929_pe740809_s5.jpg' ]);
+		$p50211104->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/jokkmokk-table-and-4-chairs-antique-stain__0870916_pe716638_s5.jpg' ]);
+		$p50211104->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/jokkmokk-table-and-4-chairs-antique-stain__0870896_pe594898_s5.jpg' ]);
+		$p50211104->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/jokkmokk-table-and-4-chairs-antique-stain__0208609_pe197452_s5.jpg' ]);
+
+		$p50211104->measurements()->create(['value' => 410,'measurement_type_id' => 11]);
+		$p50211104->measurements()->create(['value' => 410,'measurement_type_id' => 10]);
+		$p50211104->measurements()->create(['value' => 440,'measurement_type_id' => 12]);
+
+		$vc50211104->products()->attach($p50211104->id);
+
+		$vcs09494295 = VariationCollection::create();
+
+		$ps59429194 = Product::create([
+			'name' => 'SANDSBERG / ADDE Table and 4 chairs, black/black, 43 1/4x26 3/8 "',
+			'price' => 109.99,
+			'model_path' => '/models/G-59429194-44609e6450c846975dacddd32c74c9a6b2a1d6c9_e8c2a151aa0749d885249a283cf068ea.glb',
+			'is_stackable' => 1,
+			'description' => 'A slim design that blends in without taking up too much visual space in the room, yet sturdy enough to hold up to everyday activities.',
+			'source' => 'https://www.ikea.com/us/en/p/sandsberg-adde-table-and-4-chairs-black-black-s59429194/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/sandsberg-adde-table-and-4-chairs-black-black__1016431_pe830392_s5.jpg',
+			'category_id' => 10,
+		]);
+
+		$ps59429194->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/sandsberg-adde-table-and-4-chairs-black-black__1016431_pe830392_s5.jpg' ]);
+		$ps59429194->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/sandsberg-adde-table-and-4-chairs-black-black__1052581_pe846236_s5.jpg' ]);
+		$ps59429194->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/sandsberg-adde-table-and-4-chairs-black-black__1031911_pe836694_s5.jpg' ]);
+		$ps59429194->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/sandsberg-adde-table-and-4-chairs-black-black__1052580_pe846235_s5.jpg' ]);
+		$ps59429194->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/sandsberg-adde-table-and-4-chairs-black-black__1016429_pe830390_s5.jpg' ]);
+		$ps59429194->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/sandsberg-adde-table-and-4-chairs-black-black__0947776_pe798637_s5.jpg' ]);
+		$ps59429194->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/sandsberg-adde-table-and-4-chairs-black-black__1027680_pe834977_s5.jpg' ]);
+
+		$ps59429194->measurements()->create(['value' => 1100,'measurement_type_id' => 2]);
+		$ps59429194->measurements()->create(['value' => 730,'measurement_type_id' => 1]);
+		$ps59429194->measurements()->create(['value' => 670,'measurement_type_id' => 3]);
+
+		$ps49420410 = Product::create([
+			'name' => 'SANDSBERG / SANDSBERG Table and 4 chairs, black/black, 43 1/4x26 3/8 "',
+			'price' => 179.99,
+			'model_path' => '/models/G-49420410-70c88962f7f538a4419ddb8ad5928cab99dd3a47_00ba33ed9fb7432a8d6c1df1cbf44234.glb',
+			'is_stackable' => 1,
+			'description' => 'A slim design that blends in without taking up too much visual space in the room. Lightweight yet sturdy enough to hold up to everyday activities.',
+			'source' => 'https://www.ikea.com/us/en/p/sandsberg-sandsberg-table-and-4-chairs-black-black-s49420410/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/sandsberg-sandsberg-table-and-4-chairs-black-black__1074352_pe856165_s5.jpg',
+			'category_id' => 10,
+		]);
+
+		$ps49420410->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/sandsberg-sandsberg-table-and-4-chairs-black-black__1074352_pe856165_s5.jpg' ]);
+		$ps49420410->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/sandsberg-sandsberg-table-and-4-chairs-black-black__1068128_pe852976_s5.jpg' ]);
+		$ps49420410->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/sandsberg-sandsberg-table-and-4-chairs-black-black__1056658_pe848456_s5.jpg' ]);
+		$ps49420410->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/sandsberg-sandsberg-table-and-4-chairs-black-black__1056657_pe848457_s5.jpg' ]);
+		$ps49420410->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/sandsberg-sandsberg-table-and-4-chairs-black-black__1028047_pe835187_s5.jpg' ]);
+		$ps49420410->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/sandsberg-sandsberg-table-and-4-chairs-black-black__1068129_pe852978_s5.jpg' ]);
+		$ps49420410->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/sandsberg-sandsberg-table-and-4-chairs-black-black__1056655_pe848455_s5.jpg' ]);
+		$ps49420410->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/sandsberg-sandsberg-table-and-4-chairs-black-black__1031911_pe836694_s5.jpg' ]);
+		$ps49420410->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/sandsberg-sandsberg-table-and-4-chairs-black-black__1056656_pe848458_s5.jpg' ]);
+		$ps49420410->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/sandsberg-sandsberg-table-and-4-chairs-black-black__1027686_pe834983_s5.jpg' ]);
+
+		$ps49420410->measurements()->create(['value' => 1100,'measurement_type_id' => 2]);
+		$ps49420410->measurements()->create(['value' => 730,'measurement_type_id' => 1]);
+		$ps49420410->measurements()->create(['value' => 670,'measurement_type_id' => 3]);
+
+		$vcs09494295->products()->attach($ps59429194->id);
+		$vcs09494295->products()->attach($ps49420410->id);
+
+		$vcs59571597 = VariationCollection::create();
+
+		$ps89305074 = Product::create([
+			'name' => 'NORDVIKEN / NORDVIKEN Table and 2 chairs, black/black, 29 1/8/41x29 1/8 "',
+			'price' => 329.0,
+			'model_path' => '/models/G-89305074-c270854aa142cde202e455ae3b5b8aad2e67dd03_6b5d3c8a4c5744fabeef3c79be05c384.glb',
+			'is_stackable' => 1,
+			'description' => 'This beautifully matched dining set with traditional feel will soon become a natural gathering place in your home. NORDVIKEN extendable table seats 2 to 4 people and NORDVIKEN chair provides good comfort.',
+			'source' => 'https://www.ikea.com/us/en/p/nordviken-nordviken-table-and-2-chairs-black-black-s89305074/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-2-chairs-black-black__0747556_pe744581_s5.jpg',
+			'category_id' => 10,
+		]);
+
+		$ps89305074->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-2-chairs-black-black__0747556_pe744581_s5.jpg' ]);
+		$ps89305074->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-2-chairs-black-black__0947740_pe798626_s5.jpg' ]);
+		$ps89305074->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-2-chairs-black-black__0747557_pe744582_s5.jpg' ]);
+		$ps89305074->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-2-chairs-black-black__0797393_pe766853_s5.jpg' ]);
+		$ps89305074->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-2-chairs-black-black__0797392_pe766852_s5.jpg' ]);
+		$ps89305074->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-2-chairs-black-black__0714202_pe729964_s5.jpg' ]);
+		$ps89305074->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-2-chairs-black-black__0797428_pe766872_s5.jpg' ]);
+		$ps89305074->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-2-chairs-black-black__0947700_pe798621_s5.jpg' ]);
+		$ps89305074->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-2-chairs-black-black__0747558_pe744583_s5.jpg' ]);
+
+		$ps89305074->measurements()->create(['value' => 740,'measurement_type_id' => 2]);
+
+		$vcs59571597->products()->attach($ps89305074->id);
+
+		$vcs09482810 = VariationCollection::create();
+
+		$ps79285806 = Product::create([
+			'name' => 'INGATORP / INGOLF Table and 6 chairs, black/Sporda dark gray, 61/84 5/8x34 1/4 "',
+			'price' => 1199.99,
+			'model_path' => '/models/G-79285806-c8c6c859ef5887cea3712a973c7f0c3bf8c47fab_49cc94cba0cb4e42b60b8be062199806.glb',
+			'is_stackable' => 1,
+			'description' => 'It’s easy to extend when guests arrive – the legs of the table stay in the corner so everyone sits comfortably. A traditional look with details like turned legs give it that little extra.',
+			'source' => 'https://www.ikea.com/us/en/p/ingatorp-ingolf-table-and-6-chairs-black-sporda-dark-gray-s79285806/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/ingatorp-ingolf-table-and-6-chairs-black-sporda-dark-gray__0659751_pe710930_s5.jpg',
+			'category_id' => 10,
+		]);
+
+		$ps79285806->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingatorp-ingolf-table-and-6-chairs-black-sporda-dark-gray__0659751_pe710930_s5.jpg' ]);
+		$ps79285806->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingatorp-ingolf-table-and-6-chairs-black-sporda-dark-gray__0871532_pe690030_s5.jpg' ]);
+		$ps79285806->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingatorp-ingolf-table-and-6-chairs-black-sporda-dark-gray__0947817_pe798643_s5.jpg' ]);
+		$ps79285806->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingatorp-ingolf-table-and-6-chairs-black-sporda-dark-gray__0870376_pe594981_s5.jpg' ]);
+		$ps79285806->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingatorp-ingolf-table-and-6-chairs-black-sporda-dark-gray__0871528_pe690028_s5.jpg' ]);
+		$ps79285806->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingatorp-ingolf-table-and-6-chairs-black-sporda-dark-gray__0947841_pe798658_s5.jpg' ]);
+		$ps79285806->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingatorp-ingolf-table-and-6-chairs-black-sporda-dark-gray__0993286_pe820482_s5.jpg' ]);
+		$ps79285806->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingatorp-ingolf-table-and-6-chairs-black-sporda-dark-gray__0870372_pe594442_s5.jpg' ]);
+		$ps79285806->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingatorp-ingolf-table-and-6-chairs-black-sporda-dark-gray__0871522_pe690027_s5.jpg' ]);
+		$ps79285806->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingatorp-ingolf-table-and-6-chairs-black-sporda-dark-gray__1030734_pe836339_s5.jpg' ]);
+
+		$ps79285806->measurements()->create(['value' => 1550,'measurement_type_id' => 2]);
+		$ps79285806->measurements()->create(['value' => 870,'measurement_type_id' => 3]);
+
+		$ps49296887 = Product::create([
+			'name' => 'INGATORP / INGOLF Table and 6 chairs, black/brown-black, 61/84 5/8 "',
+			'price' => 869.99,
+			'model_path' => '/models/G-49296887-c567f2b15d10dcbc65539436c26c36e86baaab45_13bb52e5c37d4de8b40ad4cf45bc631a.glb',
+			'is_stackable' => 1,
+			'description' => 'Solid wood is a durable natural material.',
+			'source' => 'https://www.ikea.com/us/en/p/ingatorp-ingolf-table-and-6-chairs-black-brown-black-s49296887/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/ingatorp-ingolf-table-and-6-chairs-black-brown-black__0737451_pe741100_s5.jpg',
+			'category_id' => 10,
+		]);
+
+		$ps49296887->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingatorp-ingolf-table-and-6-chairs-black-brown-black__0737451_pe741100_s5.jpg' ]);
+		$ps49296887->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingatorp-ingolf-table-and-6-chairs-black-brown-black__1053142_pe846735_s5.jpg' ]);
+		$ps49296887->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingatorp-ingolf-table-and-6-chairs-black-brown-black__0947841_pe798658_s5.jpg' ]);
+		$ps49296887->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingatorp-ingolf-table-and-6-chairs-black-brown-black__0870376_pe594981_s5.jpg' ]);
+		$ps49296887->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingatorp-ingolf-table-and-6-chairs-black-brown-black__0947817_pe798643_s5.jpg' ]);
+		$ps49296887->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingatorp-ingolf-table-and-6-chairs-black-brown-black__0721033_pe733016_s5.jpg' ]);
+
+		$ps49296887->measurements()->create(['value' => 1550,'measurement_type_id' => 2]);
+
+		$vcs09482810->products()->attach($ps79285806->id);
+		$vcs09482810->products()->attach($ps49296887->id);
+
+		$vcs09428842 = VariationCollection::create();
+
+		$ps99014376 = Product::create([
+			'name' => 'MELLTORP / ADDE Table and 4 chairs, white, 49 1/4 "',
+			'price' => 149.99,
+			'model_path' => '/models/G-99014376-ce3df2d90e318c4c5ce967da62e3b2aaea08f0a6_03accd7d7ff64fc88265260b952811a2.glb',
+			'is_stackable' => 1,
+			'description' => 'This table suits many people from the minimalist to the family demanding everyday strength and durability. Put it in the kitchen or in the dining room. The clean design coordinates well with many styles.',
+			'source' => 'https://www.ikea.com/us/en/p/melltorp-adde-table-and-4-chairs-white-s99014376/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/melltorp-adde-table-and-4-chairs-white__0737986_pe741287_s5.jpg',
+			'category_id' => 10,
+		]);
+
+		$ps99014376->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/melltorp-adde-table-and-4-chairs-white__0737986_pe741287_s5.jpg' ]);
+		$ps99014376->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/melltorp-adde-table-and-4-chairs-white__0872066_pe590954_s5.jpg' ]);
+		$ps99014376->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/melltorp-adde-table-and-4-chairs-white__0870681_pe594905_s5.jpg' ]);
+		$ps99014376->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/melltorp-adde-table-and-4-chairs-white__0872085_pe594884_s5.jpg' ]);
+		$ps99014376->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/melltorp-adde-table-and-4-chairs-white__0976365_pe813152_s5.jpg' ]);
+		$ps99014376->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/melltorp-adde-table-and-4-chairs-white__0174114_pe328020_s5.jpg' ]);
+		$ps99014376->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/melltorp-adde-table-and-4-chairs-white__0723344_pe733925_s5.jpg' ]);
+		$ps99014376->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/melltorp-adde-table-and-4-chairs-white__0719970_pe732344_s5.jpg' ]);
+		$ps99014376->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/melltorp-adde-table-and-4-chairs-white__0947776_pe798637_s5.jpg' ]);
+
+		$ps99014376->measurements()->create(['value' => 1250,'measurement_type_id' => 2]);
+		$ps99014376->measurements()->create(['value' => 740,'measurement_type_id' => 1]);
+		$ps99014376->measurements()->create(['value' => 750,'measurement_type_id' => 3]);
+
+		$ps59161487 = Product::create([
+			'name' => 'MELLTORP / JANINGE Table and 4 chairs, white/white, 49 1/4 "',
+			'price' => 439.99,
+			'model_path' => '/models/G-59161487-f259052c418cd26e6be2812a9d88f833ab9e0262_1d6fb501a643454299641c8a71ed2320.glb',
+			'is_stackable' => 1,
+			'description' => 'This table suits many people from the minimalist to the family demanding everyday strength and durability. Put it in the kitchen or in the dining room. The clean design coordinates well with many styles.',
+			'source' => 'https://www.ikea.com/us/en/p/melltorp-janinge-table-and-4-chairs-white-white-s59161487/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/melltorp-janinge-table-and-4-chairs-white-white__0737988_pe741289_s5.jpg',
+			'category_id' => 10,
+		]);
+
+		$ps59161487->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/melltorp-janinge-table-and-4-chairs-white-white__0737988_pe741289_s5.jpg' ]);
+		$ps59161487->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/melltorp-janinge-table-and-4-chairs-white-white__0871870_pe716739_s5.jpg' ]);
+		$ps59161487->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/melltorp-janinge-table-and-4-chairs-white-white__0976365_pe813152_s5.jpg' ]);
+		$ps59161487->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/melltorp-janinge-table-and-4-chairs-white-white__0719972_pe732346_s5.jpg' ]);
+		$ps59161487->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/melltorp-janinge-table-and-4-chairs-white-white__0870681_pe594905_s5.jpg' ]);
+		$ps59161487->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/melltorp-janinge-table-and-4-chairs-white-white__0949313_pe799631_s5.jpg' ]);
+		$ps59161487->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/melltorp-janinge-table-and-4-chairs-white-white__0372003_ph121914_s5.jpg' ]);
+
+		$ps59161487->measurements()->create(['value' => 1250,'measurement_type_id' => 2]);
+		$ps59161487->measurements()->create(['value' => 740,'measurement_type_id' => 1]);
+		$ps59161487->measurements()->create(['value' => 750,'measurement_type_id' => 3]);
+
+		$ps79161486 = Product::create([
+			'name' => 'MELLTORP / ADDE Table and 4 chairs, white/black, 49 1/4 "',
+			'price' => 149.99,
+			'model_path' => '/models/G-79161486-44f6d1fe83adc150b5c44b8b7e0afb4cb974a92f_04b47c54d30f40199622bfbf7fdd81ce.glb',
+			'is_stackable' => 1,
+			'description' => 'This table suits many people from the minimalist to the family demanding everyday strength and durability. Put it in the kitchen or in the dining room. The clean design coordinates well with many styles.',
+			'source' => 'https://www.ikea.com/us/en/p/melltorp-adde-table-and-4-chairs-white-black-s79161486/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/melltorp-adde-table-and-4-chairs-white-black__0737987_pe741288_s5.jpg',
+			'category_id' => 10,
+		]);
+
+		$ps79161486->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/melltorp-adde-table-and-4-chairs-white-black__0737987_pe741288_s5.jpg' ]);
+		$ps79161486->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/melltorp-adde-table-and-4-chairs-white-black__0872134_pe716740_s5.jpg' ]);
+		$ps79161486->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/melltorp-adde-table-and-4-chairs-white-black__0872127_pe594887_s5.jpg' ]);
+		$ps79161486->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/melltorp-adde-table-and-4-chairs-white-black__0871247_pe590970_s5.jpg' ]);
+		$ps79161486->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/melltorp-adde-table-and-4-chairs-white-black__0976365_pe813152_s5.jpg' ]);
+		$ps79161486->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/melltorp-adde-table-and-4-chairs-white-black__0947776_pe798637_s5.jpg' ]);
+		$ps79161486->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/melltorp-adde-table-and-4-chairs-white-black__0870681_pe594905_s5.jpg' ]);
+		$ps79161486->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/melltorp-adde-table-and-4-chairs-white-black__0174112_pe328016_s5.jpg' ]);
+		$ps79161486->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/melltorp-adde-table-and-4-chairs-white-black__0719971_pe732345_s5.jpg' ]);
+
+		$ps79161486->measurements()->create(['value' => 1250,'measurement_type_id' => 2]);
+		$ps79161486->measurements()->create(['value' => 740,'measurement_type_id' => 1]);
+		$ps79161486->measurements()->create(['value' => 750,'measurement_type_id' => 3]);
+
+		$vcs09428842->products()->attach($ps99014376->id);
+		$vcs09428842->products()->attach($ps59161487->id);
+		$vcs09428842->products()->attach($ps79161486->id);
+
+		$vcs09571627 = VariationCollection::create();
+
+		$ps39386647 = Product::create([
+			'name' => 'NORDVIKEN / NORDVIKEN Table and 4 chairs, antique stain/antique stain, 59 7/8/87 3/4x37 3/8 "',
+			'price' => 859.0,
+			'model_path' => '/models/G-39386647-305ebc26752d9e688d62c302b782f2258e3d4159_021b2ea2f8174054a37439a3a00feb5b.glb',
+			'is_stackable' => 1,
+			'description' => '',
+			'source' => 'https://www.ikea.com/us/en/p/nordviken-nordviken-table-and-4-chairs-antique-stain-antique-stain-s39386647/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-4-chairs-antique-stain-antique-stain__0941066_pe795322_s5.jpg',
+			'category_id' => 10,
+		]);
+
+		$ps39386647->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-4-chairs-antique-stain-antique-stain__0941066_pe795322_s5.jpg' ]);
+		$ps39386647->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-4-chairs-antique-stain-antique-stain__0941067_pe795323_s5.jpg' ]);
+		$ps39386647->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-4-chairs-antique-stain-antique-stain__0947700_pe798621_s5.jpg' ]);
+		$ps39386647->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-4-chairs-antique-stain-antique-stain__0947713_pe798625_s5.jpg' ]);
+
+		$ps39386647->measurements()->create(['value' => 950,'measurement_type_id' => 2]);
+
+		$ps59305155 = Product::create([
+			'name' => 'NORDVIKEN / NORDVIKEN Table and 4 chairs, black/black, 59 7/8/87 3/4x37 3/8 "',
+			'price' => 859.0,
+			'model_path' => '/models/G-59305155-6e13baf617ca2aa632782be33c588c4d71f55302_0baaf7adf06740788883a61ff97be9f1.glb',
+			'is_stackable' => 1,
+			'description' => 'This beautifully matched dining set with traditional feel will soon become a natural gathering place in your home. NORDVIKEN extendable table seats 4 to 6 people and NORDVIKEN chair provides good comfort.',
+			'source' => 'https://www.ikea.com/us/en/p/nordviken-nordviken-table-and-4-chairs-black-black-s59305155/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-4-chairs-black-black__0747569_pe744589_s5.jpg',
+			'category_id' => 10,
+		]);
+
+		$ps59305155->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-4-chairs-black-black__0747569_pe744589_s5.jpg' ]);
+		$ps59305155->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-4-chairs-black-black__0947713_pe798625_s5.jpg' ]);
+		$ps59305155->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-4-chairs-black-black__0797393_pe766853_s5.jpg' ]);
+		$ps59305155->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-4-chairs-black-black__0947700_pe798621_s5.jpg' ]);
+		$ps59305155->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-4-chairs-black-black__0744798_pe743409_s5.jpg' ]);
+		$ps59305155->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-4-chairs-black-black__0797392_pe766852_s5.jpg' ]);
+		$ps59305155->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-4-chairs-black-black__0797433_ph163608_s5.jpg' ]);
+		$ps59305155->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-4-chairs-black-black__0714202_pe729964_s5.jpg' ]);
+		$ps59305155->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-4-chairs-black-black__0797434_ph163607_s5.jpg' ]);
+		$ps59305155->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-4-chairs-black-black__0744797_pe743408_s5.jpg' ]);
+
+		$ps59305155->measurements()->create(['value' => 950,'measurement_type_id' => 2]);
+
+		$vcs09571627->products()->attach($ps39386647->id);
+		$vcs09571627->products()->attach($ps59305155->id);
+
+		$vcs39305043 = VariationCollection::create();
+
+		$ps39305043 = Product::create([
+			'name' => 'VEDBO / ODGER Table and 4 chairs, black/anthracite, 63x37 3/8 "',
+			'price' => 1199.0,
+			'model_path' => '/models/G-39305043-c2fd6737a5076d4eb59a7276ff9c7422f43e9986_3d4329e5e74c4820b146617f2f8dff2a.glb',
+			'is_stackable' => 1,
+			'description' => 'The matte, velvety surface of this dining table invites you to feel its smoothness. It isn’t sensitive to fingerprints so go ahead and touch. Partners perfectly with VEDBO chair for a timeless look.',
+			'source' => 'https://www.ikea.com/us/en/p/vedbo-odger-table-and-4-chairs-black-anthracite-s39305043/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-odger-table-and-4-chairs-black-anthracite__0786351_pe762973_s5.jpg',
+			'category_id' => 10,
+		]);
+
+		$ps39305043->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-odger-table-and-4-chairs-black-anthracite__0786351_pe762973_s5.jpg' ]);
+		$ps39305043->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-odger-table-and-4-chairs-black-anthracite__0815077_pe772748_s5.jpg' ]);
+		$ps39305043->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-odger-table-and-4-chairs-black-anthracite__0948332_pe798956_s5.jpg' ]);
+		$ps39305043->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-odger-table-and-4-chairs-black-anthracite__0798332_pe767221_s5.jpg' ]);
+		$ps39305043->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-odger-table-and-4-chairs-black-anthracite__0837133_pe778655_s5.jpg' ]);
+		$ps39305043->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/vedbo-odger-table-and-4-chairs-black-anthracite__0948272_pe798947_s5.jpg' ]);
+
+		$ps39305043->measurements()->create(['value' => 1600,'measurement_type_id' => 2]);
+		$ps39305043->measurements()->create(['value' => 950,'measurement_type_id' => 3]);
+
+		$vcs39305043->products()->attach($ps39305043->id);
+
+		$vcs49534911 = VariationCollection::create();
+
+		$ps69898415 = Product::create([
+			'name' => 'TÄRNÖ Table+2 chairs, outdoor, black/light brown stained',
+			'price' => 59.0,
+			'model_path' => '/models/s69898415.glb_8d61511ab25d4e9fbe2de7853f1d3bdc.glb',
+			'is_stackable' => 1,
+			'description' => 'Foldable, durable and lovable with its mix of natural acacia hardwood and powder-coated steel. A perfect size for the balcony or in a cozy corner of the deck.',
+			'source' => 'https://www.ikea.com/us/en/p/taernoe-table-2-chairs-outdoor-black-light-brown-stained-s69898415/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/taernoe-table-2-chairs-outdoor-black-light-brown-stained__0736028_pe740355_s5.jpg',
+			'category_id' => 10,
+		]);
+
+		$ps69898415->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/taernoe-table-2-chairs-outdoor-black-light-brown-stained__0736028_pe740355_s5.jpg' ]);
+		$ps69898415->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/taernoe-table-2-chairs-outdoor-black-light-brown-stained__0802386_ph162517_s5.jpg' ]);
+		$ps69898415->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/taernoe-table-2-chairs-outdoor-black-light-brown-stained__1200504_ph191783_s5.jpg' ]);
+		$ps69898415->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/taernoe-table-2-chairs-outdoor-black-light-brown-stained__0976654_ph175755_s5.jpg' ]);
+		$ps69898415->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/taernoe-table-2-chairs-outdoor-black-light-brown-stained__0997576_ph177494_s5.jpg' ]);
+		$ps69898415->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/taernoe-table-2-chairs-outdoor-black-light-brown-stained__1200503_ph191796_s5.jpg' ]);
+		$ps69898415->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/taernoe-table-2-chairs-outdoor-black-light-brown-stained__0907221_pe616552_s5.jpg' ]);
+		$ps69898415->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/taernoe-table-2-chairs-outdoor-black-light-brown-stained__1098829_ph183995_s5.jpg' ]);
+		$ps69898415->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/taernoe-table-2-chairs-outdoor-black-light-brown-stained__0667583_pe713986_s5.jpg' ]);
+		$ps69898415->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/taernoe-table-2-chairs-outdoor-black-light-brown-stained__0947198_pe798445_s5.jpg' ]);
+		$ps69898415->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/taernoe-table-2-chairs-outdoor-black-light-brown-stained__1098824_ph183996_s5.jpg' ]);
+		$ps69898415->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/taernoe-table-2-chairs-outdoor-black-light-brown-stained__1200506_ph191784_s5.jpg' ]);
+		$ps69898415->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/taernoe-table-2-chairs-outdoor-black-light-brown-stained-kuddarna-gray__0666810_pe713692_s5.jpg' ]);
+		$ps69898415->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/taernoe-table-2-chairs-outdoor-black-light-brown-stained__0976656_ph175754_s5.jpg' ]);
+		$ps69898415->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/taernoe-table-2-chairs-outdoor-black-light-brown-stained__0907107_pe619009_s5.jpg' ]);
+		$ps69898415->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/taernoe-table-2-chairs-outdoor-black-light-brown-stained-kloesan-blue__1239754_pe919071_s5.jpg' ]);
+		$ps69898415->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/taernoe-table-2-chairs-outdoor-black-light-brown-stained__1200505_ph191785_s5.jpg' ]);
+
+
+		$vcs49534911->products()->attach($ps69898415->id);
+
+		$vcs09259702 = VariationCollection::create();
+
+		$ps09259702 = Product::create([
+			'name' => 'LISABO / ODGER Table and 4 chairs, black/beige, 55 1/8x30 3/4 "',
+			'price' => 749.99,
+			'model_path' => '/models/G-09259702-f7f71c291e12002940167479a93cecf5978b4bd3_057622fe16c8425391985bea804f4e68.glb',
+			'is_stackable' => 1,
+			'description' => 'We’re proud of our LISABO series, awarded with the prestigious, international Red Dot Award, for its design. The products are durable, sturdy and easy to assemble, yet look light and hand-crafted.',
+			'source' => 'https://www.ikea.com/us/en/p/lisabo-odger-table-and-4-chairs-black-beige-s09259702/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/lisabo-odger-table-and-4-chairs-black-beige__0737980_pe741295_s5.jpg',
+			'category_id' => 10,
+		]);
+
+		$ps09259702->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lisabo-odger-table-and-4-chairs-black-beige__0737980_pe741295_s5.jpg' ]);
+		$ps09259702->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lisabo-odger-table-and-4-chairs-black-beige__0871356_pe674065_s5.jpg' ]);
+		$ps09259702->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lisabo-odger-table-and-4-chairs-black-beige__0948332_pe798956_s5.jpg' ]);
+		$ps09259702->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lisabo-odger-table-and-4-chairs-black-beige__0871327_pe648694_s5.jpg' ]);
+		$ps09259702->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lisabo-odger-table-and-4-chairs-black-beige__0871315_pe648693_s5.jpg' ]);
+		$ps09259702->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lisabo-odger-table-and-4-chairs-black-beige__0949244_pe799576_s5.jpg' ]);
+
+		$ps09259702->measurements()->create(['value' => 1400,'measurement_type_id' => 2]);
+		$ps09259702->measurements()->create(['value' => 740,'measurement_type_id' => 1]);
+		$ps09259702->measurements()->create(['value' => 780,'measurement_type_id' => 3]);
+
+		$ps49385529 = Product::create([
+			'name' => 'LISABO / LISABO Table and 4 chairs, ash veneer/ash, 55 1/8x30 3/4 "',
+			'price' => 509.99,
+			'model_path' => '/models/G-49385529-9324d1bfc1d61183308956ee84dcefc37e0c7328_1171580625ef44efb13b9ed7d3cb801b.glb',
+			'is_stackable' => 1,
+			'description' => 'We’re proud of our LISABO series, awarded with the prestigious, international Red Dot Award, for its design. The products are durable, sturdy and easy to assemble, yet look light and hand-crafted.',
+			'source' => 'https://www.ikea.com/us/en/p/lisabo-lisabo-table-and-4-chairs-ash-veneer-ash-s49385529/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/lisabo-lisabo-table-and-4-chairs-ash-veneer-ash__0921113_pe787668_s5.jpg',
+			'category_id' => 10,
+		]);
+
+		$ps49385529->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lisabo-lisabo-table-and-4-chairs-ash-veneer-ash__0921113_pe787668_s5.jpg' ]);
+		$ps49385529->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lisabo-lisabo-table-and-4-chairs-ash-veneer-ash__0949242_pe799575_s5.jpg' ]);
+		$ps49385529->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lisabo-lisabo-table-and-4-chairs-ash-veneer-ash__1053173_pe846766_s5.jpg' ]);
+		$ps49385529->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lisabo-lisabo-table-and-4-chairs-ash-veneer-ash__1053171_pe846764_s5.jpg' ]);
+		$ps49385529->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lisabo-lisabo-table-and-4-chairs-ash-veneer-ash__1053172_pe846765_s5.jpg' ]);
+		$ps49385529->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lisabo-lisabo-table-and-4-chairs-ash-veneer-ash__0949244_pe799576_s5.jpg' ]);
+		$ps49385529->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lisabo-lisabo-table-and-4-chairs-ash-veneer-ash__1221247_pe913674_s5.jpg' ]);
+
+		$ps49385529->measurements()->create(['value' => 1400,'measurement_type_id' => 2]);
+		$ps49385529->measurements()->create(['value' => 740,'measurement_type_id' => 1]);
+		$ps49385529->measurements()->create(['value' => 780,'measurement_type_id' => 3]);
+
+		$vcs09259702->products()->attach($ps09259702->id);
+		$vcs09259702->products()->attach($ps49385529->id);
+
+		$ps49097350 = Product::create([
+			'name' => 'INGO / IVAR Table and 4 chairs, pine, 47 1/4 "',
+			'price' => 259.99,
+			'model_path' => '/models/G-49097350-9aae56e2d3d8dc422785962e68da16017ffc34df_a264fcd3e7ff4af49870e9159b9c7e20.glb',
+			'is_stackable' => 1,
+			'description' => 'Solid pine; a natural material that ages beautifully.',
+			'source' => 'https://www.ikea.com/us/en/p/ingo-ivar-table-and-4-chairs-pine-s49097350/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/ingo-ivar-table-and-4-chairs-pine__0737943_pe741269_s5.jpg',
+			'category_id' => 10,
+		]);
+
+		$ps49097350->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingo-ivar-table-and-4-chairs-pine__0737943_pe741269_s5.jpg' ]);
+		$ps49097350->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingo-ivar-table-and-4-chairs-pine__0949575_pe799868_s5.jpg' ]);
+		$ps49097350->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingo-ivar-table-and-4-chairs-pine__0949579_pe799870_s5.jpg' ]);
+		$ps49097350->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingo-ivar-table-and-4-chairs-pine__1054550_pe847742_s5.jpg' ]);
+
+		$ps49097350->measurements()->create(['value' => 1200,'measurement_type_id' => 2]);
+		$ps49097350->measurements()->create(['value' => 730,'measurement_type_id' => 1]);
+		$ps49097350->measurements()->create(['value' => 750,'measurement_type_id' => 3]);
+
+
+		$vcs29304765 = VariationCollection::create();
+
+		$ps29304765 = Product::create([
+			'name' => 'NORDVIKEN / NORDVIKEN Table and 6 chairs, white/white, 82 5/8/113 3/4x41 3/8 "',
+			'price' => 1089.0,
+			'model_path' => '/models/G-29304765-979a28affb2d317135cf5c0028cfb9f3fe9af04b_2a10a9be83be4923b01205ca6038cda7.glb',
+			'is_stackable' => 1,
+			'description' => 'This beautifully matched dining set with traditional feel will soon become a natural gathering place in your home. NORDVIKEN extendable table seats 6 to 8 people and NORDVIKEN chair provides good comfort.',
+			'source' => 'https://www.ikea.com/us/en/p/nordviken-nordviken-table-and-6-chairs-white-white-s29304765/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-6-chairs-white-white__0747584_pe744604_s5.jpg',
+			'category_id' => 10,
+		]);
+
+		$ps29304765->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-6-chairs-white-white__0747584_pe744604_s5.jpg' ]);
+		$ps29304765->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-6-chairs-white-white__0744794_pe743404_s5.jpg' ]);
+		$ps29304765->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-6-chairs-white-white__0797396_pe766855_s5.jpg' ]);
+		$ps29304765->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-6-chairs-white-white__0797398_pe766856_s5.jpg' ]);
+		$ps29304765->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-6-chairs-white-white__0933234_ph170599_s5.jpg' ]);
+		$ps29304765->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-6-chairs-white-white__0947709_pe798623_s5.jpg' ]);
+		$ps29304765->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-6-chairs-white-white__0947700_pe798621_s5.jpg' ]);
+		$ps29304765->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-6-chairs-white-white__0797725_ph164756_s5.jpg' ]);
+		$ps29304765->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-6-chairs-white-white__0747585_pe744605_s5.jpg' ]);
+		$ps29304765->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-6-chairs-white-white__0714205_pe729965_s5.jpg' ]);
+		$ps29304765->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-6-chairs-white-white__0747590_pe744610_s5.jpg' ]);
+
+		$ps29304765->measurements()->create(['value' => 1050,'measurement_type_id' => 2]);
+
+		$ps79304763 = Product::create([
+			'name' => 'NORDVIKEN / NORDVIKEN Table and 6 chairs, black/black, 82 5/8/113 3/4x41 3/8 "',
+			'price' => 1089.0,
+			'model_path' => '/models/G-79304763-c08c4cef90f7e46d3d70ddd2a1b1ab36b2b33c84_83fb4804e62a43e2aaddbac9a0a44fc5.glb',
+			'is_stackable' => 1,
+			'description' => 'This beautifully matched dining set with traditional feel will soon become a natural gathering place in your home. NORDVIKEN extendable table seats 6 to 8 people and NORDVIKEN chair provides good comfort.',
+			'source' => 'https://www.ikea.com/us/en/p/nordviken-nordviken-table-and-6-chairs-black-black-s79304763/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-6-chairs-black-black__0747579_pe744599_s5.jpg',
+			'category_id' => 10,
+		]);
+
+		$ps79304763->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-6-chairs-black-black__0747579_pe744599_s5.jpg' ]);
+		$ps79304763->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-6-chairs-black-black__0797392_pe766852_s5.jpg' ]);
+		$ps79304763->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-6-chairs-black-black__0747582_pe744602_s5.jpg' ]);
+		$ps79304763->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-6-chairs-black-black__0947709_pe798623_s5.jpg' ]);
+		$ps79304763->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-6-chairs-black-black__0744799_pe743410_s5.jpg' ]);
+		$ps79304763->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-6-chairs-black-black__0747580_pe744600_s5.jpg' ]);
+		$ps79304763->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-6-chairs-black-black__0947700_pe798621_s5.jpg' ]);
+		$ps79304763->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-6-chairs-black-black__0955681_ph174047_s5.jpg' ]);
+		$ps79304763->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-6-chairs-black-black__0797393_pe766853_s5.jpg' ]);
+		$ps79304763->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-6-chairs-black-black__0928967_ph167490_s5.jpg' ]);
+		$ps79304763->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-6-chairs-black-black__0744800_pe743411_s5.jpg' ]);
+		$ps79304763->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-6-chairs-black-black__0714202_pe729964_s5.jpg' ]);
+
+		$ps79304763->measurements()->create(['value' => 1050,'measurement_type_id' => 2]);
+
+		$vcs29304765->products()->attach($ps29304765->id);
+		$vcs29304765->products()->attach($ps79304763->id);
+
+		$vcs19297157 = VariationCollection::create();
+
+		$ps19297157 = Product::create([
+			'name' => 'INGATORP / INGOLF Table and 4 chairs, black/brown-black, 61/84 5/8 "',
+			'price' => 729.99,
+			'model_path' => '/models/G-19297157-1699e9b11f2b5568fdf4a4d8cf194e4e8db17944_020812e595f64f29b27f8500c03c6bec.glb',
+			'is_stackable' => 1,
+			'description' => 'Solid wood is a durable natural material.',
+			'source' => 'https://www.ikea.com/us/en/p/ingatorp-ingolf-table-and-4-chairs-black-brown-black-s19297157/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/ingatorp-ingolf-table-and-4-chairs-black-brown-black__0737937_pe741263_s5.jpg',
+			'category_id' => 10,
+		]);
+
+		$ps19297157->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingatorp-ingolf-table-and-4-chairs-black-brown-black__0737937_pe741263_s5.jpg' ]);
+		$ps19297157->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingatorp-ingolf-table-and-4-chairs-black-brown-black__1053142_pe846735_s5.jpg' ]);
+		$ps19297157->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingatorp-ingolf-table-and-4-chairs-black-brown-black__0947841_pe798658_s5.jpg' ]);
+		$ps19297157->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingatorp-ingolf-table-and-4-chairs-black-brown-black__0872396_pe720173_s5.jpg' ]);
+		$ps19297157->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingatorp-ingolf-table-and-4-chairs-black-brown-black__0870372_pe594442_s5.jpg' ]);
+		$ps19297157->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingatorp-ingolf-table-and-4-chairs-black-brown-black__0870376_pe594981_s5.jpg' ]);
+		$ps19297157->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingatorp-ingolf-table-and-4-chairs-black-brown-black__0947817_pe798643_s5.jpg' ]);
+
+		$ps19297157->measurements()->create(['value' => 1550,'measurement_type_id' => 2]);
+
+		$vcs19297157->products()->attach($ps19297157->id);
+
+		$ps99399878 = Product::create([
+			'name' => 'NORDVIKEN / NORDVIKEN Table and 6 chairs, antique stain/antique stain, 59 7/8/87 3/4x37 3/8 "',
+			'price' => 989.0,
+			'model_path' => '/models/G-99399878-d7b0e48fe46879cc36cfc14518a5b81718cda84a_310ff424d9314c28909c8e08f065d030.glb',
+			'is_stackable' => 1,
+			'description' => '',
+			'source' => 'https://www.ikea.com/us/en/p/nordviken-nordviken-table-and-6-chairs-antique-stain-antique-stain-s99399878/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-6-chairs-antique-stain-antique-stain__0941068_pe795325_s5.jpg',
+			'category_id' => 10,
+		]);
+
+		$ps99399878->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-6-chairs-antique-stain-antique-stain__0941068_pe795325_s5.jpg' ]);
+		$ps99399878->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-6-chairs-antique-stain-antique-stain__0947713_pe798625_s5.jpg' ]);
+		$ps99399878->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-6-chairs-antique-stain-antique-stain__0941069_pe795324_s5.jpg' ]);
+		$ps99399878->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-6-chairs-antique-stain-antique-stain__0947700_pe798621_s5.jpg' ]);
+
+		$ps99399878->measurements()->create(['value' => 950,'measurement_type_id' => 2]);
+
+
+		$ps79429188 = Product::create([
+			'name' => 'RÖNNINGE / RÖNNINGE Table with 2 chairs and bench, birch/birch, 61/82 5/8 "',
+			'price' => 864.99,
+			'model_path' => '/models/G-79429188-3d7947a93c4d0207e0bb0fc6c2bb554b5f12745b_6484e8d16e7a4734901190d0d37261b1.glb',
+			'is_stackable' => 1,
+			'description' => 'Easy to assemble as each leg has only one screw.',
+			'source' => 'https://www.ikea.com/us/en/p/roenninge-roenninge-table-with-2-chairs-and-bench-birch-birch-s79429188/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/roenninge-roenninge-table-with-2-chairs-and-bench-birch-birch__1028878_pe835551_s5.jpg',
+			'category_id' => 10,
+		]);
+
+		$ps79429188->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/roenninge-roenninge-table-with-2-chairs-and-bench-birch-birch__1028878_pe835551_s5.jpg' ]);
+		$ps79429188->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/roenninge-roenninge-table-with-2-chairs-and-bench-birch-birch__1028450_pe835446_s5.jpg' ]);
+		$ps79429188->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/roenninge-roenninge-table-with-2-chairs-and-bench-birch-birch__0949795_pe800011_s5.jpg' ]);
+		$ps79429188->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/roenninge-roenninge-table-with-2-chairs-and-bench-birch-birch__0949794_pe800012_s5.jpg' ]);
+
+		$ps79429188->measurements()->create(['value' => 750,'measurement_type_id' => 1]);
+		$ps79429188->measurements()->create(['value' => 900,'measurement_type_id' => 2]);
+
+
+		$ps69161482 = Product::create([
+			'name' => 'IKEA PS 2012 / JANINGE Table and 4 chairs, bamboo/white, 54 3/8 "',
+			'price' => 589.99,
+			'model_path' => '/models/G-69161482-ce4bdb2cd192e0457a4dbfacb8eee146ff6cf629_0d390f95929a45faa424597af70608e3.glb',
+			'is_stackable' => 1,
+			'description' => 'Small dimensions make the table easy to furnish with, even when space is limited.',
+			'source' => 'https://www.ikea.com/us/en/p/ikea-ps-2012-janinge-table-and-4-chairs-bamboo-white-s69161482/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/ikea-ps-2012-janinge-table-and-4-chairs-bamboo-white__0737788_pe741259_s5.jpg',
+			'category_id' => 10,
+		]);
+
+		$ps69161482->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ikea-ps-2012-janinge-table-and-4-chairs-bamboo-white__0737788_pe741259_s5.jpg' ]);
+		$ps69161482->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ikea-ps-2012-janinge-table-and-4-chairs-bamboo-white__0949313_pe799631_s5.jpg' ]);
+		$ps69161482->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ikea-ps-2012-janinge-table-and-4-chairs-bamboo-white__0871971_pe595111_s5.jpg' ]);
+
+		$ps69161482->measurements()->create(['value' => 1060,'measurement_type_id' => 2]);
+		$ps69161482->measurements()->create(['value' => 740,'measurement_type_id' => 1]);
+		$ps69161482->measurements()->create(['value' => 800,'measurement_type_id' => 3]);
+
+
+		$vcs09544281 = VariationCollection::create();
+
+		$ps69392538 = Product::create([
+			'name' => 'DANDERYD / INGOLF Table and 4 chairs, oak veneer white/white, 51 1/8x31 1/2 "',
+			'price' => 579.99,
+			'model_path' => '/models/G-69392538-ddbdf2cc45405d3398beba9da30558e2698add76_3139796a9284497894faeeb4d92b7281.glb',
+			'is_stackable' => 1,
+			'description' => '4-seat dining set with a traditional hand-crafted look and attention to detail. Wood veneer meets sturdy steel in a combination of beauty and strength that is made to suit your modern lifestyle.',
+			'source' => 'https://www.ikea.com/us/en/p/danderyd-ingolf-table-and-4-chairs-oak-veneer-white-white-s69392538/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/danderyd-ingolf-table-and-4-chairs-oak-veneer-white-white__0926682_pe789463_s5.jpg',
+			'category_id' => 10,
+		]);
+
+		$ps69392538->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/danderyd-ingolf-table-and-4-chairs-oak-veneer-white-white__0926682_pe789463_s5.jpg' ]);
+		$ps69392538->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/danderyd-ingolf-table-and-4-chairs-oak-veneer-white-white__1052475_pe846138_s5.jpg' ]);
+		$ps69392538->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/danderyd-ingolf-table-and-4-chairs-oak-veneer-white-white__0995229_pe821628_s5.jpg' ]);
+		$ps69392538->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/danderyd-ingolf-table-and-4-chairs-oak-veneer-white-white__0963458_pe808507_s5.jpg' ]);
+		$ps69392538->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/danderyd-ingolf-table-and-4-chairs-oak-veneer-white-white__0918149_pe786073_s5.jpg' ]);
+		$ps69392538->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/danderyd-ingolf-table-and-4-chairs-oak-veneer-white-white__0918152_pe786077_s5.jpg' ]);
+		$ps69392538->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/danderyd-ingolf-table-and-4-chairs-oak-veneer-white-white__1052476_pe846139_s5.jpg' ]);
+		$ps69392538->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/danderyd-ingolf-table-and-4-chairs-oak-veneer-white-white__1052474_pe846137_s5.jpg' ]);
+
+		$ps69392538->measurements()->create(['value' => 1300,'measurement_type_id' => 2]);
+		$ps69392538->measurements()->create(['value' => 750,'measurement_type_id' => 1]);
+		$ps69392538->measurements()->create(['value' => 800,'measurement_type_id' => 3]);
+
+		$vcs09544281->products()->attach($ps69392538->id);
+
+		$vcs19477040 = VariationCollection::create();
+
+		$ps79400496 = Product::create([
+			'name' => 'INGATORP / INGOLF Table and 4 chairs, black/brown-black, 43 1/4/61 "',
+			'price' => 779.99,
+			'model_path' => '/models/G-79400496-eb25c5580946ea7ba64585898e7f0646a8da4dff_4580f13e9efb4a708c5cb04a705e92b0.glb',
+			'is_stackable' => 1,
+			'description' => '',
+			'source' => 'https://www.ikea.com/us/en/p/ingatorp-ingolf-table-and-4-chairs-black-brown-black-s79400496/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/ingatorp-ingolf-table-and-4-chairs-black-brown-black__0954401_pe803272_s5.jpg',
+			'category_id' => 10,
+		]);
+
+		$ps79400496->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingatorp-ingolf-table-and-4-chairs-black-brown-black__0954401_pe803272_s5.jpg' ]);
+		$ps79400496->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingatorp-ingolf-table-and-4-chairs-black-brown-black__0954406_pe803277_s5.jpg' ]);
+		$ps79400496->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingatorp-ingolf-table-and-4-chairs-black-brown-black__1053142_pe846735_s5.jpg' ]);
+		$ps79400496->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingatorp-ingolf-table-and-4-chairs-black-brown-black__0947841_pe798658_s5.jpg' ]);
+		$ps79400496->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ingatorp-ingolf-table-and-4-chairs-black-brown-black__0947816_pe798640_s5.jpg' ]);
+
+		$ps79400496->measurements()->create(['value' => 1100,'measurement_type_id' => 2]);
+		$ps79400496->measurements()->create(['value' => 740,'measurement_type_id' => 1]);
+
+		$vcs19477040->products()->attach($ps79400496->id);
+
+		$vcs09505878 = VariationCollection::create();
+
+		$ps89221319 = Product::create([
+			'name' => 'EKEDALEN / TOBIAS Table and 6 chairs, dark brown/blue, 70 7/8/94 1/2 "',
+			'price' => 939.99,
+			'model_path' => '/models/G-89221319-b17a3e84cbc6151e9c043f7890a73c327eadf8c3_9abb6010806c4a43bf42835888fe060f.glb',
+			'is_stackable' => 1,
+			'description' => 'A durable dining set that makes it easy to have big dinners. A single person can extend the table and there’s plenty of room for chairs since the legs are always located at the corners of the table.',
+			'source' => 'https://www.ikea.com/us/en/p/ekedalen-tobias-table-and-6-chairs-dark-brown-blue-s89221319/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-tobias-table-and-6-chairs-dark-brown-blue__0737449_pe741098_s5.jpg',
+			'category_id' => 10,
+		]);
+
+		$ps89221319->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-tobias-table-and-6-chairs-dark-brown-blue__0737449_pe741098_s5.jpg' ]);
+		$ps89221319->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-tobias-table-and-6-chairs-dark-brown-blue__0870587_pe641905_s5.jpg' ]);
+		$ps89221319->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-tobias-table-and-6-chairs-dark-brown-blue__0872974_pe620045_s5.jpg' ]);
+		$ps89221319->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-tobias-table-and-6-chairs-dark-brown-blue__0947753_pe798634_s5.jpg' ]);
+		$ps89221319->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-tobias-table-and-6-chairs-dark-brown-blue__0949817_pe800034_s5.jpg' ]);
+		$ps89221319->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-tobias-table-and-6-chairs-dark-brown-blue__0870847_pe640491_s5.jpg' ]);
+		$ps89221319->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-tobias-table-and-6-chairs-dark-brown-blue__0872964_pe620040_s5.jpg' ]);
+
+
+		$ps49221321 = Product::create([
+			'name' => 'EKEDALEN / ODGER Table and 6 chairs, dark brown/white beige, 70 7/8/94 1/2 "',
+			'price' => 1179.99,
+			'model_path' => '/models/G-49221321-b998fc476a61ab0342982c280ac5e8a4663f0ee3_7ba039a422cb4bfe95e7ec139fb7b005.glb',
+			'is_stackable' => 1,
+			'description' => 'A durable dining set that makes it easy to have big dinners. A single person can extend the table and there’s plenty of room for chairs since the legs are always located at the corners of the table.',
+			'source' => 'https://www.ikea.com/us/en/p/ekedalen-odger-table-and-6-chairs-dark-brown-white-beige-s49221321/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-odger-table-and-6-chairs-dark-brown-white-beige__0737447_pe741096_s5.jpg',
+			'category_id' => 10,
+		]);
+
+		$ps49221321->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-odger-table-and-6-chairs-dark-brown-white-beige__0737447_pe741096_s5.jpg' ]);
+		$ps49221321->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-odger-table-and-6-chairs-dark-brown-white-beige__0947753_pe798634_s5.jpg' ]);
+		$ps49221321->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-odger-table-and-6-chairs-dark-brown-white-beige__1070845_pe854750_s5.jpg' ]);
+		$ps49221321->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-odger-table-and-6-chairs-dark-brown-white-beige__0870060_pe641903_s5.jpg' ]);
+		$ps49221321->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-odger-table-and-6-chairs-dark-brown-white-beige__0870847_pe640491_s5.jpg' ]);
+		$ps49221321->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-odger-table-and-6-chairs-dark-brown-white-beige__0948332_pe798956_s5.jpg' ]);
+		$ps49221321->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-odger-table-and-6-chairs-dark-brown-white-beige__0871166_pe640477_s5.jpg' ]);
+		$ps49221321->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-odger-table-and-6-chairs-dark-brown-white-beige__1070846_pe854753_s5.jpg' ]);
+
+
+		$vcs09505878->products()->attach($ps89221319->id);
+		$vcs09505878->products()->attach($ps49221321->id);
+
+		$ps59482921 = Product::create([
+			'name' => 'EKEDALEN / TOBIAS Table and 6 chairs, white/clear chrome plated, 70 7/8/94 1/2 "',
+			'price' => 939.99,
+			'model_path' => '/models/G-59482921-9609d484eda6041710ddcc05e6b8a7468c2a6d96_e48645b5929b47e8adf0cc2814a6fe52.glb',
+			'is_stackable' => 1,
+			'description' => 'A durable dining set that makes it easy to have big dinners. A single person can extend the table and there’s plenty of room for chairs since the legs are always located at the corners of the table.',
+			'source' => 'https://www.ikea.com/us/en/p/ekedalen-tobias-table-and-6-chairs-white-clear-chrome-plated-s59482921/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-tobias-table-and-6-chairs-white-clear-chrome-plated__1117765_pe872783_s5.jpg',
+			'category_id' => 10,
+		]);
+
+		$ps59482921->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-tobias-table-and-6-chairs-white-clear-chrome-plated__1117765_pe872783_s5.jpg' ]);
+		$ps59482921->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-tobias-table-and-6-chairs-white-clear-chrome-plated__0949817_pe800034_s5.jpg' ]);
+		$ps59482921->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-tobias-table-and-6-chairs-white-clear-chrome-plated__1097699_pe865087_s5.jpg' ]);
+		$ps59482921->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-tobias-table-and-6-chairs-white-clear-chrome-plated__0870302_pe640493_s5.jpg' ]);
+		$ps59482921->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-tobias-table-and-6-chairs-white-clear-chrome-plated__0947753_pe798634_s5.jpg' ]);
+
+
+
+		$vcs09548887 = VariationCollection::create();
+
+		$ps29296906 = Product::create([
+			'name' => 'MÖRBYLÅNGA / ODGER Table and 6 chairs, oak veneer/blue, 86 5/8x39 3/8 "',
+			'price' => 1549.0,
+			'model_path' => '/models/G-29296906-ed047deb501c6cceeb97edc8221adbb624ff1ae4_1d1f774cc6b64254a2b9407969d94fc8.glb',
+			'is_stackable' => 1,
+			'description' => 'The solid oak top layer gives each table a unique character that you can feel proud of and live with for a long time. The plank feeling is achieved with modern production techniques that use less wood.',
+			'source' => 'https://www.ikea.com/us/en/p/moerbylanga-odger-table-and-6-chairs-oak-veneer-blue-s29296906/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/moerbylanga-odger-table-and-6-chairs-oak-veneer-blue__0738079_pe741356_s5.jpg',
+			'category_id' => 10,
+		]);
+
+		$ps29296906->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/moerbylanga-odger-table-and-6-chairs-oak-veneer-blue__0738079_pe741356_s5.jpg' ]);
+		$ps29296906->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/moerbylanga-odger-table-and-6-chairs-oak-veneer-blue__0721028_pe733011_s5.jpg' ]);
+		$ps29296906->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/moerbylanga-odger-table-and-6-chairs-oak-veneer-blue__0948332_pe798956_s5.jpg' ]);
+		$ps29296906->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/moerbylanga-odger-table-and-6-chairs-oak-veneer-blue__0976335_pe813144_s5.jpg' ]);
+
+		$ps29296906->measurements()->create(['value' => 2200,'measurement_type_id' => 2]);
+		$ps29296906->measurements()->create(['value' => 1000,'measurement_type_id' => 3]);
+
+		$ps59305061 = Product::create([
+			'name' => 'MÖRBYLÅNGA Table and 6 chairs, oak veneer/anthracite, 86 5/8x39 3/8 "',
+			'price' => 1549.0,
+			'model_path' => '/models/G-59305061-b6e8b9b3924ee1ff401e2b99ce92f18d52bca258_1cce089cc13f4a999d82ae6b96b1ae4b.glb',
+			'is_stackable' => 1,
+			'description' => 'The solid oak top layer gives each table a unique character that you can feel proud of and live with for a long time. The plank feeling is achieved with modern production techniques that use less wood.',
+			'source' => 'https://www.ikea.com/us/en/p/moerbylanga-table-and-6-chairs-oak-veneer-anthracite-s59305061/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/moerbylanga-table-and-6-chairs-oak-veneer-anthracite__0786350_pe762972_s5.jpg',
+			'category_id' => 10,
+		]);
+
+		$ps59305061->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/moerbylanga-table-and-6-chairs-oak-veneer-anthracite__0786350_pe762972_s5.jpg' ]);
+		$ps59305061->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/moerbylanga-table-and-6-chairs-oak-veneer-anthracite__0798338_pe767223_s5.jpg' ]);
+		$ps59305061->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/moerbylanga-table-and-6-chairs-oak-veneer-anthracite__0948332_pe798956_s5.jpg' ]);
+		$ps59305061->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/moerbylanga-table-and-6-chairs-oak-veneer-anthracite__0976335_pe813144_s5.jpg' ]);
+
+		$ps59305061->measurements()->create(['value' => 2200,'measurement_type_id' => 2]);
+		$ps59305061->measurements()->create(['value' => 1000,'measurement_type_id' => 3]);
+
+        $vcs09548887->products()->attach($ps29296906->id);
+
+		$ps49305165 = Product::create([
+			'name' => 'NORDVIKEN / NORDVIKEN Table and 4 chairs, white/white, 59 7/8/87 3/4x37 3/8 "',
+			'price' => 859.0,
+			'model_path' => '/models/G-49305165-8c1c0a0b655255607a218e584004031fd45cb927_61d50e36a28d46dcbe5db7c74d0f1bad.glb',
+			'is_stackable' => 1,
+			'description' => 'This beautifully matched dining set with traditional feel will soon become a natural gathering place in your home. NORDVIKEN extendable table seats 4 to 6 people and NORDVIKEN chair provides good comfort.',
+			'source' => 'https://www.ikea.com/us/en/p/nordviken-nordviken-table-and-4-chairs-white-white-s49305165/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-4-chairs-white-white__0747578_pe744598_s5.jpg',
+			'category_id' => 10,
+		]);
+
+		$ps49305165->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-4-chairs-white-white__0747578_pe744598_s5.jpg' ]);
+		$ps49305165->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-4-chairs-white-white__0797398_pe766856_s5.jpg' ]);
+		$ps49305165->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-4-chairs-white-white__0797396_pe766855_s5.jpg' ]);
+		$ps49305165->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-4-chairs-white-white__0947713_pe798625_s5.jpg' ]);
+		$ps49305165->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-4-chairs-white-white__0744794_pe743404_s5.jpg' ]);
+		$ps49305165->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-4-chairs-white-white__0797438_ph164757_s5.jpg' ]);
+		$ps49305165->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-4-chairs-white-white__0947700_pe798621_s5.jpg' ]);
+		$ps49305165->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-nordviken-table-and-4-chairs-white-white__0744795_pe743407_s5.jpg' ]);
+
+		$ps49305165->measurements()->create(['value' => 950,'measurement_type_id' => 2]);
+
+
+		$vcs19429092 = VariationCollection::create();
+
+		$ps79388767 = Product::create([
+			'name' => 'RÖNNINGE / RÖNNINGE Table and 4 chairs, birch/birch, 61/82 5/8x35 3/8x29 1/2 "',
+			'price' => 959.99,
+			'model_path' => '/models/G-79388767-00c3e38c673f9a86fed734c29d727650a0f20c15_55675014e4cb47589d6f548ab984379f.glb',
+			'is_stackable' => 1,
+			'description' => 'This extendable dining table with comfy matching chairs in birch is a perfect solution when your space requires flexibility. Super easy to extend and push back together all by yourself.',
+			'source' => 'https://www.ikea.com/us/en/p/roenninge-roenninge-table-and-4-chairs-birch-birch-s79388767/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/roenninge-roenninge-table-and-4-chairs-birch-birch__0926673_pe789456_s5.jpg',
+			'category_id' => 10,
+		]);
+
+		$ps79388767->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/roenninge-roenninge-table-and-4-chairs-birch-birch__0926673_pe789456_s5.jpg' ]);
+		$ps79388767->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/roenninge-roenninge-table-and-4-chairs-birch-birch__0933355_ph169569_s5.jpg' ]);
+		$ps79388767->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/roenninge-roenninge-table-and-4-chairs-birch-birch__0949794_pe800012_s5.jpg' ]);
+		$ps79388767->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/roenninge-roenninge-table-and-4-chairs-birch-birch__0949795_pe800011_s5.jpg' ]);
+		$ps79388767->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/roenninge-roenninge-table-and-4-chairs-birch-birch__0933364_ph169628_s5.jpg' ]);
+		$ps79388767->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/roenninge-roenninge-table-and-4-chairs-birch-birch__0963364_ph170721_s5.jpg' ]);
+
+		$ps79388767->measurements()->create(['value' => 750,'measurement_type_id' => 1]);
+		$ps79388767->measurements()->create(['value' => 900,'measurement_type_id' => 2]);
+
+		$vcs19429092->products()->attach($ps79388767->id);
+
+		$ps89305168 = Product::create([
+			'name' => 'NORDVIKEN / RÖNNINGE Table and 4 chairs, white/birch, 59 7/8/87 3/4x37 3/8 "',
+			'price' => 1059.0,
+			'model_path' => '/models/G-89305168-55965a6c7ba3e09cd8bc4e63e04450fed7df0dd1_8ac835fd82704d9ab95322a71ed996f4.glb',
+			'is_stackable' => 1,
+			'description' => 'This spacious, wood dining table has a traditional feel and will soon become a natural gathering place in your home. The sturdy construction and smooth extension mechanism make it a long-lasting favorite.',
+			'source' => 'https://www.ikea.com/us/en/p/nordviken-roenninge-table-and-4-chairs-white-birch-s89305168/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-roenninge-table-and-4-chairs-white-birch__0747595_pe744615_s5.jpg',
+			'category_id' => 10,
+		]);
+
+		$ps89305168->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-roenninge-table-and-4-chairs-white-birch__0747595_pe744615_s5.jpg' ]);
+		$ps89305168->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-roenninge-table-and-4-chairs-white-birch__0797744_pe767002_s5.jpg' ]);
+		$ps89305168->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-roenninge-table-and-4-chairs-white-birch__0797743_pe767001_s5.jpg' ]);
+		$ps89305168->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-roenninge-table-and-4-chairs-white-birch__0870227_pe710047_s5.jpg' ]);
+		$ps89305168->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-roenninge-table-and-4-chairs-white-birch__0949794_pe800012_s5.jpg' ]);
+		$ps89305168->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-roenninge-table-and-4-chairs-white-birch__0870207_pe710038_s5.jpg' ]);
+		$ps89305168->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-roenninge-table-and-4-chairs-white-birch__0797742_ph165101_s5.jpg' ]);
+		$ps89305168->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/nordviken-roenninge-table-and-4-chairs-white-birch__0947713_pe798625_s5.jpg' ]);
+
+		$ps89305168->measurements()->create(['value' => 950,'measurement_type_id' => 2]);
+
+
+		$vcs29482989 = VariationCollection::create();
+
+		$ps29482989 = Product::create([
+			'name' => 'STRANDTORP / ODGER Table and 8 chairs, brown/anthracite, 59/80 3/4/102 3/8 "',
+			'price' => 1649.0,
+			'model_path' => '/models/G-29482989-5d07ce30bb644a63f3872b2a3e3182bc89621535_01794d018f004d6ab8726a85e1e8fce1.glb',
+			'is_stackable' => 1,
+			'description' => 'Whether it’s mealtime with the family or a dinner party, this extendable dining set offers plenty of room for everyone. Perfect for bringing everyone together for all those special moments.',
+			'source' => 'https://www.ikea.com/us/en/p/strandtorp-odger-table-and-8-chairs-brown-anthracite-s29482989/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/strandtorp-odger-table-and-8-chairs-brown-anthracite__1097884_pe865164_s5.jpg',
+			'category_id' => 10,
+		]);
+
+		$ps29482989->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/strandtorp-odger-table-and-8-chairs-brown-anthracite__1097884_pe865164_s5.jpg' ]);
+		$ps29482989->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/strandtorp-odger-table-and-8-chairs-brown-anthracite__0946320_ph172863_s5.jpg' ]);
+		$ps29482989->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/strandtorp-odger-table-and-8-chairs-brown-anthracite__1070849_pe854754_s5.jpg' ]);
+		$ps29482989->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/strandtorp-odger-table-and-8-chairs-brown-anthracite__1097885_pe865165_s5.jpg' ]);
+		$ps29482989->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/strandtorp-odger-table-and-8-chairs-brown-anthracite__1066028_pe852278_s5.jpg' ]);
+		$ps29482989->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/strandtorp-odger-table-and-8-chairs-brown-anthracite__0946321_ph172866_s5.jpg' ]);
+		$ps29482989->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/strandtorp-odger-table-and-8-chairs-brown-anthracite__0964766_pe809165_s5.jpg' ]);
+		$ps29482989->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/strandtorp-odger-table-and-8-chairs-brown-anthracite__0949239_pe799601_s5.jpg' ]);
+		$ps29482989->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/strandtorp-odger-table-and-8-chairs-brown-anthracite__0948332_pe798956_s5.jpg' ]);
+		$ps29482989->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/strandtorp-odger-table-and-8-chairs-brown-anthracite__1070850_pe854757_s5.jpg' ]);
+		$ps29482989->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/strandtorp-odger-table-and-8-chairs-brown-anthracite__0798332_pe767221_s5.jpg' ]);
+
+		$ps29482989->measurements()->create(['value' => 2050,'measurement_type_id' => 2]);
+		$ps29482989->measurements()->create(['value' => 750,'measurement_type_id' => 1]);
+		$ps29482989->measurements()->create(['value' => 950,'measurement_type_id' => 3]);
+
+		$vcs29482989->products()->attach($ps29482989->id);
+
+		$vcs09484946 = VariationCollection::create();
+
+		$ps19305044 = Product::create([
+			'name' => 'MÖRBYLÅNGA / ODGER Table and 4 chairs, oak veneer brown stained/anthracite, 55 1/8x33 1/2 "',
+			'price' => 1099.0,
+			'model_path' => '/models/G-19305044-111e8043c0bbf150bce1bb2fb32c61154bae91b3_20e959e876c34467930839727d84f591.glb',
+			'is_stackable' => 1,
+			'description' => 'The solid oak top layer gives each table a unique character that you can feel proud of and live with for a long time. The plank feeling is achieved with modern production techniques that use less wood.',
+			'source' => 'https://www.ikea.com/us/en/p/moerbylanga-odger-table-and-4-chairs-oak-veneer-brown-stained-anthracite-s19305044/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/moerbylanga-odger-table-and-4-chairs-oak-veneer-brown-stained-anthracite__0786349_pe762971_s5.jpg',
+			'category_id' => 10,
+		]);
+
+		$ps19305044->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/moerbylanga-odger-table-and-4-chairs-oak-veneer-brown-stained-anthracite__0786349_pe762971_s5.jpg' ]);
+		$ps19305044->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/moerbylanga-odger-table-and-4-chairs-oak-veneer-brown-stained-anthracite__0798337_ph162752_s5.jpg' ]);
+		$ps19305044->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/moerbylanga-odger-table-and-4-chairs-oak-veneer-brown-stained-anthracite__0948332_pe798956_s5.jpg' ]);
+		$ps19305044->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/moerbylanga-odger-table-and-4-chairs-oak-veneer-brown-stained-anthracite__0798331_ph162751_s5.jpg' ]);
+		$ps19305044->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/moerbylanga-odger-table-and-4-chairs-oak-veneer-brown-stained-anthracite__0976344_pe813145_s5.jpg' ]);
+
+		$ps19305044->measurements()->create(['value' => 1400,'measurement_type_id' => 2]);
+		$ps19305044->measurements()->create(['value' => 740,'measurement_type_id' => 1]);
+		$ps19305044->measurements()->create(['value' => 850,'measurement_type_id' => 3]);
+
+		$vcs09484946->products()->attach($ps19305044->id);
+
+		$ps99246098 = Product::create([
+			'name' => 'MÖRBYLÅNGA / ODGER Table and 4 chairs, brown white/beige, 55 1/8x33 1/2 "',
+			'price' => 1099.0,
+			'model_path' => '/models/G-99246098-3adeabe8f7095cb2332e7e2238a31d724126a70d_7900954de55a47f9bad5596cfe58964a.glb',
+			'is_stackable' => 1,
+			'description' => 'The solid oak top layer gives each table a unique character that you can feel proud of and live with for a long time. The plank feeling is achieved with modern production techniques that use less wood.',
+			'source' => 'https://www.ikea.com/us/en/p/moerbylanga-odger-table-and-4-chairs-brown-white-beige-s99246098/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/moerbylanga-odger-table-and-4-chairs-brown-white-beige__0738080_pe741357_s5.jpg',
+			'category_id' => 10,
+		]);
+
+		$ps99246098->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/moerbylanga-odger-table-and-4-chairs-brown-white-beige__0738080_pe741357_s5.jpg' ]);
+		$ps99246098->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/moerbylanga-odger-table-and-4-chairs-brown-white-beige__0948332_pe798956_s5.jpg' ]);
+		$ps99246098->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/moerbylanga-odger-table-and-4-chairs-brown-white-beige__0871205_pe594901_s5.jpg' ]);
+		$ps99246098->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/moerbylanga-odger-table-and-4-chairs-brown-white-beige__0871166_pe640477_s5.jpg' ]);
+		$ps99246098->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/moerbylanga-odger-table-and-4-chairs-brown-white-beige__0871869_pe717680_s5.jpg' ]);
+		$ps99246098->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/moerbylanga-odger-table-and-4-chairs-brown-white-beige__0976344_pe813145_s5.jpg' ]);
+
+		$ps99246098->measurements()->create(['value' => 1400,'measurement_type_id' => 2]);
+		$ps99246098->measurements()->create(['value' => 740,'measurement_type_id' => 1]);
+		$ps99246098->measurements()->create(['value' => 850,'measurement_type_id' => 3]);
+
+		$vcs09477045 = VariationCollection::create();
+
+		$ps69221297 = Product::create([
+			'name' => 'EKEDALEN / ODGER Table and 4 chairs, dark brown/blue, 47 1/4/70 7/8 "',
+			'price' => 799.99,
+			'model_path' => '/models/G-69221297-9aca2a9c34383778710d4efeb2559a59468f303d_4bc94a42b13b4eac88e1b3f46ee04f4d.glb',
+			'is_stackable' => 1,
+			'description' => 'A durable dining set that makes it easy to have big dinners. A single person can extend the table and there’s plenty of room for chairs since the legs are always located at the corners of the table.',
+			'source' => 'https://www.ikea.com/us/en/p/ekedalen-odger-table-and-4-chairs-dark-brown-blue-s69221297/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-odger-table-and-4-chairs-dark-brown-blue__0737723_pe741236_s5.jpg',
+			'category_id' => 10,
+		]);
+
+		$ps69221297->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-odger-table-and-4-chairs-dark-brown-blue__0737723_pe741236_s5.jpg' ]);
+		$ps69221297->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-odger-table-and-4-chairs-dark-brown-blue__0947752_pe798633_s5.jpg' ]);
+		$ps69221297->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-odger-table-and-4-chairs-dark-brown-blue__0719964_pe732338_s5.jpg' ]);
+		$ps69221297->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-odger-table-and-4-chairs-dark-brown-blue__0870847_pe640491_s5.jpg' ]);
+		$ps69221297->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-odger-table-and-4-chairs-dark-brown-blue__0871083_pe640467_s5.jpg' ]);
+		$ps69221297->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-odger-table-and-4-chairs-dark-brown-blue__0948332_pe798956_s5.jpg' ]);
+
+
+		$ps29221416 = Product::create([
+			'name' => 'EKEDALEN / ODGER Table and 4 chairs, oak/blue, 47 1/4/70 7/8 "',
+			'price' => 799.99,
+			'model_path' => '/models/G-29221416-2fad7a71853fc380d5a770280c8debbcf821638f_11ccaeb7b2ee430cb02e47fad07a8c37.glb',
+			'is_stackable' => 1,
+			'description' => 'A durable dining set that makes it easy to have big dinners. A single person can extend the table and there’s plenty of room for chairs since the legs are always located at the corners of the table.',
+			'source' => 'https://www.ikea.com/us/en/p/ekedalen-odger-table-and-4-chairs-oak-blue-s29221416/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-odger-table-and-4-chairs-oak-blue__0737724_pe741237_s5.jpg',
+			'category_id' => 10,
+		]);
+
+		$ps29221416->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-odger-table-and-4-chairs-oak-blue__0737724_pe741237_s5.jpg' ]);
+		$ps29221416->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-odger-table-and-4-chairs-oak-blue__0870919_pe640492_s5.jpg' ]);
+		$ps29221416->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-odger-table-and-4-chairs-oak-blue__0870956_pe709668_s5.jpg' ]);
+		$ps29221416->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-odger-table-and-4-chairs-oak-blue__0870973_pe717619_s5.jpg' ]);
+		$ps29221416->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-odger-table-and-4-chairs-oak-blue__0870948_pe709666_s5.jpg' ]);
+		$ps29221416->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-odger-table-and-4-chairs-oak-blue__0947752_pe798633_s5.jpg' ]);
+		$ps29221416->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-odger-table-and-4-chairs-oak-blue__0870943_pe641885_s5.jpg' ]);
+		$ps29221416->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-odger-table-and-4-chairs-oak-blue__0870983_pe717620_s5.jpg' ]);
+		$ps29221416->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-odger-table-and-4-chairs-oak-blue__0870952_pe709667_s5.jpg' ]);
+		$ps29221416->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-odger-table-and-4-chairs-oak-blue__0577891_ph144746_s5.jpg' ]);
+		$ps29221416->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-odger-table-and-4-chairs-oak-blue__0948332_pe798956_s5.jpg' ]);
+
+		$vcs09477045->products()->attach($ps69221297->id);
+		$vcs09477045->products()->attach($ps29221416->id);
+
+		$ps69221344 = Product::create([
+			'name' => 'EKEDALEN / ODGER Table and 4 chairs, white/blue, 47 1/4/70 7/8 "',
+			'price' => 799.99,
+			'model_path' => '/models/G-69221344-2a7ce424b37a5956ea3c4bed337c153022da7da5_1c6f644ec8f047a8805ae62ef7ed9b59.glb',
+			'is_stackable' => 1,
+			'description' => 'A durable dining set that makes it easy to have big dinners. A single person can extend the table and there’s plenty of room for chairs since the legs are always located at the corners of the table.',
+			'source' => 'https://www.ikea.com/us/en/p/ekedalen-odger-table-and-4-chairs-white-blue-s69221344/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-odger-table-and-4-chairs-white-blue__0737725_pe741232_s5.jpg',
+			'category_id' => 10,
+		]);
+
+		$ps69221344->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-odger-table-and-4-chairs-white-blue__0737725_pe741232_s5.jpg' ]);
+		$ps69221344->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-odger-table-and-4-chairs-white-blue__0871083_pe640467_s5.jpg' ]);
+		$ps69221344->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-odger-table-and-4-chairs-white-blue__0870302_pe640493_s5.jpg' ]);
+		$ps69221344->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-odger-table-and-4-chairs-white-blue__0947752_pe798633_s5.jpg' ]);
+		$ps69221344->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-odger-table-and-4-chairs-white-blue__0872033_pe641880_s5.jpg' ]);
+		$ps69221344->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-odger-table-and-4-chairs-white-blue__0719965_pe732339_s5.jpg' ]);
+		$ps69221344->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-odger-table-and-4-chairs-white-blue__0948332_pe798956_s5.jpg' ]);
+		$ps69221344->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/ekedalen-odger-table-and-4-chairs-white-blue__0719966_pe732340_s5.jpg' ]);
+
+
+
+		$ps39297118 = Product::create([
+			'name' => 'LISABO / RÖNNINGE Table and 4 chairs, ash veneer/birch, 55 1/8x30 3/4 "',
+			'price' => 709.99,
+			'model_path' => '/models/G-39297118-ce96472a02602c8653c11953d936cfa4f15b417a_2077da0551744c44965125ba276c2f4b.glb',
+			'is_stackable' => 1,
+			'description' => 'A light and airy dining table set made of ash veneer and birch. It has a distinct Scandinavian appeal and the table has even received the Red Dot Design Award.',
+			'source' => 'https://www.ikea.com/us/en/p/lisabo-roenninge-table-and-4-chairs-ash-veneer-birch-s39297118/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/lisabo-roenninge-table-and-4-chairs-ash-veneer-birch__0701527_pe724140_s5.jpg',
+			'category_id' => 10,
+		]);
+
+		$ps39297118->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lisabo-roenninge-table-and-4-chairs-ash-veneer-birch__0701527_pe724140_s5.jpg' ]);
+		$ps39297118->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lisabo-roenninge-table-and-4-chairs-ash-veneer-birch__0837183_pe517620_s5.jpg' ]);
+		$ps39297118->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lisabo-roenninge-table-and-4-chairs-ash-veneer-birch__0872466_pe724141_s5.jpg' ]);
+		$ps39297118->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lisabo-roenninge-table-and-4-chairs-ash-veneer-birch__0837185_pe517621_s5.jpg' ]);
+		$ps39297118->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lisabo-roenninge-table-and-4-chairs-ash-veneer-birch__0949244_pe799576_s5.jpg' ]);
+		$ps39297118->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lisabo-roenninge-table-and-4-chairs-ash-veneer-birch__0372019_ph124307_s5.jpg' ]);
+		$ps39297118->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lisabo-roenninge-table-and-4-chairs-ash-veneer-birch__0949794_pe800012_s5.jpg' ]);
+
+		$ps39297118->measurements()->create(['value' => 1400,'measurement_type_id' => 2]);
+		$ps39297118->measurements()->create(['value' => 780,'measurement_type_id' => 3]);
+
+
+		$ps49103247 = Product::create([
+			'name' => 'LISABO / JANINGE Table and 4 chairs, ash veneer/white, 55 1/8x30 3/4 "',
+			'price' => 589.99,
+			'model_path' => '/models/G-49103247-428251d048cbdd310d960d8f32ffb000e5e85e9e_44c3a3c1238844c79798fe9693b4f062.glb',
+			'is_stackable' => 1,
+			'description' => 'You can stack the chairs, so they take less space when you\'re not using them.',
+			'source' => 'https://www.ikea.com/us/en/p/lisabo-janinge-table-and-4-chairs-ash-veneer-white-s49103247/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/lisabo-janinge-table-and-4-chairs-ash-veneer-white__0737947_pe741267_s5.jpg',
+			'category_id' => 10,
+		]);
+
+		$ps49103247->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lisabo-janinge-table-and-4-chairs-ash-veneer-white__0737947_pe741267_s5.jpg' ]);
+		$ps49103247->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lisabo-janinge-table-and-4-chairs-ash-veneer-white__0837183_pe517620_s5.jpg' ]);
+		$ps49103247->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lisabo-janinge-table-and-4-chairs-ash-veneer-white__0837185_pe517621_s5.jpg' ]);
+		$ps49103247->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lisabo-janinge-table-and-4-chairs-ash-veneer-white__0949244_pe799576_s5.jpg' ]);
+		$ps49103247->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lisabo-janinge-table-and-4-chairs-ash-veneer-white__0369188_ph124299_s5.jpg' ]);
+		$ps49103247->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lisabo-janinge-table-and-4-chairs-ash-veneer-white__0372020_ph124300_s5.jpg' ]);
+		$ps49103247->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lisabo-janinge-table-and-4-chairs-ash-veneer-white__0372019_ph124307_s5.jpg' ]);
+		$ps49103247->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lisabo-janinge-table-and-4-chairs-ash-veneer-white__0949313_pe799631_s5.jpg' ]);
+
+		$ps49103247->measurements()->create(['value' => 1400,'measurement_type_id' => 2]);
+		$ps49103247->measurements()->create(['value' => 740,'measurement_type_id' => 1]);
+		$ps49103247->measurements()->create(['value' => 780,'measurement_type_id' => 3]);
+
+
+		$vcs69297126 = VariationCollection::create();
+
+		$ps69297126 = Product::create([
+			'name' => 'STENSELE / RÖNNINGE Table and 2 chairs, anthracite/anthracite birch, 27 1/2 "',
+			'price' => 399.99,
+			'model_path' => '/models/G-69297126-9dd84e737308156249b1f2555201e55bcc087d12_7f75572aef484aacb2b4076fa2caca3d.glb',
+			'is_stackable' => 1,
+			'description' => 'This neat anthracite-colored table matched with two chairs in birch can also fit in a smaller kitchen or dining area. Perfect for breakfast or a quick coffee break.',
+			'source' => 'https://www.ikea.com/us/en/p/stensele-roenninge-table-and-2-chairs-anthracite-anthracite-birch-s69297126/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/stensele-roenninge-table-and-2-chairs-anthracite-anthracite-birch__0680422_pe719844_s5.jpg',
+			'category_id' => 10,
+		]);
+
+		$ps69297126->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/stensele-roenninge-table-and-2-chairs-anthracite-anthracite-birch__0680422_pe719844_s5.jpg' ]);
+		$ps69297126->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/stensele-roenninge-table-and-2-chairs-anthracite-anthracite-birch__0870710_pe719780_s5.jpg' ]);
+		$ps69297126->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/stensele-roenninge-table-and-2-chairs-anthracite-anthracite-birch__0870706_pe719775_s5.jpg' ]);
+		$ps69297126->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/stensele-roenninge-table-and-2-chairs-anthracite-anthracite-birch__0949794_pe800012_s5.jpg' ]);
+		$ps69297126->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/stensele-roenninge-table-and-2-chairs-anthracite-anthracite-birch__0870227_pe710047_s5.jpg' ]);
+		$ps69297126->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/stensele-roenninge-table-and-2-chairs-anthracite-anthracite-birch__0870207_pe710038_s5.jpg' ]);
+		$ps69297126->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/stensele-roenninge-table-and-2-chairs-anthracite-anthracite-birch__1031346_ph173374_s5.jpg' ]);
+
+		$ps69297126->measurements()->create(['value' => 700,'measurement_type_id' => 18]);
+
+		$vcs69297126->products()->attach($ps69297126->id);
+
+		$vcs09569304 = VariationCollection::create();
+
+		$ps19388647 = Product::create([
+			'name' => 'STRANDTORP / ODGER Table and 4 chairs, brown/anthracite, 59/80 3/4/102 3/8x37 3/8 "',
+			'price' => 1149.0,
+			'model_path' => '/models/G-19388647-05c813ba7657b675016ca7696243489bb5951399_447421851c5c4bb7a2117b8607362e80.glb',
+			'is_stackable' => 1,
+			'description' => 'The chair’s moulded shell gives a comfy, flexy feel that’s yours to enjoy after a simple 3-click assembly. For strength and beauty wood is mixed into the charcoal grey plastic, like decorative sprinkles.',
+			'source' => 'https://www.ikea.com/us/en/p/strandtorp-odger-table-and-4-chairs-brown-anthracite-s19388647/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/strandtorp-odger-table-and-4-chairs-brown-anthracite__0926945_pe789594_s5.jpg',
+			'category_id' => 10,
+		]);
+
+		$ps19388647->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/strandtorp-odger-table-and-4-chairs-brown-anthracite__0926945_pe789594_s5.jpg' ]);
+		$ps19388647->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/strandtorp-odger-table-and-4-chairs-brown-anthracite__0948332_pe798956_s5.jpg' ]);
+		$ps19388647->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/strandtorp-odger-table-and-4-chairs-brown-anthracite__0963464_pe808512_s5.jpg' ]);
+		$ps19388647->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/strandtorp-odger-table-and-4-chairs-brown-anthracite__0949239_pe799601_s5.jpg' ]);
+		$ps19388647->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/strandtorp-odger-table-and-4-chairs-brown-anthracite__0964766_pe809165_s5.jpg' ]);
+
+		$ps19388647->measurements()->create(['value' => 2050,'measurement_type_id' => 2]);
+		$ps19388647->measurements()->create(['value' => 750,'measurement_type_id' => 1]);
+		$ps19388647->measurements()->create(['value' => 950,'measurement_type_id' => 3]);
+
+		$vcs09569304->products()->attach($ps19388647->id);
+
+		$vcs49477072 = VariationCollection::create();
+
+		$ps79277019 = Product::create([
+			'name' => 'MÖCKELBY / ODGER Table and 6 chairs, oak/white/beige, 92 1/2x39 3/8 "',
+			'price' => 1749.0,
+			'model_path' => '/models/G-79277019-17bbd52a77d07318fbbc130dd03226a86fe437a4_ba6cd48a7bd84e8f9b2e1be796937bbb.glb',
+			'is_stackable' => 1,
+			'description' => 'Every table is unique, with varying grain pattern and natural color shifts that are part of the charm of wood.',
+			'source' => 'https://www.ikea.com/us/en/p/moeckelby-odger-table-and-6-chairs-oak-white-beige-s79277019/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/moeckelby-odger-table-and-6-chairs-oak-white-beige__0737501_pe741146_s5.jpg',
+			'category_id' => 10,
+		]);
+
+		$ps79277019->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/moeckelby-odger-table-and-6-chairs-oak-white-beige__0737501_pe741146_s5.jpg' ]);
+		$ps79277019->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/moeckelby-odger-table-and-6-chairs-oak-white-beige__0948332_pe798956_s5.jpg' ]);
+		$ps79277019->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/moeckelby-odger-table-and-6-chairs-oak-white-beige__0871445_pe707703_s5.jpg' ]);
+		$ps79277019->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/moeckelby-odger-table-and-6-chairs-oak-white-beige__0870250_pe516168_s5.jpg' ]);
+		$ps79277019->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/moeckelby-odger-table-and-6-chairs-oak-white-beige__0949260_pe799598_s5.jpg' ]);
+		$ps79277019->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/moeckelby-odger-table-and-6-chairs-oak-white-beige__0870282_pe694811_s5.jpg' ]);
+
+		$ps79277019->measurements()->create(['value' => 2350,'measurement_type_id' => 2]);
+		$ps79277019->measurements()->create(['value' => 740,'measurement_type_id' => 1]);
+		$ps79277019->measurements()->create(['value' => 1000,'measurement_type_id' => 3]);
+
+		$ps59161492 = Product::create([
+			'name' => 'MÖCKELBY / NORRARYD Table and 6 chairs, oak/black, 92 1/2x39 3/8 "',
+			'price' => 1689.0,
+			'model_path' => '/models/G-59161492-a5236b598cd12a084d02cc235bfe161c0a00d912_b5e6de8736ed499b9d9996cd6ff0ac81.glb',
+			'is_stackable' => 1,
+			'description' => 'A durable dining set that makes it easy to have big dinners. The solid wood holds up well over time and will endure all the family meals and activities around the table.',
+			'source' => 'https://www.ikea.com/us/en/p/moeckelby-norraryd-table-and-6-chairs-oak-black-s59161492/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/moeckelby-norraryd-table-and-6-chairs-oak-black__0737500_pe741140_s5.jpg',
+			'category_id' => 10,
+		]);
+
+		$ps59161492->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/moeckelby-norraryd-table-and-6-chairs-oak-black__0737500_pe741140_s5.jpg' ]);
+		$ps59161492->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/moeckelby-norraryd-table-and-6-chairs-oak-black__0871377_pe591062_s5.jpg' ]);
+		$ps59161492->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/moeckelby-norraryd-table-and-6-chairs-oak-black__0444608_pe595141_s5.jpg' ]);
+		$ps59161492->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/moeckelby-norraryd-table-and-6-chairs-oak-black__0870282_pe694811_s5.jpg' ]);
+		$ps59161492->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/moeckelby-norraryd-table-and-6-chairs-oak-black__0872191_pe590638_s5.jpg' ]);
+		$ps59161492->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/moeckelby-norraryd-table-and-6-chairs-oak-black__0949260_pe799598_s5.jpg' ]);
+		$ps59161492->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/moeckelby-norraryd-table-and-6-chairs-oak-black__0871383_pe717733_s5.jpg' ]);
+		$ps59161492->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/moeckelby-norraryd-table-and-6-chairs-oak-black__0949342_pe799652_s5.jpg' ]);
+		$ps59161492->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/moeckelby-norraryd-table-and-6-chairs-oak-black__0437248_pe590787_s5.jpg' ]);
+		$ps59161492->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/moeckelby-norraryd-table-and-6-chairs-oak-black__0870250_pe516168_s5.jpg' ]);
+
+		$ps59161492->measurements()->create(['value' => 2350,'measurement_type_id' => 2]);
+		$ps59161492->measurements()->create(['value' => 740,'measurement_type_id' => 1]);
+		$ps59161492->measurements()->create(['value' => 1000,'measurement_type_id' => 3]);
+
+		$vcs49477072->products()->attach($ps79277019->id);
+		$vcs49477072->products()->attach($ps59161492->id);
+
+		$ps59305042 = Product::create([
+			'name' => 'LISABO / ODGER Table and 4 chairs, ash veneer/anthracite, 55 1/8x30 3/4 "',
+			'price' => 749.99,
+			'model_path' => '/models/G-59305042-d2338533ab08e9704b8654400da1a2899c1e18b2_1d85b6a3d08d4693b44ffe79a3ea405b.glb',
+			'is_stackable' => 1,
+			'description' => 'Easy assembly with just a click and no tools. Comfortable to sit on thanks to the bowl-shaped seat and rounded back. Made of renewable wood and recycled plastic. A pleasant acquaintance in every way!',
+			'source' => 'https://www.ikea.com/us/en/p/lisabo-odger-table-and-4-chairs-ash-veneer-anthracite-s59305042/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/lisabo-odger-table-and-4-chairs-ash-veneer-anthracite__0747396_pe744531_s5.jpg',
+			'category_id' => 10,
+		]);
+
+		$ps59305042->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lisabo-odger-table-and-4-chairs-ash-veneer-anthracite__0747396_pe744531_s5.jpg' ]);
+		$ps59305042->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lisabo-odger-table-and-4-chairs-ash-veneer-anthracite__0949244_pe799576_s5.jpg' ]);
+		$ps59305042->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lisabo-odger-table-and-4-chairs-ash-veneer-anthracite__0948332_pe798956_s5.jpg' ]);
+		$ps59305042->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lisabo-odger-table-and-4-chairs-ash-veneer-anthracite__0747397_pe744532_s5.jpg' ]);
+
+		$ps59305042->measurements()->create(['value' => 1400,'measurement_type_id' => 2]);
+		$ps59305042->measurements()->create(['value' => 740,'measurement_type_id' => 1]);
+		$ps59305042->measurements()->create(['value' => 780,'measurement_type_id' => 3]);
+
+
+		$ps79388649 = Product::create([
+			'name' => 'STRANDTORP / TOBIAS Table and 4 chairs, brown/clear, 59/80 3/4/102 3/8x37 3/8 "',
+			'price' => 989.0,
+			'model_path' => '/models/G-79388649-1d3f92a61c0c535e9dc9ee4f8cc14776629fb77a_33627814624a41678e5d66e0e6845715.glb',
+			'is_stackable' => 1,
+			'description' => 'Every table is unique, with varying grain pattern and natural color shifts that are part of the charm of wood.',
+			'source' => 'https://www.ikea.com/us/en/p/strandtorp-tobias-table-and-4-chairs-brown-clear-s79388649/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/strandtorp-tobias-table-and-4-chairs-brown-clear__0926951_pe789595_s5.jpg',
+			'category_id' => 10,
+		]);
+
+		$ps79388649->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/strandtorp-tobias-table-and-4-chairs-brown-clear__0926951_pe789595_s5.jpg' ]);
+		$ps79388649->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/strandtorp-tobias-table-and-4-chairs-brown-clear__0949239_pe799601_s5.jpg' ]);
+		$ps79388649->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/strandtorp-tobias-table-and-4-chairs-brown-clear__0963464_pe808512_s5.jpg' ]);
+		$ps79388649->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/strandtorp-tobias-table-and-4-chairs-brown-clear__0964766_pe809165_s5.jpg' ]);
+		$ps79388649->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/strandtorp-tobias-table-and-4-chairs-brown-clear__0870537_pe620341_s5.jpg' ]);
+		$ps79388649->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/strandtorp-tobias-table-and-4-chairs-brown-clear__0949817_pe800034_s5.jpg' ]);
+
+		$ps79388649->measurements()->create(['value' => 2050,'measurement_type_id' => 2]);
+		$ps79388649->measurements()->create(['value' => 750,'measurement_type_id' => 1]);
+		$ps79388649->measurements()->create(['value' => 950,'measurement_type_id' => 3]);
+
+		$ps89385532 = Product::create([
+			'name' => 'LISABO / LISABO Table and 4 chairs, ash veneer/black, 55 1/8x30 3/4 "',
+			'price' => 509.99,
+			'model_path' => '/models/G-89385532-3da1c7697edd78121bd76ef0671c5902dc73a5ee_008515d7a981488ea04c1d67cc5b5ec0.glb',
+			'is_stackable' => 1,
+			'description' => 'We’re proud of our LISABO series, awarded with the prestigious, international Red Dot Award, for its design. The products are durable, sturdy and easy to assemble, yet look light and hand-crafted.',
+			'source' => 'https://www.ikea.com/us/en/p/lisabo-lisabo-table-and-4-chairs-ash-veneer-black-s89385532/',
+			'image_url' => 'https://www.ikea.com/us/en/images/products/lisabo-lisabo-table-and-4-chairs-ash-veneer-black__0921114_pe787670_s5.jpg',
+			'category_id' => 10,
+		]);
+
+		$ps89385532->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lisabo-lisabo-table-and-4-chairs-ash-veneer-black__0921114_pe787670_s5.jpg' ]);
+		$ps89385532->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lisabo-lisabo-table-and-4-chairs-ash-veneer-black__0949242_pe799575_s5.jpg' ]);
+		$ps89385532->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lisabo-lisabo-table-and-4-chairs-ash-veneer-black__0921117_pe787673_s5.jpg' ]);
+		$ps89385532->images()->create([ 'image_url' => 'https://www.ikea.com/us/en/images/products/lisabo-lisabo-table-and-4-chairs-ash-veneer-black__0949244_pe799576_s5.jpg' ]);
+
+		$ps89385532->measurements()->create(['value' => 1400,'measurement_type_id' => 2]);
+		$ps89385532->measurements()->create(['value' => 740,'measurement_type_id' => 1]);
+		$ps89385532->measurements()->create(['value' => 780,'measurement_type_id' => 3]);
     }
 }

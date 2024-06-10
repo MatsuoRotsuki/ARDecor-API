@@ -8,13 +8,13 @@ use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\RoomTypeController;
 use App\Http\Controllers\PlacementController;
 
-Route::get('/', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
-
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+Route::get('/', [ProductController::class, 'webIndex'])->middleware(['auth', 'verified'])->name('dashboard');
+Route::get('/products/create', [ProductController::class, 'create'])->middleware(['auth', 'verified'])->name('product.create');
+Route::get('/products/{id}', [ProductController::class, 'webShow'])->middleware(['auth','verified'])->name('web.product.show');
+Route::post('/products', [ProductController::class, 'store'])->middleware(['auth','verified'])->name('product.store');
+Route::get('/products/{id}/edit',[ProductController::class, 'edit'])->middleware(['auth','verified'])->name('product.edit');
+Route::put('/products/{id}',[ProductController::class, 'update'])->middleware(['auth', 'verified'])->name('product.update');
+Route::delete('/products/{id}', [ProductController::class, 'destroy'])->name('product.destroy');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
@@ -27,7 +27,6 @@ Route::prefix('/api')->group(function(){
         Route::get('/', [ProductController::class, 'index'])->name('product.index');
         Route::get('/search', [ProductController::class, 'search'])->name('product.search');
         Route::get('/{id}', [ProductController::class, 'show'])->name('product.show');
-        Route::delete('/{id}', [ProductController::class, 'destroy'])->name('product.destroy');
     });
 
     Route::prefix('/categories')->group(function() {

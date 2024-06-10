@@ -17,11 +17,10 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // User::factory(10)->create();
-
         User::factory()->create([
-            'name' => 'Test User',
-            'email' => 'test@example.com',
+            'name' => 'Admin',
+            'email' => 'admin@gmail.com',
+            'password' => '123456789',
         ]);
 
         $livingRoomType = RoomType::create([
@@ -97,7 +96,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         $diningSetCat = Category::create([
-            'name' => 'Bộ bàn ăn',
+            'name' => 'Bộ bàn ghế',
             'image_url' => 'https://www.ikea.com/global/assets/range-categorisation/images/dining-sets-19145.jpeg',
         ]);
 

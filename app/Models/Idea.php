@@ -2,6 +2,8 @@
 
 namespace App\Models;
 
+use Carbon\Carbon;
+use App\Models\RoomType;
 use App\Models\IdeaImage;
 use App\Models\SavedPlacement;
 use Illuminate\Database\Eloquent\Model;
@@ -25,5 +27,22 @@ class Idea extends Model
     public function images()
     {
         return $this->hasMany(IdeaImage::class, 'idea_id', 'id');
+    }
+
+    public function roomType()
+    {
+        return $this->belongsTo(RoomType::Class, 'room_type_id', 'id');
+    }
+
+    protected $appends = ['created_at_human', 'updated_at_human'];
+
+    public function getCreatedAtHumanAttribute()
+    {
+        return Carbon::parse($this->created_at)->diffForHumans();
+    }
+
+    public function getUpdatedAtHumanAttribute()
+    {
+        return Carbon::parse($this->updated_at)->diffForHumans();
     }
 }
