@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\IdeaController;
 use App\Http\Controllers\ProductController;
@@ -7,14 +8,22 @@ use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\RoomTypeController;
 use App\Http\Controllers\PlacementController;
+use App\Http\Controllers\Admin\ProductAdminController;
 
-Route::get('/', [ProductController::class, 'webIndex'])->middleware(['auth', 'verified'])->name('dashboard');
-Route::get('/products/create', [ProductController::class, 'create'])->middleware(['auth', 'verified'])->name('product.create');
-Route::get('/products/{id}', [ProductController::class, 'webShow'])->middleware(['auth','verified'])->name('web.product.show');
-Route::post('/products', [ProductController::class, 'store'])->middleware(['auth','verified'])->name('product.store');
-Route::get('/products/{id}/edit',[ProductController::class, 'edit'])->middleware(['auth','verified'])->name('product.edit');
-Route::put('/products/{id}',[ProductController::class, 'update'])->middleware(['auth', 'verified'])->name('product.update');
-Route::delete('/products/{id}', [ProductController::class, 'destroy'])->name('product.destroy');
+Route::get('/', [ProductAdminController::class, 'webIndex'])->middleware(['auth', 'verified'])->name('dashboard');
+Route::get('/products/create', [ProductAdminController::class, 'create'])->middleware(['auth', 'verified'])->name('product.create');
+Route::get('/products/{id}', [ProductAdminController::class, 'webShow'])->middleware(['auth','verified'])->name('web.product.show');
+Route::post('/products', [ProductAdminController::class, 'store'])->middleware(['auth','verified'])->name('product.store');
+Route::get('/products/{id}/edit',[ProductAdminController::class, 'edit'])->middleware(['auth','verified'])->name('product.edit');
+Route::put('/products/{id}',[ProductAdminController::class, 'update'])->middleware(['auth', 'verified'])->name('product.update');
+Route::delete('/products/{id}', [ProductAdminController::class, 'destroy'])->name('product.destroy');
+Route::get('/categories/{id}', [ProductAdminController::class, 'categoryShow'])->name('web.category.show');
+Route::get('/variations/create', [ProductAdminController::class, 'variationCreate'])->name('variation.create');
+Route::post('/variations', [ProductAdminController::class, 'variationStore'])->name('variation.store');
+Route::get('/360views', function (Request $request) {
+    $model_path = $request->input('model_path', '');
+    return view('product-360');
+})->name('product.360view');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

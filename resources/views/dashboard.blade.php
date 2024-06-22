@@ -13,7 +13,7 @@
                     <div class="pt-4 w-full h-48 overflow-x-auto overflow-y-hidden">
                         <div class="flex space-x-4 h-full w-max">
                             @foreach ($categories as $category)
-                                <a href="#" class="block">
+                                <a href="{{ route('web.category.show', ['id' => $category->id]) }}" class="block">
                                     <div class="h-full relative hover:scale-105">
                                         <img src="{{ $category->image_url }}" class="h-full object-cover" />
                                         <div
@@ -27,11 +27,13 @@
                     </div>
                 </div>
             </div>
-            <div class="flex items-center justify-end my-3">
-                <form method="GET" action="{{ route('product.create') }}">
-                    @csrf
+            <div class="flex items-center justify-end my-3 space-x-5">
+                <a href="{{ route('product.create') }}">
                     <x-primary-button>Thêm sản phẩm</x-primary-button>
-                </form>
+                </a>
+                <a href="{{ route('variation.create') }}">
+                    <x-primary-button>Tạo tập hợp biến thể</x-primary-button>
+                </a>
             </div>
             <div class="grid justify-items-center grid-cols-5 gap-3 mt-6">
                 @foreach ($products as $product)

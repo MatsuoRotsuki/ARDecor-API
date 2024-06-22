@@ -71,6 +71,9 @@
                 <div class="p-4 text-gray-900 dark:text-gray-100 text-lg">
                     <div class="flex flex-col">
                         <div class="self-end flex space-x-4">
+                            {{-- <a href="{{ route('product.360view', ['model_path' => $product->model_path]) }}">
+                                <x-primary-button>Xem mô hình</x-primary-button>
+                            </a> --}}
                             <button class="text-blue-500" type="button"
                                 onclick="window.location.href = '/products/{{ $product->id }}/edit'">
                                 <i class="fa-solid fa-pen-to-square"></i>
@@ -104,6 +107,11 @@
                                     </div>
                                 </div>
                             @endforeach
+                        </div>
+                        <div class="w-full mt-4">
+                            <a href="{{ $product->source }}">
+                                <x-primary-button>Go to source</x-primary-button>
+                            </a>
                         </div>
                     </div>
                 </div>
