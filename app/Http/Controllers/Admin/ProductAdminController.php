@@ -49,7 +49,7 @@ class ProductAdminController extends Controller
                 ->when($request->keyword, function($query) use ($result) {
                     $query->where('products.name', 'REGEXP', $result);
                 })
-                ->orderBy('name','asc')
+                ->orderBy('created_at','desc')
                 ->get();
 
             $categories = Category::withCount('products')

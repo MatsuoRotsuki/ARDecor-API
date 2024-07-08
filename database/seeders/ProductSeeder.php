@@ -601,7 +601,7 @@ class ProductSeeder extends Seeder
         $p10 = Product::create([
             'name' => 'EKERÖ Armchair, Skiftebo dark blue',
             'price' => 259,
-            'model_path' => 'models/20262878_PS01_S01_NV01_RQP3_3.0_16a23b9f90a046a28bf64e868bcd812f.glb',
+            'model_path' => '/models/20262878_PS01_S01_NV01_RQP3_3.0_16a23b9f90a046a28bf64e868bcd812f.glb',
             'is_stackable' => 0,
             'description' => 'Go for stylish dark tones or brighten up your home with colorful covers. EKERÖ armchair has a sleek, modern look with two side pieces that meet in the back – and lumbar support for added comfort!',
             'source' => 'https://www.ikea.com/us/en/p/ekeroe-armchair-skiftebo-dark-blue-40262877/',
