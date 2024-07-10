@@ -9,6 +9,7 @@ use App\Models\RoomType;
 use App\Models\MeasurementType;
 use Illuminate\Database\Seeder;
 use Database\Seeders\ProductSeeder;
+use Database\Seeders\IdeaSeeder;
 
 class DatabaseSeeder extends Seeder
 {
@@ -231,5 +232,6 @@ class DatabaseSeeder extends Seeder
         ]);
 
         $this->call(ProductSeeder::class);
+        $this->call(IdeaSeeder::class);
     }
 }

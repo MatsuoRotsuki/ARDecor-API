@@ -11,10 +11,14 @@ use Illuminate\Support\Facades\Validator;
 
 class IdeaController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
         try {
             $ideas = Idea::with(['images', 'roomType'])
+                ->when($request->room_type_id, function ($query) use ($request) {
+                    $query->where('room_type_id', $request->room_type_id);
+                })
+                ->orderBy('created_at', 'desc')
                 ->get();
 
             foreach($ideas as $idea)

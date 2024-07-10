@@ -74,10 +74,6 @@
                             {{-- <a href="{{ route('product.360view', ['model_path' => $product->model_path]) }}">
                                 <x-primary-button>Xem mô hình</x-primary-button>
                             </a> --}}
-                            <button class="text-blue-500" type="button"
-                                onclick="window.location.href = '/products/{{ $product->id }}/edit'">
-                                <i class="fa-solid fa-pen-to-square"></i>
-                            </button>
                             <button type="button" class="text-red-500" data-toggle="modal"
                                 data-target="#confirmDeleteModal">
                                 <i class="fas fa-trash"></i>
